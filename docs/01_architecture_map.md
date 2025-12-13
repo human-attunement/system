@@ -1,129 +1,214 @@
 # HAS Architecture Map
 **Human Attunement System: 全体設計図（Map）**
 
-> **"State over Theory. / 正しさより、状態を。"**  
-> HASは、合意形成ツールでも、意思決定フレームでもない。  
-> **人間の状態（State）を整え、選択が引き受けられる条件を作るための循環設計**である。
-
+> **State over Theory. / 正しさより、状態を。** > HASはフレームワークでもメソッドでもない。  
+> **人間の状態（State）を壊さず、選択が引き受けられなくなる事態を防ぐための人間調律セーフティーシステム（Safety System）**である。
+> 
 ---
 
 ## 0. このMapの役割
-この文書は、HASの「何がどこにあるか」を示す地図である。
+この文書は **HASの現在地を見失わないための地図** である。
 
-HASには2種類の成果物がある：
-- **読むための文章（住ませる）**：理解と納得を育てる
-- **現場で使う道具（戻る）**：迷った瞬間に手を戻す
+- 理解を深めるための文書
+- 現場で迷ったときに戻るための基準
 
-どちらも必要で、競合しない。
+両者は役割が異なり、上下関係はない。
 
 ---
 
 ## 1. HASの核：2つのサイクル
 
-HASの中核は、次の2サイクルからなる。
+### 1.1 Attunement Cycle（調律サイクル｜会議中）
 
-### 1.1 Attunement Cycle（調律サイクル：会議中に起きる）
-P01〜P04で、場の状態を整え、選択が引き受けられるところまで進む。
+状態を整え、**引き受け可能な選択**が生まれるまでの流れ。
 
-- **P01 Place（置く）**：感情が置ける
-- **P02 Distinguish（見分ける）**：FearとWantを区別する
-- **P03 Hold（守る）**：沈黙を壊さない
-- **P04 Own（引き受ける）**：「私が引き受ける」が生まれる
+- **P01 Place（置く）** → [P01_acceptance_of_emotion.md](../resources/patterns/state/P01_acceptance_of_emotion.md)
 
-このサイクルは「正しい結論」を作らない。  
-**引き受け可能な次の一歩**を生む。
+- **P02 Distinguish（見分ける）** → [P02_differentiation_of_emotion.md](../resources/patterns/state/P02_differentiation_of_emotion.md)
 
-### 1.2 Learning Cycle（学習サイクル：実践を育てる）
-Attunement Levels（Level 0〜4）で、実践の成熟を支える。
+- **P03 Hold（守る）** → [P03_fullness_of_silence.md](../resources/patterns/state/P03_fullness_of_silence.md)
 
-- **Level 0（観察）**を基底（Base）として、いつでも戻れる
-- **戻り（Recovery by Design）**を安全機構として持つ
-- 熟練とは「高みに留まる」ではなく「適切に戻れる」
+- **P04 Own（引き受ける）** → [P04_establishment_of_ownership.md](../resources/patterns/state/P04_establishment_of_ownership.md)
 
-重要なのは「正しく使う」ことではなく、  
-**場を壊さずに、少しずつ慣れていくこと**である。
+このサイクルは「正解」を作らない。  
+**誰かが「私が引き受ける」と言える状態**を作る。
+
+---
+
+### 1.2 Learning Cycle（学習サイクル｜実践の成熟）
+
+HASを「うまく使う」ためではなく、  
+**壊さずに戻れるようになるための学習構造**。
+
+- Attunement Levels  
+  → [03_attunement_levels.md](./03_attunement_levels.md)
+
+- Level 0（観察）を常に退避点として保持  
+- 熟練とは「高みに留まること」ではなく「適切に戻れること」
 
 ---
 
 ## 2. HASの設計思想：OSではなくTS
-HASは「組織を操作するOS」ではない。  
-**場の状態に介入するTS（Tuning System）**である。
 
-- OS的：ルール、手順、役割、管理、最適化
-- TS的：状態、呼吸、間、揺れ、沈黙、引き受け
+HASは組織を制御する **OS** ではない。  
+場の状態を微調整する **TS（Tuning System）** である。
 
-HASが守るのは「正しさ」ではなく、**人間の生理と関係性の破壊を避けること**。
+- 理念と位置づけ  
+  → [02_concept.md](./02_concept.md)
+
+HASは最適化しない。  
+**破壊を起こさないこと**だけを守る。
 
 ---
 
-## 3. HASを支える3層モデル（Layer Model）
+## 3. 3層構造（Layer Model）
+
+HASは明確な層構造を持つ。  
+順序が逆転すると必ず壊れる。
 
 ### Layer A: Philosophy（思想）
-「なぜそれをするのか」を固定する層。ブレない基準。
+「なぜそれをやるのか」を固定する層。
 
-- Manifesto（価値・判断基準）
-- OS vs TS（世界観）
+- Manifesto  
+  → [00_manifesto.md](./00_manifesto.md)
 
-### Layer B: Constraints（制約条件）
-「これが守れない限り使うな」という安全制約の層。
+---
 
-- Facilitator Principles（存在論的原則・戒律）
+### Layer B: Constraints（制約・安全条件）
+「これが守れないなら使うな」という境界。
+
+- Facilitator Principles  
+  → [04_facilitator_principles.md](./04_facilitator_principles.md)
+
+- Governance / ADR  
+  → [governance/adr/](../governance/adr/)
+
+---
 
 ### Layer C: Practice（実践）
-現場で起きるプロセスの層。
+現場で起きることすべて。
 
-- Patterns P01〜P04（調律サイクル）
-- Quick Reference（現場の栞）
-- Attunement Levels（学習・成熟の地図）
+- State Patterns（P01–P04）  
+  → [resources/patterns/state/](../resources/patterns/state/)
 
-> **順番が逆になると壊れる。**  
-> 道具（Quick Reference）だけが独り歩きすると、操作に堕ちる。  
-> 文章（Patterns）だけが残ると、机上に浮く。
+- Techniques（任意・非必須）  
+  → [resources/patterns/techniques/](../resources/patterns/techniques/)
 
----
+- Quick Reference  
+  → [resources/quick_reference.md](../resources/quick_reference.md)
 
-## 4. 会議の中で何が起きているか（状態遷移の地図）
-
-HASは「議題の進行」ではなく「状態の遷移」を扱う。
-
-典型的な崩壊はこの順で起きる：
-1. **Must（〜すべき）**が立ち上がる
-2. **Fear（恐れ）**が駆動する
-3. **Armor（防御）**が場を固める
-4. **Decisions without Ownership（引き受けのない決定）**が残る
-
-HASは逆向きに戻す：
-- Armorを脱がせるのではない  
-- **Armorが不要になる状態**を作る
+> **注意:** > Practice だけが独立すると、HASは「操作」になる。
 
 ---
 
-## 5. Recovery by Design（戻りの設計）
+## 4. 状態遷移の基本構造（PFA）
+
+HASが扱うのは「議論の失敗」ではなく、  
+**場の力学がある順序で固着していく現象**である。
+
+### 典型的な崩壊の遷移
+
+1. **Pressure（圧力）が立ち上がる** - 早く決めたい  
+   - 進めなければならない  
+   - 曖昧さに留まれない  
+   場全体に、行為へと急き立てる引力が生じる。
+
+2. **Fear（恐れ）が駆動される** - 孤立する恐れ  
+   - 間違える恐れ  
+   - 不可逆を引き受けることへの恐れ  
+   個人の内側で、選択そのものへの震えが立ち上がる。
+
+3. **Armor（防衛）が場に現れる** - 主語の隠蔽  
+   - 正解探し  
+   - 評価・知性化・条件付け  
+   恐れから距離を取るための振る舞いが固定化する。
+
+4. **Ownershipの欠落した決定が残る** - 「決まった」が「引き受けられていない」  
+   - 実行段階で他責・停滞が生じる  
+
+これは失敗ではなく、  
+**調律されていない状態では必然的に起きる帰結**である。
+
+---
+
+### HASが行うこと
+
+HASはこの流れを「正す」のではない。  
+**圧力を下げ、恐れを刺激せず、防衛が不要になる状態へ戻す。**
+
+- Armorを剥がさない  
+- Fearを説得しない  
+- Pressureを否定しない  
+
+ただ、状態を一段階前へ戻す。  
+必要なら、P01（置く）まで戻る。
+
+HASは前に進めるための仕組みではない。  
+**壊れないために、戻れるようにする設計である。**
+- 防衛を壊さない  
+- **防衛が不要になる状態を作る**
+
+---
+
+## 5. 構造の再帰性（Recursive Structure）
+
+HASが扱う「選択可能性の消失」の力学（PFA）は、個人の内面から集団まで、スケールを超えて再帰的に現れる。
+
+以下に、同一の構造が異なるスケールでどのように観測されるかを示す。
+
+### 5.1 個人のスケール (Individual Scale)
+内面で起きる、思考と感情の硬直化。
+
+* **Pressure:** 「正解を出さなければ」「間違えてはいけない」という内的な焦燥感。
+* **Fear:** 自分で選ぶことへの根源的な恐れ。選択に伴う孤立や責任への回避。
+* **Armor:** 思考の知性化、感情の抑圧、他者への依存（条件付け）。
+* **結果:** 自分の願い（Want）が分からなくなり、他者の期待や義務（Must）を自分の意志だと錯覚する。
+
+### 5.2 関係・集団のスケール (Relational / Collective Scale)
+場の空気として共有される、相互作用の硬直化。
+
+* **Pressure:** 「空気を読まなければ」「早く合意しなければ」という同調圧力。
+* **Fear:** 異論を唱えることによる排除や、場の崩壊への恐れ。
+* **Armor:** 主語の隠蔽（「私たちは」）、一般論への逃避、沈黙の回避。
+* **結果:** 「みんなで決めた」という形式だけが残り、誰も責任を引き受けていない決定がなされる。
+
+---
+
+## 6. Recovery by Design（戻りの設計）
+
 HASは「失敗しない設計」ではない。  
 **壊れたときに戻れる設計**である。
 
-- 乱れを検知したら、進むより先に **止める**
-- 一つ前、またはP01へ **戻る**
-- 何もしない（Level 0）へ **退避する**
+- 乱れを検知したら進まない
+- 一段階戻る、またはP01へ戻る
+- 何もしない（Level 0）へ退避する
 
-戻れないことが唯一の危険。
+戻れないことだけが危険。
 
 ---
 
-## 6. ドキュメント配置（このMapが指すもの）
-
-推奨フォルダ構造：
+## 7. 現在のディレクトリ構造（正）
 
 ```text
-docs/HAS/
-├── 00_architecture_map.md            # [Map] この設計図
-├── 00_manifesto.md                   # [Philosophy] 価値・憲法
-├── 01_concept_os_vs_ts.md            # [Concept] OSではなくTS
-├── 03_facilitator_principles.md      # [Constraints] 前提条件・戒律
-├── 04_attunement_levels.md           # [Learning] 慣れの段階（Learning Path）
-├── patterns/
-│   ├── P01_place_for_feelings.md
-│   ├── P02_distinguishing_wishes.md
-│   ├── P03_holding_silence.md
-│   └── P04_choosing_ownership.md
-└── 99_quick_reference.md             # [Tool] 会議中の栞
+HAS/
+├── core/
+│   └── HAS_v2.0_Final.md              # 核となる最終仕様
+├── docs/
+│   ├── 00_manifesto.md
+│   ├── 01_architecture_map.md         # ← このファイル
+│   ├── 02_concept.md
+│   ├── 03_attunement_levels.md
+│   ├── 04_facilitator_principles.md
+│   ├── 05_faq.md
+│   └── 06_glossary.md
+├── governance/
+│   ├── adr/
+│   └── protocols/
+├── resources/
+│   ├── patterns/
+│   │   ├── state/                     # P01–P04（Core）
+│   │   ├── techniques/                # 任意
+│   │   └── README.md
+│   ├── scenarios/
+│   └── quick_reference.md
+└── README.md
