@@ -7,6 +7,44 @@ HASは、組織と個人を「管理(OS)」するのではなく、
 このREADMEは、目的別に「どこを読めばいいか」を示します。
 
 ---
+## ディレクトリ構造とレイヤの意味
+
+HASは、明確に分離された3つのレイヤから構成される。
+**この構造を変更・再解釈してはならない。**
+
+### レイヤ1: `core/` — Kernel（変更困難）
+- HAS v2.0 Final のみを配置
+- 存在論・憲法・禁忌を含む
+- **変更不可（Sealed）**
+- 更新は、重大な欠陥が発見された場合のみ
+
+### レイヤ2: `docs/` — 思想＋安全仕様
+- Manifesto, Concept, Principles, Levels, FAQ, Glossary
+- Failure Modes（事故カタログ）
+- Exit and Unsuitability（離脱の自由）
+- **Kernelより更新しやすいが、慎重に行う**
+- Doingを含まない（状態・制約・禁忌のみ）
+
+### レイヤ3: `governance/` — 運用手続き（Kernelの外）
+- Protocols（Emergency Stop, Steward Judgment, Maintenance, PR）
+- ADR（設計判断の記録）
+- **Doingを含むが、HAS本体ではない**
+- HASを壊さないための運用ガイド
+
+### レイヤ4: `resources/` — 道具箱
+- Patterns（State / Techniques）
+- Scenarios, Quick Reference
+- 実践・検索・発見のためのインターフェース
+- 増殖・派生を許容（ただしKernelとの整合性は必須）
+
+---
+
+**重要:** 
+- Protocolが「Doing」を含むのは、HASカーネル外だから許容される
+- 「HASはDoingを定義しない」は、Kernel/Docsレイヤのみに適用される
+- この分離により、思想の純度と運用安全性が両立する
+
+---
 
 ## 0. 全体像を掴む (Map)
 まず全体構造を把握したい人向け。
