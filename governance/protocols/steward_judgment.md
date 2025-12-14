@@ -118,7 +118,7 @@ Stewardは、自らの判定が以下に陥っていないか、定期的に点�
   - 判定が恣意的・権威的になっている
   - 透明性（記録・公開）を守っていない
   - 再帰的監査を拒否している
-- 交代の手続きは、`governance/protocols/maintainance.md`に従う
+- 交代の手続きは、[Maintenance Protocol](./maintainance.md) Section 3.1 に従う
 ---
 
 ## 6. 判定の更新・撤回
