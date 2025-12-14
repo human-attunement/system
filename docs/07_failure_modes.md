@@ -89,9 +89,7 @@ P03は「沈黙をカウントするな」を原則とする。
 - 場全体: 安全の崩壊
 
 ### 最小の退避
-- **Constitution 3を想起:** 生命・尊厳が優先される
-- **Contraindications Zone 1を確認:** 構造的拘束の有無
-- **介入を選ぶ勇気:** 「HASを停止して、安全を優先する」
+- **[Steward Judgmentl](../governance/protocols/steward_judgment.md)を参照**
 
 ---
 

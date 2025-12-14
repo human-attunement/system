@@ -91,11 +91,10 @@ HASは、誰にでも向いているわけではない。
 ---
 
 ## 関連文書
-- Failure Mode E（完璧主義ループ）
-- Facilitator Principles（整っていない限り介入しない）
-- PR Protocol（拡声器ではなく、展示台として）
-- FAQ（向いていない組織・状況）
-
+- [Failure Mode E (完璧主義ループ)](./07_failure_modes.md#failure-mode-e-完璧主義ループ自己監視の宗教化)
+- [Facilitator Principles](./04_facilitator_principles.md)
+- [PR Protocol](../governance/protocols/public_relations.md)
+- [FAQ](./05_faq.md)
 ---
 
 ## Document Control
