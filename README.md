@@ -2,21 +2,28 @@
 > **Documentation & Resources**
 
 HASは、組織と個人を「管理(OS)」するのではなく、  
-**「調律(Attunement)」によって関係と状態を整える体系**です。
+**「調律(Attunement)」によって関係と状態を整える体系**である。
 
-このREADMEは、目的別に「どこを読めばいいか」を示します。
+> **OS (Operating System)**: 効率・最適化・管理を目的とする  
+> **TS (Tuning System)**: 状態・共鳴・回復を目的とする  
+> 
+> これは「OSが悪でTSが善」という対立ではない。  
+> 目的関数が異なるだけであり、緊急時・定型業務ではOSが適している。  
+> 詳細は [Concept](./docs/02_concept.md) を参照のこと。
+
+**このREADMEは案内である。仕様ではない。**
 
 ---
+
 ## ディレクトリ構造とレイヤの意味
 
-HASは、明確に分離された3つのレイヤから構成される。
-**この構造を変更・再解釈してはならない。**
+HASは、明確に分離された4つのレイヤから構成される。  
+**この構造は設計意図であり、変更する場合はForkとして行うことを推奨する。**
 
-### レイヤ1: `core/` — Kernel（変更困難）
+### レイヤ1: `core/` — Kernel（Sealed）
 - HAS v2.0 Final のみを配置
 - 存在論・憲法・禁忌を含む
-- **変更不可（Sealed）**
-- 更新は、重大な欠陥が発見された場合のみ
+- **Sealed（原則として変更不可）** — 更新は重大な欠陥発見時のみ
 
 ### レイヤ2: `docs/` — 思想＋安全仕様
 - Manifesto, Concept, Principles, Levels, FAQ, Glossary
@@ -35,98 +42,107 @@ HASは、明確に分離された3つのレイヤから構成される。
 - Patterns（State / Techniques）
 - Scenarios, Quick Reference
 - 実践・検索・発見のためのインターフェース
-- 増殖・派生を許容（ただしKernelとの整合性は必須）
+- 増殖・派生を許容  
+  （※「HAS準拠」を名乗る場合のみ、Kernelとの整合性が必須）
 
 ---
 
-**重要:** 
+**設計意図:** 
 - Protocolが「Doing」を含むのは、HASカーネル外だから許容される
 - 「HASはDoingを定義しない」は、Kernel/Docsレイヤのみに適用される
 - この分離により、思想の純度と運用安全性が両立する
 
----
-
-## 0. 全体像を掴む (Map)
-まず全体構造を把握したい人向け。
-* **[01_architecture_map.md](./docs/01_architecture_map.md)**  
-  HAS全体の構造・循環・文書間の関係を示す地図。
+詳細は [ADR-002: Separation of Philosophy and Practice](./governance/adr/HAS-ADR-002_separation_of_philosophy_and_practice.md) を参照。
 
 ---
 
-## 1. 思想を知る (Philosophy)
-HASの前提となる人間観・価値観・立場を理解する。
-* **[00_manifesto.md](./docs/00_manifesto.md)**  
-  HASの宣言文。何を大切にし、何を選ばないか。
-* **[02_concept.md](./docs/02_concept.md)**  
-  なぜ「調律」なのか。調整・適応・適合との違い、OSとTSの違い。
+## 最短導線（状況別の入口）
+
+### 初めての人
+→ [Architecture Map](./docs/01_architecture_map.md) で全体像を掴む  
+→ [Manifesto](./docs/00_manifesto.md) で価値観を理解  
+→ [FAQ](./docs/05_faq.md) で疑問を解消
+
+### 実践したい人
+→ [Facilitator Principles](./docs/04_facilitator_principles.md) で制約を理解  
+→ [Attunement Levels](./docs/03_attunement_levels.md) で段階を把握  
+→ [Patterns P01-P04](./resources/patterns/state/) で実践開始  
+→ [Failure Modes](./docs/07_failure_modes.md) で事故を予防
+
+### 現場で詰まった人
+→ [Quick Reference](./resources/quick_reference.md) で即参照  
+→ [Failure Modes](./docs/07_failure_modes.md) で自己点検  
+→ [Emergency Stop](./governance/protocols/emergency_stop.md) で緊急対応
+
+### 向いていないと感じた人
+→ [Exit and Unsuitability](./docs/08_exit_and_unsuitability.md) で離脱を正当化  
+→ [FAQ](./docs/05_faq.md) で「向いていない状況」を確認  
+→ **"If not now, forget it."** — 今じゃないなら、忘れてよい
 
 ---
 
-## 2. 在り方を整える (Being)
-実践者(ファシリテーター)が、技法の前に整えるべき姿勢。
-* **[04_facilitator_principles.md](./docs/04_facilitator_principles.md)**  
-  原則と戒律。HASを壊さないための制約条件。
-* **[03_attunement_levels.md](./docs/03_attunement_levels.md)**  
-  慣れの段階。初心者から実践者までの学習ガイド。
+## HASとは何か？（思想の要約）
+
+HASは「正解を与える体系」ではない。  
+**状態を整え、選べるようにする体系**である。
+
+- 人を救わず、人を導かず、人を完成させない
+- ただ、人が壊れる関係だけを許さない
+- そして、人が選べる時にのみ、その背中を見届ける
 
 ---
 
-## 3. よくある疑問を解消する (FAQ)
-「成果は?」「即効性は?」と感じた人へ。
-* **[05_faq.md](./docs/05_faq.md)**  
-  OS的な問いを、TSの視点で読み替えるQ&A。
-* **[06_glossary.md](./docs/06_glossary.md)**
-* HASの用語についての、やや詳しい説明。
+## 名称使用とFork
+
+HASの名称使用については、以下のプロトコルに従う。
+
+### 基本方針
+- **「HAS準拠」の使用は、プロトコルに基づき判定される**
+- **派生（Fork）は自由だが、独自の名称を推奨する**
+- **影響関係の明示（「HAS由来」等）は歓迎する**
+
+### 詳細と判定手続き
+名称使用の具体的なルールと判定プロセスは、以下のプロトコルで定義される。
+
+- [Public Relations Protocol](./governance/protocols/public_relations.md) — 広報・名称使用の作法
+- [Steward Judgment Protocol](./governance/protocols/steward_judgment.md) — 「HAS準拠」判定の手続き
+
+### ライセンス
+（※実際のライセンスファイルへのリンクを設置予定）
 
 ---
 
-## 4. パタンを学ぶ (Core Patterns)
-HASの中核となる実践パタン。
-初めて使う場合は、**順番に通読**することを推奨。
-* **[P01: 感情の受容](./resources/patterns/state/P01_acceptance_of_emotion.md)**
-* **[P02: 感情の分化](./resources/patterns/state/P02_differentiation_of_emotion.md)**
-* **[P03: 沈黙の充満](./resources/patterns/state/P03_fullness_of_silence.md)**
-* **[P04: 引受の成立](./resources/patterns/state/P04_establishment_of_ownership.md)**
+## リンク整合性の確認
 
----
+このREADMEのリンクが正しいか確認するには、以下を実行する。
+```bash
+# 例: markdown-link-check を使用
+# （実際の環境に応じて、package.json のスクリプトまたはCIで実行）
+npx markdown-link-check README.md
+```
 
-## 5. 事例を見る (Scenarios)
-HASが具体的な状況（家庭、職場など）でどう機能するかを知る。
-* **[scenarios/](./resources/scenarios/)**
-  状況別の実践シナリオ集。（現在準備中）
+**注意:** README内に検証結果を記載すると、陳腐化により誤情報となる。  
+リンクチェックは実行可能なスクリプトまたはCIで担保すること。
 
----
-
-## 6. 現場で使う (Quick Reference)
-会議中・迷った瞬間の即参照用。机に置いておく紙。
-* **[quick_reference.md](./resources/quick_reference.md)**
-  4つのパタンの核心だけを1ページに。兆候と自己点検のみ。
-
----
-
-## 7. よくある疑問を解消する (FAQ)
-「成果は?」「即効性は?」と感じた人へ。
-* **[05_faq.md](./docs/05_faq.md)**
-  OS的な問いを、TSの視点で読み替えるQ&A。
-* **[06_glossary.md](./docs/06_glossary.md)**
-  HASの用語についての、やや詳しい説明。
-
----
-
-## 読み方のおすすめ
-
-- **初見の人**
-  Map → Manifesto → Concept → FAQ
-- **実践したい人**
-  Manifesto → Facilitator Principles → Levels → Patterns → Scenarios
-- **現場で詰まった人**
-  Quick Reference → 該当Pattern
-
-HASは「正解を与える体系」ではありません。  
-**状態を整え、選べるようにする体系**です。
+詳細は、リポジトリ設置後の `.github/workflows/` または `package.json` を参照のこと。
 
 ---
 
 ## Document Control
-* **Version:** 2.0.0
-* **Date:** 2025-12-12
+
+- **Version:** 1.1.0
+- **Last Updated:** 2025-12-14
+- **Status:** Active
+- **Kernel Version:** v2.0 Final (Sealed)
+
+---
+
+## Contact & Feedback
+
+- **Steward Contact:** human.attunement__at__gmail.com
+
+---
+
+**"If not now, forget it."**  
+今、必要でなければ、忘れてよい。  
+必要になった時、また戻ればよい。
