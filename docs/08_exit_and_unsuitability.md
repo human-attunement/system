@@ -92,7 +92,7 @@ HASは、誰にでも向いているわけではない。
 
 ## 関連文書
 - [Failure Mode E (完璧主義ループ)](./07_failure_modes.md#failure-mode-e-完璧主義ループ自己監視の宗教化)
-- [Facilitator Principles](./04_facilitator_principles.md)
+- [ファシリテーターの落とし穴](./04_facilitator_pitfalls.md)
 - [PR Protocol](../governance/protocols/public_relations.md)
 - [FAQ](./05_faq.md)
 ---

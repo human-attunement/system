@@ -194,7 +194,7 @@ HAS/
 │   ├── 01_architecture_map.md         # ← このファイル
 │   ├── 02_concept.md
 │   ├── 03_attunement_levels.md
-│   ├── 04_facilitator_principles.md
+│   ├── 04_facilitator_pitfalls.md
 │   ├── 05_faq.md
 │   └── 06_glossary.md
 ├── governance/
