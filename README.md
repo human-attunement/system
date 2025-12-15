@@ -59,22 +59,26 @@ HASは、明確に分離された4つのレイヤから構成される。
 ## 最短導線（状況別の入口）
 
 ### 初めての人
+
 → [Architecture Map](./docs/01_architecture_map.md) で全体像を掴む  
 → [Manifesto](./docs/00_manifesto.md) で価値観を理解  
 → [FAQ](./docs/05_faq.md) で疑問を解消
 
 ### 実践したい人
-→ [Facilitator Principles](./docs/04_facilitator_principles.md) で制約を理解  
+
 → [Attunement Levels](./docs/03_attunement_levels.md) で段階を把握  
-→ [Patterns P01-P04](./resources/patterns/state/) で実践開始  
-→ [Failure Modes](./docs/07_failure_modes.md) で事故を予防
+→ [Facilitator Pitfalls](./docs/04_facilitator_pitfalls.md) で壊れやすいポイントを確認  
+→ [Failure Modes](./docs/07_failure_modes.md) で事故を予防  
+→ [Patterns P01-P04](./resources/patterns/state/) で実践開始
 
 ### 現場で詰まった人
+
 → [Quick Reference](./resources/quick_reference.md) で即参照  
 → [Failure Modes](./docs/07_failure_modes.md) で自己点検  
 → [Emergency Stop](./governance/protocols/emergency_stop.md) で緊急対応
 
 ### 向いていないと感じた人
+
 → [Exit and Unsuitability](./docs/08_exit_and_unsuitability.md) で離脱を正当化  
 → [FAQ](./docs/05_faq.md) で「向いていない状況」を確認  
 → **"If not now, forget it."** — 今じゃないなら、忘れてよい

@@ -74,13 +74,20 @@ HASは明確な層構造を持つ。
 
 ---
 
-### Layer B: Constraints（制約・安全条件）
-「これが守れないなら使うな」という境界。
+### Layer B: 安全仕様（禁忌）＋運用事故カタログ
 
-- Facilitator Principles  
-  → [04_facilitator_principles.md](./04_facilitator_principles.md)
+誤用すると壊れる境界と、壊れ方の地図。
 
-- Governance / ADR  
+- **HAS Kernel（禁忌・憲法）**  
+  → [HAS_v2.0_Final.md](../core/HAS_v2.0_Final.md)
+
+- **Facilitator Pitfalls（運用リスクマップ）**  
+  → [04_facilitator_pitfalls.md](./04_facilitator_pitfalls.md)
+  
+- **Failure Modes（事故カタログ）**  
+  → [07_failure_modes.md](./07_failure_modes.md)
+
+- **Governance / ADR**  
   → [governance/adr/](../governance/adr/)
 
 ---
