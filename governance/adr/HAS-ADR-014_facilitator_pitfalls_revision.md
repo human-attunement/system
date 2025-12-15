@@ -193,7 +193,7 @@ HASは言語設計がコアである。
 ## Traceability
 
 - Previous document commit (v1.0.0): `8839e13d764cae961d7af8dcd7815c5b1faf4fe9`
-- Rename & rewrite commit (v2.0.0): `def5678`
+- Rename & rewrite commit (v2.0.0): `d6729ac1124b315837a4c19a043709c8c7d6a489`
 - 
 ## Version
 - **Decision:** 2.0.0 (Major Revision + Rename)
