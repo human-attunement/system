@@ -1,13 +1,17 @@
-# HAS Architecture Map
+# HAS 全体設計図
+
+HAS Architecture Map
 **Human Attunement System: 全体設計図（Map）**
 
-> **State over Theory. / 正しさより、状態を。** > HASはフレームワークでもメソッドでもない。  
-> **人間の状態（State）が壊れ始めたときに、選択が引き受けられなくなる連鎖を遮断するためのセーフティーシステム**である。
+> **State over Theory. / 正しさより、状態を。**
+
+HASはフレームワークでもメソッドでもない。  
+**人間の状態（State）が壊れ始めたときに、選択が引き受けられなくなる連鎖を遮断するためのセーフティーシステム**である。
 
 ---
 
 ## 0. このMapの役割
-この文書は **HASの現在地を見失わないための地図** である。
+この文書は **HASの現在地を、実践者が見失わないための地図** である。
 
 - 理解を深めるための文書
 - 現場で迷ったときに戻るための基準
@@ -22,36 +26,46 @@
 
 状態を整え、**引き受け可能な選択**が生まれるまでの流れ。
 
-- **P01 Place（置く）** → [P01_acceptance_of_emotion.md](../resources/patterns/state/P01_acceptance_of_emotion.md)
+- **P01 感情の受容（Place）** → [P01_acceptance_of_emotion.md](../resources/patterns/state/P01_acceptance_of_emotion.md)
 
-- **P02 Distinguish（見分ける）** → [P02_differentiation_of_emotion.md](../resources/patterns/state/P02_differentiation_of_emotion.md)
+- **P02 感情の分化（Distinguish）** → [P02_differentiation_of_emotion.md](../resources/patterns/state/P02_differentiation_of_emotion.md)
 
-- **P03 Hold（守る）** → [P03_fullness_of_silence.md](../resources/patterns/state/P03_fullness_of_silence.md)
+- **P03 沈黙の充満（Hold）** → [P03_fullness_of_silence.md](../resources/patterns/state/P03_fullness_of_silence.md)
 
-- **P04 Own（引き受ける）** → [P04_establishment_of_ownership.md](../resources/patterns/state/P04_establishment_of_ownership.md)
+- **P04 引受の成立（Own）** → [P04_establishment_of_ownership.md](../resources/patterns/state/P04_establishment_of_ownership.md)
 
 このサイクルは「正解」を作らない。  
 **誰かが「私が引き受ける」と言える状態**を作る。
 
 ---
 
-### 1.2 Learning Cycle（学習サイクル｜実践の成熟）
+### 1.2 位置の識別（Position Identification）
 
 HASを「うまく使う」ためではなく、  
-**壊さずに戻れるようになるための学習構造**。
+**いま自分がどこにいるかを誤解しないための地図**。
 
-- Attunement Levels  
-  → [03_attunement_levels.md](./03_attunement_levels.md)
+4つの位置：
+- **観察（Observation）**: 判断が立ち上がっていない
+- **判断保留（Suspended Judgment）**: 判断を宙吊りにしている
+- **仮動（けどう / Tentative Action）**: 試行しているが完遂を目的化していない
+- **乱れ（Disruption）**: 継続不能、戻りたい
 
-- Level 0（観察）を常に退避点として保持  
-- 熟練とは「高みに留まること」ではなく「適切に戻れること」
+詳細：[Attunement Map](./03_attunement_map.md)
+
+#### HAS外条件
+以下の場合、HASの外にいる：
+- 結論を確定している
+- 完遂を目的化している
+- 介入を固定している（操作モードに入っている）
+
+HAS外にいる場合、状態判定より先に**観察へ戻る判断**が最初の実践となる。
 
 ---
 
 ## 2. HASの設計思想：OSではなくTS
 
 HASは組織を制御する **OS** ではない。  
-場の状態を微調整する **TS（Tuning System）** である。
+場の状態を微調整し続ける **TS（Tuning System）** である。
 
 - 理念と位置づけ  
   → [02_concept.md](./02_concept.md)
@@ -74,25 +88,17 @@ HASは明確な層構造を持つ。
 
 ---
 
-### Layer B: 安全仕様（禁忌）＋運用事故カタログ
+### Layer B: Constraints（制約・安全条件）
 
-誤用すると壊れる境界と、壊れ方の地図。
+「これが守れないと、HASはうまく機能しない」という安全境界。
 
-- **HAS Kernel（禁忌・憲法）**  
-  → [HAS_v2.0_Final.md](../core/HAS_v2.0_Final.md)
-
-- **Facilitator Pitfalls（運用リスクマップ）**  
+- Facilitator Pitfalls  
   → [04_facilitator_pitfalls.md](./04_facilitator_pitfalls.md)
-  
-- **Failure Modes（事故カタログ）**  
-  → [07_failure_modes.md](./07_failure_modes.md)
-
-- **Governance / ADR**  
-  → [governance/adr/](../governance/adr/)
 
 ---
 
 ### Layer C: Practice（実践）
+
 現場で起きることすべて。
 
 - State Patterns（P01–P04）  
@@ -104,7 +110,18 @@ HASは明確な層構造を持つ。
 - Quick Reference  
   → [resources/quick_reference.md](../resources/quick_reference.md)
 
-> **注意:** > Practice だけが独立すると、HASは「操作」になる。
+> **重要:**
+> Practice だけが独立すると、HASは「操作」になる。
+
+---
+
+### Layer D: Design History / Governance（設計履歴）
+
+HASがどのような判断を経て、現在の形に至ったかを記録する層。  
+運用や実践のためではなく、理解・検証・拡張のために存在する。
+
+- Architecture Decision Records（ADR）  
+  → [governance/adr/](../governance/adr/)
 
 ---
 
@@ -119,6 +136,11 @@ HASが扱うのは「議論の失敗」ではなく、
 * **Fear（恐れ）**: 選択に伴う根源的な震え。（例：孤立、不可逆、役割の融解）
 * **Armor（防衛）**: 恐れから距離を取るための自動的な振る舞い。（例：主語の隠蔽、知性化、課題化）
 
+**※ HASにおけるArmorの扱い:**  
+HASは、すでに展開されたArmorを解放・修正しない。  
+ただし、それを判断・進行・正当化の根拠として扱わない。  
+Armorが出ていても、進めない／決めない／評価しないことはできる。
+
 ---
 
 ## 5. 二つの遷移モデル（The Two Flows）
@@ -126,20 +148,22 @@ HASが扱うのは「議論の失敗」ではなく、
 HASは、調律の有無によって分岐する二つの対照的な流れを前提とする。
 
 ### 5.1 調律なき自然落下（Unattuned Flow）
+
 調律が介在しない場合、関係性は必然的にこの順序で硬直化する。これは失敗ではなく、構造的な帰結である。
 
 1.  **Pressureが立ち上がる**: 曖昧さに耐えられず、行為（発言・決定）への内圧が高まる。
 2.  **Fearが駆動される**: 孤立や不可逆への恐れから、視野が狭窄し、短期的な安心を求める。
 3.  **Armorが自動展開する**: 正論化、一般化、他者依存によって、恐れから距離を取る振る舞いが固定化する。
-4.  **Ownershipなき行為**: 「私が引き受ける」という感覚が欠落したまま、決定や発言がなされる。
-5.  **関係性の損傷**: 結果責任の所在が曖昧になり、不信や断絶が生まれ、次のPressureが強化される。
+4.  **Ownershipなき行為が実行される**: 「私が引き受ける」という感覚が欠落したまま、決定や発言がなされる。
+5.  **関係性が損傷する**: 結果責任の所在が曖昧になり、不信や断絶が生まれ、次のPressureが強化される。
 
 ### 5.2 調律による遮断（Attuned Interruption）
+
 HASは、上記の自然落下を「止める」ためにのみ機能する。
 
 * **Pressureを下げる**: 進めない、決めない、沈黙を埋めない。
 * **Fearに触らない**: 説得しない、安心させない、理由を聞かない。
-* **Armorを書かせない**: 表現させない、整理させない、構造化させない。
+* **Armorを展開させない**: 表現させない、整理させない、構造化させない。
 
 結果として、状態は前進せず、P01（置く）へと**戻る**。
 HASは「良い結果」を生むためではなく、「悪い連鎖」を断ち切るためのセーフティーシステムである。
@@ -153,6 +177,7 @@ HASが扱う「選択可能性の消失」の力学（PFA）は、個人の内�
 以下に、同一の構造が異なるスケールでどのように観測されるかを示す。
 
 ### 6.1 個人のスケール (Individual Scale)
+
 内面で起きる、思考と感情の硬直化。
 
 * **Pressure:** 「正解を出さなければ」「間違えてはいけない」という内的な焦燥感。
@@ -161,6 +186,7 @@ HASが扱う「選択可能性の消失」の力学（PFA）は、個人の内�
 * **結果:** 自分の願い（Want）が分からなくなり、他者の期待や義務（Must）を自分の意志だと錯覚する。
 
 ### 6.2 関係・集団のスケール (Relational / Collective Scale)
+
 場の空気として共有される、相互作用の硬直化。
 
 * **Pressure:** 「空気を読まなければ」「早く合意しなければ」という同調圧力。
@@ -176,15 +202,14 @@ HASは「失敗しない設計」ではない。
 **壊れたときに戻れる設計**である。
 
 - 乱れを検知したら進まない
-- 一段階戻る、またはP01へ戻る
-- 何もしない（Level 0）へ退避する
+- 一段階戻る、または観察へ戻る
+- 何もしない（観察）へ退避する
 
 戻れないことだけが危険。
 
 ---
 
 ## 8. 現在のディレクトリ構造（正）
-
 ```text
 HAS/
 ├── core/
@@ -193,10 +218,12 @@ HAS/
 │   ├── 00_manifesto.md
 │   ├── 01_architecture_map.md         # ← このファイル
 │   ├── 02_concept.md
-│   ├── 03_attunement_levels.md
-│   ├── 04_facilitator_pitfalls.md
+│   ├── 03_attunement_map.md           # 旧: attunement_levels.md
+│   ├── 04_facilitator_pitfalls.md      # 旧: facilitator_principles.md
 │   ├── 05_faq.md
-│   └── 06_glossary.md
+│   ├── 06_glossary.md
+│   ├── 07_failure_modes.md
+│   └── 08_exit_and_unsuitability.md
 ├── governance/
 │   ├── adr/
 │   └── protocols/
@@ -208,3 +235,30 @@ HAS/
 │   ├── scenarios/
 │   └── quick_reference.md
 └── README.md
+```
+
+---
+
+## 関連文書
+
+### 思想と設計
+- [Manifesto](./00_manifesto.md) — HASの価値と姿勢
+- [Concept](./02_concept.md) — なぜ調律なのか
+
+### 位置と状態
+- [Attunement Map](./03_attunement_map.md) — 位置の識別
+- [Facilitator Pitfalls](./04_facilitator_pitfalls.md) — 陥りやすい落とし穴
+
+### 実践と回復
+- [Patterns P01–P04](../resources/patterns/state/) — 状態遷移の構造
+- [Failure Modes](./07_failure_modes.md) — 典型的な事故パターン
+- [Quick Reference](../resources/quick_reference.md) — 現場即参照用
+
+---
+
+## Document Control
+
+- **Version:** 2.1.0
+- **Date:** 2025-12-15
+- **Status:** Active
+- **Change:** Attunement Levels → Attunement Map への名称・概念変更を反映
