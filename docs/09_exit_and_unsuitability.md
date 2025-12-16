@@ -91,14 +91,14 @@ HASは、誰にでも向いているわけではない。
 ---
 
 ## 関連文書
-- [Failure Mode E (完璧主義ループ)](./07_failure_modes.md#failure-mode-e-完璧主義ループ自己監視の宗教化)
-- [ファシリテーターの落とし穴](./04_facilitator_pitfalls.md)
+- [Failure Mode E (完璧主義ループ)](./08_failure_modes.md#failure-mode-e-完璧主義ループ自己監視の宗教化)
+- [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md)
 - [PR Protocol](../governance/protocols/public_relations.md)
-- [FAQ](./05_faq.md)
+- [FAQ](./06_faq.md.md)
 ---
 
 ## Document Control
 - **Version:** 1.0.0
 - **Date:** 2025-12-14
 - **Status:** Active
-- **Related:** 07_failure_modes.md, public_relations.md
+- **Related:** 08_failure_modes.md, public_relations.md

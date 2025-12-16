@@ -50,7 +50,7 @@ HASを「うまく使う」ためではなく、
 - **仮動（けどう / Tentative Action）**: 試行しているが完遂を目的化していない
 - **乱れ（Disruption）**: 継続不能、戻りたい
 
-詳細：[Attunement Map](./03_attunement_map.md)
+詳細：[Attunement Map](./04_attunement_map.md)
 
 #### HAS外条件
 以下の場合、HASの外にいる：
@@ -93,7 +93,7 @@ HASは明確な層構造を持つ。
 「これが守れないと、HASはうまく機能しない」という安全境界。
 
 - Facilitator Pitfalls  
-  → [04_facilitator_pitfalls.md](./04_facilitator_pitfalls.md)
+  → [05_facilitator_pitfalls.md](./05_facilitator_pitfalls.md)
 
 ---
 
@@ -218,11 +218,11 @@ HAS/
 │   ├── 00_manifesto.md
 │   ├── 01_architecture_map.md         # ← このファイル
 │   ├── 02_concept.md
-│   ├── 03_attunement_map.md           # 旧: attunement_levels.md
-│   ├── 04_facilitator_pitfalls.md      # 旧: facilitator_principles.md
-│   ├── 05_faq.md
-│   ├── 06_glossary.md
-│   ├── 07_failure_modes.md
+│   ├── 04_attunement_map.md           # 旧: attunement_levels.md
+│   ├── 05_facilitator_pitfalls.md      # 旧: facilitator_principles.md
+│   ├── 06_faq.md.md
+│   ├── 07_glossary.md
+│   ├── 08_failure_modes.md
 │   └── 08_exit_and_unsuitability.md
 ├── governance/
 │   ├── adr/
@@ -246,12 +246,12 @@ HAS/
 - [Concept](./02_concept.md) — なぜ調律なのか
 
 ### 位置と状態
-- [Attunement Map](./03_attunement_map.md) — 位置の識別
-- [Facilitator Pitfalls](./04_facilitator_pitfalls.md) — 陥りやすい落とし穴
+- [Attunement Map](./04_attunement_map.md) — 位置の識別
+- [Facilitator Pitfalls](./05_facilitator_pitfalls.md) — 陥りやすい落とし穴
 
 ### 実践と回復
 - [Patterns P01–P04](../resources/patterns/state/) — 状態遷移の構造
-- [Failure Modes](./07_failure_modes.md) — 典型的な事故パターン
+- [Failure Modes](./08_failure_modes.md) — 典型的な事故パターン
 - [Quick Reference](../resources/quick_reference.md) — 現場即参照用
 
 ---

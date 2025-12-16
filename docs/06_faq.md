@@ -336,8 +336,8 @@ HASが目的とするのは行動の変化ではなく、**状態の保持**で�
 
 - [HASマニフェスト（価値と覚悟）](./00_manifesto.md)  
 - [コンセプト（なぜ調律か）](./02_concept.md)  
-- [ファシリテーターの落とし穴](./04_facilitator_pitfalls.md)  
-- [慣れの段階](./03_attunement_levels.md)  
+- [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md)  
+- [慣れの段階](./04_attunement_levels.md)  
 - Patterns  
   - [P01: 感情の受容](../resources/patterns/state/P01_acceptance_of_emotion.md)  
   - [P02: 感情の分化](../resources/patterns/state/P02_differentiation_of_emotion.md)  
