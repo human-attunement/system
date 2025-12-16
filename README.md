@@ -28,7 +28,7 @@ HASは、明確に分離された4つのレイヤから構成される。
 
 ### レイヤ2: `docs/` — 思想＋安全仕様
 
-- Manifesto, Concept, Facilitator Pitfalls, Attunement Map, FAQ, Glossary
+- Manifesto, Concept, Principles, Facilitator Pitfalls, Attunement Map, FAQ, Glossary
 - Failure Modes（事故カタログ）
 - Exit and Unsuitability（離脱の自由）
 - **Kernelより更新しやすいが、慎重に行う**
@@ -65,9 +65,10 @@ HASは、明確に分離された4つのレイヤから構成される。
 ### 初めての人
 → [Architecture Map](./docs/01_architecture_map.md) で全体像を掴む  
 → [Manifesto](./docs/00_manifesto.md) で価値観を理解  
-→ [FAQ](./docs/06_faq.md.md) で疑問を解消
+→ [FAQ](./docs/06_faq.md) で疑問を解消
 
 ### 実践したい人
+→ [Principles](./docs/03_principle.md) で判断の優先軸を理解
 → [Facilitator Pitfalls](./docs/05_facilitator_pitfalls.md) で陥りやすい落とし穴を把握  
 → [Attunement Map](./docs/04_attunement_map.md) で位置の識別を理解  
 → [Patterns P01-P04](./resources/patterns/state/) で実践開始  
@@ -79,8 +80,8 @@ HASは、明確に分離された4つのレイヤから構成される。
 → [Emergency Stop](./governance/protocols/emergency_stop.md) で緊急対応
 
 ### 向いていないと感じた人
-→ [Exit and Unsuitability](./docs/08_exit_and_unsuitability.md) で離脱を正当化  
-→ [FAQ](./docs/06_faq.md.md) で「向いていない状況」を確認  
+→ [Exit and Unsuitability](./docs/09_exit_and_unsuitability.md) で離脱を正当化  
+→ [FAQ](./docs/06_faq.md) で「向いていない状況」を確認  
 → **"If not now, forget it."** — 今じゃないなら、無理に続けなくてよい
 
 ---
@@ -115,33 +116,6 @@ HASの名称使用については、以下のプロトコルに従う。
 （※実際のライセンスファイルへのリンクを設置予定）
 
 ---
-
-## ディレクトリ構造
-
-HAS/
-├── core/
-│   └── HAS_v2.0_Final.md              # 核となる最終仕様
-├── docs/
-│   ├── 00_manifesto.md
-│   ├── 01_architecture_map.md         # 全体設計図
-│   ├── 02_concept.md
-│   ├── 04_attunement_map.md           # 位置の識別（旧: attunement_levels）
-│   ├── 05_facilitator_pitfalls.md      # 陥りやすい落とし穴（旧: principles）
-│   ├── 06_faq.md.md
-│   ├── 07_glossary.md
-│   ├── 08_failure_modes.md            # 事故カタログ
-│   └── 08_exit_and_unsuitability.md   # 離脱の自由
-├── governance/
-│   ├── adr/
-│   └── protocols/
-├── resources/
-│   ├── patterns/
-│   │   ├── state/                     # P01–P04（Core）
-│   │   ├── techniques/                # 任意
-│   │   └── README.md
-│   ├── scenarios/
-│   └── quick_reference.md
-└── README.md
 
 ## リンク整合性の確認
 
