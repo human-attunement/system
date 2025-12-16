@@ -101,7 +101,7 @@ HASの非操作性が崩れやすいというリスクも明らかである。
 
 ## Version
 Decision: 1.0.0  
-Code: HAS v2.0.x
+Code: N/A
 
 ## Date
 2025-12-15
