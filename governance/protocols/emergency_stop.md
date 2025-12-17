@@ -171,8 +171,8 @@ P03（沈黙の充満）では、沈黙の時間をカウントすることを�
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v1.1.00-30-gc14e8653-dirty
+- **Repo Version:** v2.0.00-5-gcb38e58d-dirty
 - **Last Modified:** 2025-12-17
-- **Commit:** f54243d
+- **Commit:** a3f37c6
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
