@@ -138,8 +138,8 @@ Level 0について詳しくは：[Attunement Levels](./04_attunement_levels.md#
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.0.00-5-gcb38e58d
+- **Repo Version:** v2.0.01-1-g15d6962e
 - **Last Modified:** 2025-12-17
-- **Commit:** a3f37c6
+- **Commit:** 5c752bc
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
