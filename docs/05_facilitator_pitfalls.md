@@ -35,7 +35,7 @@ HASにおいて、ファシリテーターと場は分離できない。
 ## 壊れやすいポイント
 
 以下は、ファシリテーターが陥りやすい構造である。  
-これらに気づいたら、**Level 0（何もしない）に戻ることが適切**である。
+これらに気づいたら、**観察（何もしない）に戻ることが適切**である。
 
 ### 1. 自己の状態を観ずに関与する
 
@@ -48,7 +48,7 @@ HASにおいて、ファシリテーターと場は分離できない。
 場の緊張が増幅され、参加者の選択肢が狭まる
 
 **戻り方：**
-Level 0（何もしない）に退避する。  
+観察（何もしない）に退避する。  
 何もしないことは、放棄ではなく判断である。
 
 詳細：[Failure Mode G: Facilitatorの状態無視](./08_failure_modes.md#failure-mode-g-facilitatorの状態無視)
@@ -82,13 +82,13 @@ P03の原則を想起する。
 **兆候：**
 - 「私はまだ整っていない」と永遠に自己否定する
 - または「私は整っている」という自己欺瞞で防衛する
-- Level 0に戻ることを「失敗」として内面化している
+- 観察に戻ることを「失敗」として内面化している
 
 **結果：**
 実践そのものが停止する。燃え尽き、自己否定の深化。
 
 **戻り方：**
-Level 0は正規の実践であると認識する。  
+観察は正規の実践であると認識する。  
 何もしないことは、最も誠実な判断である。
 
 詳細：[Failure Mode E: 完璧主義ループ](./08_failure_modes.md#failure-mode-e-完璧主義ループ自己監視の宗教化)
@@ -113,22 +113,22 @@ P02の原則を再確認する。
 
 ---
 
-## Level 0への退避は常に可能
+## 観察への退避は常に可能
 
 整っていない状態を認識した時、  
-**Level 0（何もしない）は常に選択可能である。**
+**観察（何もしない）は常に選択可能である。**
 
 これは失敗ではない。  
 責任放棄でもない。  
 **最も誠実な判断**である。
 
-Level 0について詳しくは：[Attunement Levels](./04_attunement_levels.md#level-0観察モードobservation-mode)
+観察について詳しくは：[Attunement Map](./04_attunement_map.md#観察（Observation）)
 
 ---
 
 ## 関連文書
 
-- [Attunement Levels](./04_attunement_levels.md) — Level 0の詳細
+- [Attunement Map](./04_attunement_map.md) — Level 0の詳細
 - [Failure Modes](./08_failure_modes.md) — 壊れ方のカタログ
 - [P01-P04 Patterns](../resources/patterns/state/) — 各パタンのFacilitator Self-Check
 - [HAS Kernel](../core/HAS_v2.0_Final.md) — 非介入の定義
