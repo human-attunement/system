@@ -289,8 +289,8 @@ P03は「沈黙をカウントするな」を原則とする。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.1.00-2-g25727567-dirty
+- **Repo Version:** v2.1.00-3-gbc2e5eeb-dirty
 - **Last Modified:** 2025-12-17
-- **Commit:** 2572756
+- **Commit:** bc2e5ee
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

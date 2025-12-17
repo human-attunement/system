@@ -121,8 +121,8 @@ HASは、ただ、
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.1.00-2-g25727567-dirty
+- **Repo Version:** v2.1.00-3-gbc2e5eeb-dirty
 - **Last Modified:** 2025-12-17
-- **Commit:** 18e2f0f
+- **Commit:** bc2e5ee
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

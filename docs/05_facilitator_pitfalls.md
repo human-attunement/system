@@ -138,8 +138,8 @@ P02の原則を再確認する。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.1.00-2-g25727567
+- **Repo Version:** v2.1.00-3-gbc2e5eeb
 - **Last Modified:** 2025-12-17
-- **Commit:** 2572756
+- **Commit:** bc2e5ee
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
