@@ -217,9 +217,10 @@ HASは:
 ---
 
 ## 関連文書
-- Manifesto(価値と姿勢)
-- Facilitator Principles(制約条件)
-- Patterns P01-P04(実践)
+- [Manifesto](./00_manifesto.md)(価値観)
+- [Principles](./03_principle.md)(判断の優先軸)
+- [Facilitator Pitfalls](./05_facilitator_pitfalls.md)(落とし穴)
+- [Patterns P01-P04](../resources/patterns/state/)(実践)
 
 ---
 

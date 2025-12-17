@@ -340,8 +340,10 @@ HAS において、目指すのは熟練（Mastery）ではない。
 - [Patterns P01–P04](../resources/patterns/state/) — 状態遷移の構造
 
 ### 位置の詳細について
+
+- [Principles](./03_principle.md) - 優先する判断の基準
+- [Facilitator Pitfalls](./05_facilitator_pitfalls.md) - 陥りやすい落とし穴
 - [Failure Modes](./08_failure_modes.md) — 乱れの典型
-- [Facilitator Principles](./04_facilitator_principles.md) — 判断の倫理
 
 ### 緊急時の対応
 - [Emergency Stop Protocol](../governance/protocols/emergency_stop.md) — 緊急停止の手続き
