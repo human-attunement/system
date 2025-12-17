@@ -226,8 +226,8 @@ HASは:
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.1.00-3-gbc2e5eeb-dirty
+- **Repo Version:** v2.1.01-2-g2185b8b0-dirty
 - **Last Modified:** 2025-12-17
-- **Commit:** bc2e5ee
+- **Commit:** 2f3dfca
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
