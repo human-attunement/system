@@ -158,4 +158,8 @@ Doingの前にBeing。
 
 <!-- DOCCTRL:START -->
 ## Document Control
+- **Repo Version:** v1.1.00-30-gc14e8653-dirty
+- **Last Modified:** 2025-12-17
+- **Commit:** f54243d
+- **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
