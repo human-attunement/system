@@ -92,8 +92,29 @@ HASは明確な層構造を持つ。
 
 「これが守れないと、HASはうまく機能しない」という安全境界。
 
+#### B-1: 判断の優先軸（正の原則）
+判断が割れたときに、どちらを優先するかを定める。
+
+- Principles  
+  → [03_principle.md](./03_principle.md)
+
+#### B-2: 壊れやすいポイント（負のガードレール）
+陥りやすい構造と、事故の予防。
+
 - Facilitator Pitfalls  
   → [05_facilitator_pitfalls.md](./05_facilitator_pitfalls.md)
+
+- Failure Modes  
+  → [08_failure_modes.md](./08_failure_modes.md)
+
+#### B-3: 位置の識別
+自分がどこにいるかを誤解しないための地図。
+
+- Attunement Map  
+  → [04_attunement_map.md](./04_attunement_map.md)
+
+> **重要:**  
+> Principles（正）と Pitfalls（負）が対をなして、初めて判断が安定する。
 
 ---
 
@@ -115,13 +136,26 @@ HASは明確な層構造を持つ。
 
 ---
 
-### Layer D: Design History / Governance（設計履歴）
+## 3.5 ディレクトリ構造の意図
 
-HASがどのような判断を経て、現在の形に至ったかを記録する層。  
-運用や実践のためではなく、理解・検証・拡張のために存在する。
+HASは4つのディレクトリに分離されている。
+```
+HAS/
+├── core/           # 核（Kernel・Constitution）
+├── docs/           # 思想・概念・制約・安全仕様
+├── governance/     # 運用プロトコル・ADR
+└── resources/      # パタン・参考資料・クイック参照
+```
 
-- Architecture Decision Records（ADR）  
-  → [governance/adr/](../governance/adr/)
+**設計意図:**
+- `core/` は変更不可（Sealed）
+- `docs/` は慎重に更新される思想・仕様層
+- `governance/` は運用ルール（HAS本体の外）
+- `resources/` は増殖・派生を許容する実践層
+
+**詳細なファイル配置:**  
+最新の構造は [GitHubリポジトリ](https://github.com/human-attunement/system) を参照してください。  
+このMapは「構造の意図」を示すものであり、ファイル一覧の正本ではありません。
 
 ---
 
@@ -209,33 +243,35 @@ HASは「失敗しない設計」ではない。
 
 ---
 
-## 8. 現在のディレクトリ構造（正）
-```text
-HAS/
-├── core/
-│   └── HAS_v2.0_Final.md              # 核となる最終仕様
-├── docs/
-│   ├── 00_manifesto.md
-│   ├── 01_architecture_map.md         # ← このファイル
-│   ├── 02_concept.md
-│   ├── 04_attunement_map.md           # 旧: attunement_levels.md
-│   ├── 05_facilitator_pitfalls.md      # 旧: facilitator_principles.md
-│   ├── 06_faq.md.md
-│   ├── 07_glossary.md
-│   ├── 08_failure_modes.md
-│   └── 08_exit_and_unsuitability.md
-├── governance/
-│   ├── adr/
-│   └── protocols/
-├── resources/
-│   ├── patterns/
-│   │   ├── state/                     # P01–P04（Core）
-│   │   ├── techniques/                # 任意
-│   │   └── README.md
-│   ├── scenarios/
-│   └── quick_reference.md
-└── README.md
-```
+## 8. Supporting: Governance & Design History
+
+HASの思想・実践を支える、運用と設計判断の記録。
+
+### Governance（統治・運用）
+HASを壊さないための手続き。
+
+- Emergency Stop Protocol  
+  → [governance/protocols/emergency_stop.md](../governance/protocols/emergency_stop.md)
+  
+- Steward Judgment Protocol  
+  → [governance/protocols/steward_judgment.md](../governance/protocols/steward_judgment.md)
+
+- Maintenance Protocol  
+  → [governance/protocols/maintainance.md](../governance/protocols/maintainance.md)
+
+- Public Relations Protocol  
+  → [governance/protocols/public_relations.md](../governance/protocols/public_relations.md)
+
+### Design History（設計判断の記録）
+HASがなぜ現在の形になったかを記録する。
+
+- Architecture Decision Records（ADR）  
+  → [governance/adr/](../governance/adr/)
+
+**重要:**  
+これらは HAS Kernel の外部に位置する。  
+HAS 本体は「Doing」を定義しないが、運用には手続きが必要である。  
+この分離により、思想の純度と運用の安全性が両立する。
 
 ---
 
@@ -245,7 +281,8 @@ HAS/
 - [Manifesto](./00_manifesto.md) — HASの価値と姿勢
 - [Concept](./02_concept.md) — なぜ調律なのか
 
-### 位置と状態
+### 制約と判断
+- [Principles](./03_principle.md) — 判断の優先軸
 - [Attunement Map](./04_attunement_map.md) — 位置の識別
 - [Facilitator Pitfalls](./05_facilitator_pitfalls.md) — 陥りやすい落とし穴
 
