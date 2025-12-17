@@ -97,6 +97,15 @@ HASは「正解を与える体系」ではない。
 
 ---
 
+## HAS Review (Experimental)
+
+「HAS的にどう？」を対話形式で確認できるレビュー用GPTを公開中。
+治療・診断・正解提示は行いません。判断の補助として使用を推奨。
+
+→ [HAS Review GPT](https://chatgpt.com/g/g-694204bd29c88191b08878fc417f8ea5-has-review-bot)
+
+---
+
 ## 名称使用とFork
 
 HASの名称使用については、以下のプロトコルに従う。
@@ -131,18 +140,6 @@ npx markdown-link-check README.md
 
 詳細は、リポジトリ設置後の `.github/workflows/` または `package.json` を参照のこと。
 
----
-
-## Document Control
-
-- **Version:** 2.1.0
-- **Last Updated:** 2025-12-15
-- **Status:** Active
-- **Kernel Version:** v2.0 Final (Sealed)
-- **Major Changes:**
-  - Attunement Levels → Attunement Map（段階から位置へ）
-  - Facilitator Principles → Facilitator Pitfalls（陥りやすい落とし穴の明示）
-  - 新規文書追加: Failure Modes, Exit and Unsuitability
 ---
 
 ## Contact & Feedback
