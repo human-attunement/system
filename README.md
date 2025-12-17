@@ -21,24 +21,28 @@ HASは、明確に分離された4つのレイヤから構成される。
 **この構造は設計意図であり、変更する場合はForkとして行うことを推奨する。**
 
 ### レイヤ1: `core/` — Kernel（Sealed）
+
 - HAS v2.0 Final のみを配置
 - 存在論・憲法・禁忌を含む
 - **Sealed（原則として変更不可）** — 更新は重大な欠陥発見時のみ
 
 ### レイヤ2: `docs/` — 思想＋安全仕様
-- Manifesto, Concept, Principles, Levels, FAQ, Glossary
+
+- Manifesto, Concept, Principles, Facilitator Pitfalls, Attunement Map, FAQ, Glossary
 - Failure Modes（事故カタログ）
 - Exit and Unsuitability（離脱の自由）
 - **Kernelより更新しやすいが、慎重に行う**
 - Doingを含まない（状態・制約・禁忌のみ）
 
 ### レイヤ3: `governance/` — 運用手続き（Kernelの外）
+
 - Protocols（Emergency Stop, Steward Judgment, Maintenance, PR）
 - ADR（設計判断の記録）
 - **Doingを含むが、HAS本体ではない**
 - HASを壊さないための運用ガイド
 
 ### レイヤ4: `resources/` — 道具箱
+
 - Patterns（State / Techniques）
 - Scenarios, Quick Reference
 - 実践・検索・発見のためのインターフェース
@@ -61,23 +65,24 @@ HASは、明確に分離された4つのレイヤから構成される。
 ### 初めての人
 → [Architecture Map](./docs/01_architecture_map.md) で全体像を掴む  
 → [Manifesto](./docs/00_manifesto.md) で価値観を理解  
-→ [FAQ](./docs/05_faq.md) で疑問を解消
+→ [FAQ](./docs/06_faq.md) で疑問を解消
 
 ### 実践したい人
-→ [Facilitator Principles](./docs/04_facilitator_principles.md) で制約を理解  
-→ [Attunement Levels](./docs/03_attunement_levels.md) で段階を把握  
+→ [Principles](./docs/03_principle.md) で判断の優先軸を理解
+→ [Facilitator Pitfalls](./docs/05_facilitator_pitfalls.md) で陥りやすい落とし穴を把握  
+→ [Attunement Map](./docs/04_attunement_map.md) で位置の識別を理解  
 → [Patterns P01-P04](./resources/patterns/state/) で実践開始  
-→ [Failure Modes](./docs/07_failure_modes.md) で事故を予防
+→ [Failure Modes](./docs/08_failure_modes.md) で事故を予防
 
 ### 現場で詰まった人
 → [Quick Reference](./resources/quick_reference.md) で即参照  
-→ [Failure Modes](./docs/07_failure_modes.md) で自己点検  
+→ [Failure Modes](./docs/08_failure_modes.md) で自己点検  
 → [Emergency Stop](./governance/protocols/emergency_stop.md) で緊急対応
 
 ### 向いていないと感じた人
-→ [Exit and Unsuitability](./docs/08_exit_and_unsuitability.md) で離脱を正当化  
-→ [FAQ](./docs/05_faq.md) で「向いていない状況」を確認  
-→ **"If not now, forget it."** — 今じゃないなら、忘れてよい
+→ [Exit and Unsuitability](./docs/09_exit_and_unsuitability.md) で離脱を正当化  
+→ [FAQ](./docs/06_faq.md) で「向いていない状況」を確認  
+→ **"If not now, forget it."** — 今じゃないなら、無理に続けなくてよい
 
 ---
 
@@ -130,11 +135,14 @@ npx markdown-link-check README.md
 
 ## Document Control
 
-- **Version:** 1.1.0
-- **Last Updated:** 2025-12-14
+- **Version:** 2.1.0
+- **Last Updated:** 2025-12-15
 - **Status:** Active
 - **Kernel Version:** v2.0 Final (Sealed)
-
+- **Major Changes:**
+  - Attunement Levels → Attunement Map（段階から位置へ）
+  - Facilitator Principles → Facilitator Pitfalls（陥りやすい落とし穴の明示）
+  - 新規文書追加: Failure Modes, Exit and Unsuitability
 ---
 
 ## Contact & Feedback

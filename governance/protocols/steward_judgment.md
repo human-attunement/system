@@ -154,8 +154,6 @@ Stewardは、自らの判定が以下に陥っていないか、定期的に点�
 
 ---
 
+<!-- DOCCTRL:START -->
 ## Document Control
-- **Version:** 1.0.0
-- **Date:** 2025-12-14
-- **Status:** Governance Protocol
-- **Related:** HAS Kernel, maintenance.md, Failure Mode C
+<!-- DOCCTRL:END -->

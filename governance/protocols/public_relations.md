@@ -35,3 +35,7 @@
 > **"If not now, forget it."**
 > 今、必要でなければ、忘れてください。
 > 必要になった時、また戻ってきてください。
+
+<!-- DOCCTRL:START -->
+## Document Control
+<!-- DOCCTRL:END -->

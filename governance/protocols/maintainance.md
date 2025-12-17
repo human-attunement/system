@@ -93,7 +93,6 @@ Stewardの役割は固定ではなく、流動的に交代される。
 
 ---
 
+<!-- DOCCTRL:START -->
 ## Document Control
-- **Version:** 2.0.0
-- **Date:** 2025-12-14
-- **Status:** Governance Protocol
+<!-- DOCCTRL:END -->
