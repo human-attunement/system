@@ -256,9 +256,6 @@ HAS/
 
 ---
 
+<!-- DOCCTRL:START -->
 ## Document Control
-
-- **Version:** 2.1.0
-- **Date:** 2025-12-15
-- **Status:** Active
-- **Change:** Attunement Levels → Attunement Map への名称・概念変更を反映
+<!-- DOCCTRL:END -->

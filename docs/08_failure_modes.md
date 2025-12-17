@@ -287,8 +287,6 @@ P03は「沈黙をカウントするな」を原則とする。
 
 ---
 
+<!-- DOCCTRL:START -->
 ## Document Control
-- **Version:** 1.0.0
-- **Date:** 2025-12-14
-- **Status:** Living Document
-- **Related:** HAS Kernel, Facilitator Principles, Attunement Levels
+<!-- DOCCTRL:END -->

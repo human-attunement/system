@@ -225,6 +225,6 @@ HASは:
 
 ---
 
+<!-- DOCCTRL:START -->
 ## Document Control
-* **Version:** 1.0.0
-* **Date:** 2025-12-12
+<!-- DOCCTRL:END -->

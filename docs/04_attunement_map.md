@@ -353,10 +353,6 @@ HAS において、目指すのは熟練（Mastery）ではない。
 
 ---
 
+<!-- DOCCTRL:START -->
 ## Document Control
-
-- **Version:** 2.0.3
-- **Date:** 2025-12-15
-- **Status:** Final
-- **Previous Version:** 1.0.0 (Attunement Levels)
-- **Change Type:** Major — 段階モデルから位置識別への転換
+<!-- DOCCTRL:END -->

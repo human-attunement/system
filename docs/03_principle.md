@@ -156,7 +156,6 @@ Doingの前にBeing。
 
 ---
 
+<!-- DOCCTRL:START -->
 ## Document Control
-- **Version:** 1.0.0
-- **Date:** 2025-12-16
-- **Status:** Active
+<!-- DOCCTRL:END -->

@@ -136,10 +136,6 @@ Level 0について詳しくは：[Attunement Levels](./04_attunement_levels.md#
 
 ---
 
+<!-- DOCCTRL:START -->
 ## Document Control
-
-- **Version:** 1.1.0
-- **Date:** 2025-12-15
-- **Previous Version:** 04_facilitator_principles.md v1.0.0 (archived)
-- **Change Summary:** ファイル名変更（principles → pitfalls）。規範から「壊れ方の地図」へ転換。Failure Modesとの統合。
-- **Related ADR:** HAS-ADR-014 (Facilitator Pitfallsへの改訂判断)
+<!-- DOCCTRL:END -->

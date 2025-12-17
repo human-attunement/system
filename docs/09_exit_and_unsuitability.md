@@ -97,8 +97,6 @@ HASは、誰にでも向いているわけではない。
 - [FAQ](./06_faq.md.md)
 ---
 
+<!-- DOCCTRL:START -->
 ## Document Control
-- **Version:** 1.0.0
-- **Date:** 2025-12-14
-- **Status:** Active
-- **Related:** 08_failure_modes.md, public_relations.md
+<!-- DOCCTRL:END -->

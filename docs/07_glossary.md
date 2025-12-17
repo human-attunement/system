@@ -178,9 +178,6 @@ HAS外にいることは、失敗ではない。
 
 ---
 
+<!-- DOCCTRL:START -->
 ## Document Control
-
-- **Version:** 2.1.0
-- **Date:** 2025-12-15
-- **Status:** Active
-- **Change:** Attunement Map v2.0.3 に伴う用語追加（観察、判断保留、仮動、乱れ、HAS外条件）
+<!-- DOCCTRL:END -->

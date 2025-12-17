@@ -119,9 +119,6 @@ HASは、ただ、
 
 * * *
 
+<!-- DOCCTRL:START -->
 ## Document Control
-
-- **Version:** 3.0.0 (Kernel-aligned)
-- **Date:** 2025-12-16
-- **Status:** Active
-- **Related:** HAS Kernel v2.0 Final
+<!-- DOCCTRL:END -->

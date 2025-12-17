@@ -169,8 +169,6 @@ P03（沈黙の充満）では、沈黙の時間をカウントすることを�
 
 ---
 
+<!-- DOCCTRL:START -->
 ## Document Control
-- **Version:** 1.0.0
-- **Date:** 2025-12-14
-- **Status:** Governance Protocol
-- **Related:** HAS Kernel (Constitution 3), Contraindications (Zone 3)
+<!-- DOCCTRL:END -->

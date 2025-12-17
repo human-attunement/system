@@ -345,6 +345,6 @@ HASが目的とするのは行動の変化ではなく、**状態の保持**で�
   - [P04: 引受の成立](../resources/patterns/state/P04_establishment_of_ownership.md)
 ---
 
+<!-- DOCCTRL:START -->
 ## Document Control
-- Version: 1.1.1
-- Date: 2025-12-15
+<!-- DOCCTRL:END -->

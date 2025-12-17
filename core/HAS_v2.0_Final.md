@@ -248,3 +248,7 @@ HASは、
 ---
 
 End of Document
+
+<!-- DOCCTRL:START -->
+## Document Control
+<!-- DOCCTRL:END -->
