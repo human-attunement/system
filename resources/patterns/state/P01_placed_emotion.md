@@ -1,8 +1,7 @@
-# Pattern 01: 感情の受容
-**Acceptance of Emotion**
+# P01: 置かれた感情
+Placed Emotion
 
-> **推奨 Attunement Level:** Level 2以上  
-> 感情を「操作しない」ための基礎パタン。
+**感情を花瓶のように置く**
 
 ---
 

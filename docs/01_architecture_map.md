@@ -26,9 +26,9 @@ HASはフレームワークでもメソッドでもない。
 
 状態を整え、**引き受け可能な選択**が生まれるまでの流れ。
 
-- **P01 感情の受容（Place）** → [P01_acceptance_of_emotion.md](../resources/patterns/state/P01_acceptance_of_emotion.md)
+- **P01 置かれた感情（Place）** → [P01_placed_emotion.md](../resources/patterns/state/P01_placed_emotion.md)
 
-- **P02 感情の分化（Distinguish）** → [P02_differentiation_of_emotion.md](../resources/patterns/state/P02_differentiation_of_emotion.md)
+- **P02 識別された感情（Distinguish）** → [P02_differentiated_emotion.md](../resources/patterns/state/P02_differentiated_emotion.md)
 
 - **P03 沈黙の充満（Hold）** → [P03_fullness_of_silence.md](../resources/patterns/state/P03_fullness_of_silence.md)
 

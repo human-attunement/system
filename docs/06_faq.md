@@ -339,8 +339,8 @@ HASが目的とするのは行動の変化ではなく、**状態の保持**で�
 - [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md)  
 - [慣れの段階](./04_attunement_levels.md)  
 - Patterns  
-  - [P01: 感情の受容](../resources/patterns/state/P01_acceptance_of_emotion.md)  
-  - [P02: 感情の分化](../resources/patterns/state/P02_differentiation_of_emotion.md)  
+  - [P01: 置かれた感情](../resources/patterns/state/P01_placed_emotion.md)  
+  - [P02: 識別された感情](../resources/patterns/state/P02_differentiated_emotion.md)  
   - [P03: 沈黙の充満](../resources/patterns/state/P03_fullness_of_silence.md)  
   - [P04: 引受の成立](../resources/patterns/state/P04_establishment_of_ownership.md)
 ---

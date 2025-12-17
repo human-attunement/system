@@ -1,13 +1,12 @@
-# Pattern 02: 感情の分化
-**Differentiation of Emotion**
+# P02: 識別された感情
+Differentiated Emotion
 
-> **推奨 Attunement Level:** Level 3以上  
-> Fear と Want を見分ける識別パタン。
+**評価せず、決めず、区別されている状態**
 
 ---
 
 ## Context
-- **P01: [感情の受容](./P01_acceptance_of_emotion.md)**により感情は落ち着いている
+- **P01: [置かれた感情](./P01_placed_emotion.md)**により感情は落ち着いている
 - 次に何をするかを急ぎ始めている
 - 正しさ・合理性の議論が強まり始めている
 
