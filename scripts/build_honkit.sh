@@ -2,7 +2,8 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-OUT="$ROOT/honkit-src"
+SRC="honkit-src"
+OUT="$ROOT/$SRC"
 
 # 1) clean
 rm -rf "$OUT"
@@ -37,6 +38,7 @@ rewrite_file() {
   # コードブロック内を避けたいなら本当はパーサが必要だが、
   # まずは実害が出やすいリンクだけ機械置換でいく（運用でカバー）
   perl -0777 -i -pe '
+    s!\(\./! (src/!g;
     s!\(\.\./docs/! (src/docs/!g;
     s!\(\.\./governance/! (src/governance/!g;
     s!\(\.\./resources/! (src/resources/!g;
@@ -54,4 +56,4 @@ find "$OUT/src" -name "*.md" -print0 | while IFS= read -r -d '' f; do
 done
 
 echo "OK: generated Honkit sources at: $OUT"
-echo "Run: (cd $OUT && honkit serve)"
+echo "Run: (cd $SRC && honkit serve)"
