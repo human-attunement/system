@@ -1,12 +1,6 @@
 # HAS Maintenance Protocol
 **HAS保守プロトコル：権威なき守護**
 
-Status: Governance Protocol  
-Version: 2.0.0  
-Date: 2025-12-14
-
----
-
 ## 1. Role Definition: Stewards (世話人)
 HASには「リーダー」も「家元」も存在しない。
 存在するのは、カーネル（v2.0 Final）の整合性を監視する**「世話人 (Stewards)」**のみである。
@@ -95,8 +89,8 @@ Stewardの役割は固定ではなく、流動的に交代される。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.1.01-2-g2185b8b0-dirty
+- **Repo Version:** v2.2.00-9-g070b23f0-dirty
 - **Last Modified:** 2025-12-17
-- **Commit:** 2f3dfca
+- **Commit:** d2e03ba
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

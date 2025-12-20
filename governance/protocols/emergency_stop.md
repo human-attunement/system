@@ -1,12 +1,6 @@
 # Emergency Stop Protocol
 **緊急停止（HAS中断・介入移行）の判断プロトコル**
 
-Status: Governance Protocol  
-Version: 1.0.0  
-Date: 2025-12-14
-
----
-
 ## このプロトコルの位置づけ
 
 このプロトコルは、**HAS Kernelの外部**に位置する運用手続きである。
@@ -171,8 +165,8 @@ P03（沈黙の充満）では、沈黙の時間をカウントすることを�
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.1.01-2-g2185b8b0-dirty
+- **Repo Version:** v2.2.00-9-g070b23f0-dirty
 - **Last Modified:** 2025-12-17
-- **Commit:** 2f3dfca
+- **Commit:** d2e03ba
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

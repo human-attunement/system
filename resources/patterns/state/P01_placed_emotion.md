@@ -1,5 +1,5 @@
 # P01: 置かれた感情
-Placed Emotion
+**Placed Emotion**
 
 **感情を花瓶のように置く**
 

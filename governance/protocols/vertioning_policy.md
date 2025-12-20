@@ -1,11 +1,6 @@
 # Versioning Policy
 **HAS Documentation Version Numbering Rules**
 
-Status: Active  
-Applies to: All HAS core documents (Manifesto, Kernel, Principles, Pitfalls, etc.)
-
----
-
 ## 目的
 
 本ドキュメントは、Human Attunement System（HAS）における  
@@ -125,8 +120,8 @@ HASのバージョン番号は、
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.1.01-2-g2185b8b0-dirty
+- **Repo Version:** v2.2.00-9-g070b23f0-dirty
 - **Last Modified:** 2025-12-17
-- **Commit:** 2f3dfca
+- **Commit:** d2e03ba
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

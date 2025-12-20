@@ -1,12 +1,6 @@
 # HAS Failure Modes
 **運用事故カタログ: HASが壊れるパターン**
 
-Status: Living Document  
-Version: 1.0.0  
-Date: 2025-12-14
-
----
-
 ## このドキュメントの位置づけ
 
 このカタログは、HASの誤用によって起きる典型的な事故パターンを記述する。
@@ -289,8 +283,8 @@ P03は「沈黙をカウントするな」を原則とする。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.1.01-2-g2185b8b0-dirty
+- **Repo Version:** v2.2.00-9-g070b23f0-dirty
 - **Last Modified:** 2025-12-17
-- **Commit:** 2f3dfca
+- **Commit:** d2e03ba
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

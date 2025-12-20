@@ -1,12 +1,6 @@
 # HAS Principles
 **判断が割れたときの優先原則**
 
-Status: Active  
-Version: 1.0.0  
-Date: 2025-12-16
-
----
-
 ## この文書の役割
 
 この文書は、HASを実践・適用する際に、
@@ -158,8 +152,8 @@ Doingの前にBeing。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.1.01-2-g2185b8b0-dirty
+- **Repo Version:** v2.2.00-9-g070b23f0-dirty
 - **Last Modified:** 2025-12-17
-- **Commit:** 2f3dfca
+- **Commit:** d2e03ba
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

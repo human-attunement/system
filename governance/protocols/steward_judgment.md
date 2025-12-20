@@ -1,12 +1,6 @@
 # Steward Judgment Protocol
 **Steward判定の手続き透明化プロトコル**
 
-Status: Governance Protocol  
-Version: 1.0.0  
-Date: 2025-12-14
-
----
-
 ## このプロトコルの位置づけ
 
 このプロトコルは、**HAS Kernelの外部**に位置する運用手続きである。
@@ -156,8 +150,8 @@ Stewardは、自らの判定が以下に陥っていないか、定期的に点�
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.1.01-2-g2185b8b0-dirty
+- **Repo Version:** v2.2.00-9-g070b23f0-dirty
 - **Last Modified:** 2025-12-17
-- **Commit:** 2f3dfca
+- **Commit:** d2e03ba
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
