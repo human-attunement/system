@@ -22,7 +22,7 @@ mkdir -p $OUT
 cp -aR "$ROOT/docs" "$OUT/"
 cp -aR "$ROOT/governance" "$OUT/"
 cp -aR "$ROOT/resources" "$OUT/"
-cp -aR "$ROOT/README.md" "$OUT/"
+# cp -aR "$ROOT/README.md" "$OUT/"
 
 # rsync -a --delete \
 #   --exclude ".git/" \
