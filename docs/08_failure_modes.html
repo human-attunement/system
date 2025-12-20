@@ -1,0 +1,902 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>失敗モードを知る · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.1.4">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="09_exit_and_unsuitability.html" />
+    
+    
+    <link rel="prev" href="05_facilitator_pitfalls.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">初学者向け</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    HASとはなにか
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="00_manifesto.html">
+            
+                <a href="00_manifesto.html">
+            
+                    
+                    Manifesto
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="02_concept.html">
+            
+                <a href="02_concept.html">
+            
+                    
+                    なぜ調律（Attunement）か
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="01_architecture_map.html">
+            
+                <a href="01_architecture_map.html">
+            
+                    
+                    全体像
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="00_manifesto.html">
+            
+                <a href="00_manifesto.html">
+            
+                    
+                    HASが守るもの
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="06_faq.html">
+            
+                <a href="06_faq.html">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">実践者向け</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../resources/quick_reference.html">
+            
+                <a href="../resources/quick_reference.html">
+            
+                    
+                    クイックリファレンス
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="03_principle.html">
+            
+                <a href="03_principle.html">
+            
+                    
+                    判断の優先指針
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="04_attunement_map.html">
+            
+                <a href="04_attunement_map.html">
+            
+                    
+                    位置（状態）の識別
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="05_facilitator_pitfalls.html">
+            
+                <a href="05_facilitator_pitfalls.html">
+            
+                    
+                    陥りやすい落とし穴
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.5" data-path="08_failure_modes.html">
+            
+                <a href="08_failure_modes.html">
+            
+                    
+                    失敗モードを知る
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="09_exit_and_unsuitability.html">
+            
+                <a href="09_exit_and_unsuitability.html">
+            
+                    
+                    止める＆使わない判断
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">状態パタン</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../resources/patterns/state/P01_placed_emotion.html">
+            
+                <a href="../resources/patterns/state/P01_placed_emotion.html">
+            
+                    
+                    パタン01 置かれた感情
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../resources/patterns/state/P02_differentiated_emotion.html">
+            
+                <a href="../resources/patterns/state/P02_differentiated_emotion.html">
+            
+                    
+                    パタン02 識別された感情
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../resources/patterns/state/P03_fullness_of_silence.html">
+            
+                <a href="../resources/patterns/state/P03_fullness_of_silence.html">
+            
+                    
+                    パタン03 沈黙の充満
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../resources/patterns/state/P04_establishment_of_ownership.html">
+            
+                <a href="../resources/patterns/state/P04_establishment_of_ownership.html">
+            
+                    
+                    パタン04 引受の成立
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">更に知る</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="09_exit_and_unsuitability.html">
+            
+                <a href="09_exit_and_unsuitability.html">
+            
+                    
+                    合わない人へ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="07_glossary.html">
+            
+                <a href="07_glossary.html">
+            
+                    
+                    用語集
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">HAS運営者向け</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../governance/protocols/emergency_stop.html">
+            
+                <a href="../governance/protocols/emergency_stop.html">
+            
+                    
+                    緊急停止プロトコル
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../governance/protocols/steward_judgment.html">
+            
+                <a href="../governance/protocols/steward_judgment.html">
+            
+                    
+                    世話人の判断プロトコル
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../governance/protocols/maintainance.html">
+            
+                <a href="../governance/protocols/maintainance.html">
+            
+                    
+                    メンテナンスプロトコル
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../governance/protocols/public_relations.html">
+            
+                <a href="../governance/protocols/public_relations.html">
+            
+                    
+                    広報プロトコル
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="../governance/protocols/resource_process_minimal.html">
+            
+                <a href="../governance/protocols/resource_process_minimal.html">
+            
+                    
+                    リソース管理プロトコル
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="../governance/protocols/vertioning_policy.html">
+            
+                <a href="../governance/protocols/vertioning_policy.html">
+            
+                    
+                    バージョン管理プロトコル
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >失敗モードを知る</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="has-failure-modes">HAS Failure Modes</h1>
+<p><strong>運用事故カタログ: HASが壊れるパターン</strong></p>
+<p>Status: Living Document<br></br>Version: 1.0.0<br></br>Date: 2025-12-14</p>
+<hr></hr>
+<h2 id="このドキュメントの位置づけ">このドキュメントの位置づけ</h2>
+<p>このカタログは、HASの誤用によって起きる典型的な事故パターンを記述する。</p>
+<p><strong>重要な制約:</strong></p>
+<ul>
+<li>これは「自己点検用の鏡」である</li>
+<li>他者へのラベル貼り（診断）に使ってはならない</li>
+<li>「解決策」は提示しない（解決策を書いた瞬間、メソッド化してHASを破壊する）</li>
+</ul>
+<p>各Failure Modeは、以下の構造で記述される:</p>
+<ul>
+<li><strong>兆候:</strong> 何が観察されるか</li>
+<li><strong>やってはいけない正当化:</strong> どう言い訳されるか</li>
+<li><strong>実際に起きていること:</strong> 何が破綻しているか</li>
+<li><strong>二次被害:</strong> 誰がどう傷つくか</li>
+<li><strong>最小の退避:</strong> どこに戻るか（観察 / 停止 / 介入）</li>
+</ul>
+<hr></hr>
+<h2 id="failure-mode-a-沈黙の美化によるネグレクト">Failure Mode A: 沈黙の美化によるネグレクト</h2>
+<h3 id="兆候">兆候</h3>
+<ul>
+<li>ファシリテーターが「沈黙を守ること」を目的化している</li>
+<li>参加者の苦痛のサイン（震え、涙、虚ろな目）を「調律の痛み」として正当化している</li>
+<li>長く続く沈黙を「深い内省」と解釈し、介入を回避している</li>
+<li>参加者の苦痛が明白でも、「沈黙を守る」ことを優先している</li>
+<li>参加者が視線を合わせられず、身体が固まっている</li>
+</ul>
+<h3 id="やってはいけない正当化">やってはいけない正当化</h3>
+<ul>
+<li>「P03は沈黙を守ると言っている」</li>
+<li>「介入は操作だから、待つべきだ」</li>
+<li>「本人が何か言うまで見守る」</li>
+<li>「沈黙は充満であって、空虚ではない」</li>
+</ul>
+<h3 id="実際に起きていること">実際に起きていること</h3>
+<ul>
+<li>参加者は孤立感・見捨てられ感を経験している</li>
+<li>ファシリテーターは「介入への恐れ（Fear）」から動けないだけ</li>
+<li>これは調律ではなく、Fearによる凍結（Freeze）</li>
+<li>P03の誤読: 沈黙を守るのは「介入衝動を抑える」ためであって、苦痛を放置するためではない</li>
+</ul>
+<h3 id="二次被害">二次被害</h3>
+<ul>
+<li>参加者: 「誰も助けてくれなかった」という見捨てられ体験</li>
+<li>ファシリテーター: 罪悪感と自己正当化のループ</li>
+<li>関係性: 信頼の崩壊</li>
+</ul>
+<h3 id="最小の退避">最小の退避</h3>
+<ul>
+<li><strong>観察に戻る:</strong> 「私は今、沈黙を守ることに固執している」と認識する</li>
+<li><strong>緊急停止を検討する:</strong> 「この人は選べない状態にあるのでは？」と問う</li>
+<li><strong>介入の可能性を開く:</strong> 「何もしない」と「何もできない」は別物</li>
+</ul>
+<h3 id="注意-沈黙のカウント禁止">注意: 沈黙のカウント禁止</h3>
+<p>P03は「沈黙をカウントするな」を原則とする。
+しかし緊急停止は別レイヤであり、「沈黙の美しさ」ではなく「安全の兆候」を見る。
+区別の基準は時間ではなく、観察される苦痛・危険の有無である。</p>
+<hr></hr>
+<h2 id="failure-mode-b-非介入の免罪符化">Failure Mode B: 非介入の免罪符化</h2>
+<h3 id="兆候">兆候</h3>
+<ul>
+<li>「HASは介入しないから」という理由で、明白な暴力（怒鳴る、脅す、物を投げる）を止めない</li>
+<li>「内面に触れてはいけない」と解釈し、構造的問題（DV、パワハラ）を放置する</li>
+<li>「選べない人に使うな」と言いながら、誰が選べないかを判定しない</li>
+<li>責任回避の言葉: 「私には判定する権限がない」「グレーゾーンだから」</li>
+</ul>
+<h3 id="やってはいけない正当化">やってはいけない正当化</h3>
+<ul>
+<li>「HASは境界防衛しか許されていない」</li>
+<li>「内面評価は禁止されている」</li>
+<li>「私には判定する権限がない」</li>
+<li>「整っていないから、何もできない」</li>
+</ul>
+<h3 id="実際に起きていること">実際に起きていること</h3>
+<ul>
+<li>非介入は「責任回避」の言い換えになっている</li>
+<li>ファシリテーターは「整っていないから」を盾に、判断を放棄している</li>
+<li>これは調律ではなく、放置（Neglect）</li>
+<li>Constitution 3（緊急停止）を無視している</li>
+</ul>
+<h3 id="二次被害">二次被害</h3>
+<ul>
+<li>被害者: 暴力の継続、孤立の深化</li>
+<li>加害者: 行為がエスカレートする</li>
+<li>場全体: 安全の崩壊</li>
+</ul>
+<h3 id="最小の退避">最小の退避</h3>
+<ul>
+<li><strong><a href="../governance/protocols/steward_judgment.html">Steward Judgmentl</a>を参照</strong></li>
+</ul>
+<hr></hr>
+<h2 id="failure-mode-c-steward拒否権の権威化">Failure Mode C: Steward拒否権の権威化</h2>
+<h3 id="兆候">兆候</h3>
+<ul>
+<li>Stewardが「それはHASではない」と頻繁に判定している</li>
+<li>判定理由が「私の解釈では」「常識的に考えて」という主観に依存している</li>
+<li>異議を唱えた者が「HASを理解していない」とラベリングされる</li>
+<li>判定プロセスが非公開、またはログがない</li>
+</ul>
+<h3 id="やってはいけない正当化">やってはいけない正当化</h3>
+<ul>
+<li>「文書に照らして明白な違反だ」（しかし引用が曖昧）</li>
+<li>「グレーゾーンでは沈黙が正解」と言いながら、実際には判定している</li>
+<li>「Stewardは創造しない」と言いながら、解釈を固定化している</li>
+<li>「Kernelを守るため」という大義名分</li>
+</ul>
+<h3 id="実際に起きていること">実際に起きていること</h3>
+<ul>
+<li>否定形の権力が、肯定形より強力になっている</li>
+<li>「正統性の番人」という権威構造が形成されている</li>
+<li>これは保守ではなく、統制（Control）</li>
+<li>歴史的類例: カトリックの異端審問、マルクス主義の正統派論争</li>
+</ul>
+<h3 id="二次被害">二次被害</h3>
+<ul>
+<li>実践者: 排除と恐怖による萎縮</li>
+<li>コミュニティ: 分派闘争、正統性競争</li>
+<li>HAS自体: 教条主義化</li>
+</ul>
+<h3 id="最小の退避">最小の退避</h3>
+<ul>
+<li><strong>判定プロセスの公開:</strong> 「なぜそう判断したか」のログを残す</li>
+<li><strong>異議申し立ての受理:</strong> 合意不能なら判定を保留する</li>
+<li><strong>Steward自身の再帰的監査:</strong> 「私の判定は恣意的ではないか？」</li>
+<li><strong>governance/protocols/steward_judgment.mdを参照</strong></li>
+</ul>
+<hr></hr>
+<h2 id="failure-mode-d-fearwant判定の投影・診断化">Failure Mode D: Fear/Want判定の投影・診断化</h2>
+<h3 id="兆候">兆候</h3>
+<ul>
+<li>ファシリテーターが「あなたは今、恐れから話している」と告げる</li>
+<li>参加者同士が「それはFearだよ」「本音じゃないよね」と指摘し合う</li>
+<li>「Wantが出ない」ことを問題視し、引き出そうとする</li>
+<li>「本音ハンター」「真実の尋問官」になっている</li>
+</ul>
+<h3 id="やってはいけない正当化">やってはいけない正当化</h3>
+<ul>
+<li>「P02は区別すると言っている」</li>
+<li>「本音を引き出すのが調律だ」</li>
+<li>「Fear/Wantを見分けないと、次に進めない」</li>
+<li>「気づきを与えるため」</li>
+</ul>
+<h3 id="実際に起きていること">実際に起きていること</h3>
+<ul>
+<li>Fear/Wantは診断ツールになっている</li>
+<li>ファシリテーターの投影（自分の恐れを相手に見ている）</li>
+<li>これは調律ではなく、心理療法の劣化版</li>
+<li>P02の誤読: 区別は「内的操作に留める」であり、告げることではない</li>
+</ul>
+<h3 id="二次被害">二次被害</h3>
+<ul>
+<li>参加者: 「診断される」という侵襲体験</li>
+<li>関係性: 分析者vs被分析者という非対称の固定化</li>
+<li>ファシリテーター: 自己の投影に気づかない</li>
+</ul>
+<h3 id="最小の退避">最小の退避</h3>
+<ul>
+<li><strong>P02の原則を再確認:</strong> 「区別は内的操作に留める。告げない」</li>
+<li><strong>Wantが出なくても失敗ではない:</strong> 混在を許す</li>
+<li><strong>投影の自己点検:</strong> 「私が今、恐れているのでは？」</li>
+<li><strong>参加者同士の指摘も止める:</strong> Fear/Want判定は相互監視に転化しやすい</li>
+</ul>
+<hr></hr>
+<h2 id="failure-mode-e-完璧主義ループ（自己監視の宗教化）">Failure Mode E: 完璧主義ループ（自己監視の宗教化）</h2>
+<h3 id="兆候">兆候</h3>
+<ul>
+<li>ファシリテーターが「私はまだ整っていない」と永遠に自己否定する</li>
+<li>または「私は整っている」という自己欺瞞で防衛する</li>
+<li>観察に戻ることが「失敗」として内面化されている</li>
+<li>「まだ実践すべきでない」と自己排除している</li>
+</ul>
+<h3 id="やってはいけない正当化">やってはいけない正当化</h3>
+<ul>
+<li>「整っていない限り介入してはいけない」</li>
+<li>「私の状態が乱れているから、何もできない」</li>
+<li>「熟練者になるまで実践すべきでない」</li>
+<li>「Principlesに従うため」</li>
+</ul>
+<h3 id="実際に起きていること">実際に起きていること</h3>
+<ul>
+<li>Principlesが自己監視の強迫に転化している</li>
+<li>「整い」は到達不可能な理想になっている</li>
+<li>これは調律ではなく、自己処罰（Self-Punishment）</li>
+<li>Armor（防衛）の一種: 完璧主義という鎧</li>
+</ul>
+<h3 id="二次被害">二次被害</h3>
+<ul>
+<li>ファシリテーター: 燃え尽き、自己否定の深化</li>
+<li>参加者: 「この人は信頼できない」という不安</li>
+<li>HAS自体: 「難しすぎて使えない」という評判</li>
+</ul>
+<h3 id="最小の退避">最小の退避</h3>
+<ul>
+<li><strong>観察は正規の実践:</strong> 何もしないことは責任放棄ではない</li>
+<li><strong>熟練の定義を想起:</strong> 高位維持ではなく、戻れること</li>
+<li><strong>Armorの自己点検:</strong> 「完璧主義自体が防衛では？」</li>
+<li><strong><a href="09_exit_and_unsuitability.html">「向いていない」という正しい判断</a>を参照</strong></li>
+</ul>
+<hr></hr>
+<h2 id="failure-mode-f-fork序列化（正統争い）">Failure Mode F: Fork序列化（正統争い）</h2>
+<h3 id="兆候">兆候</h3>
+<ul>
+<li>「HAS準拠」vs「HAS派生」という序列意識が生まれている</li>
+<li>本家が「正統性」を暗黙的に主張している</li>
+<li>派生が「劣化版」「まがい物」として扱われている</li>
+<li>「HASの名を使うなら、完全準拠でなければならない」という圧力</li>
+</ul>
+<h3 id="やってはいけない正当化">やってはいけない正当化</h3>
+<ul>
+<li>「Kernelを守るためにForkしか許さない」</li>
+<li>「HASの名を使うなら、完全準拠でなければならない」</li>
+<li>「誤用を防ぐための統制だ」</li>
+<li>「ブランド保護は必要」</li>
+</ul>
+<h3 id="実際に起きていること">実際に起きていること</h3>
+<ul>
+<li>ブランド保護が権威化している</li>
+<li>「正統性の独占」という権力構造</li>
+<li>これは保守ではなく、教条主義（Dogmatism）</li>
+<li>歴史的類例: 仏教の正法・像法・末法思想、宗派闘争</li>
+</ul>
+<h3 id="二次被害">二次被害</h3>
+<ul>
+<li>派生作者: 排除、正統性への劣等感</li>
+<li>コミュニティ: 分派闘争、エネルギーの浪費</li>
+<li>HAS自体: 硬直化、進化の停止</li>
+</ul>
+<h3 id="最小の退避">最小の退避</h3>
+<ul>
+<li><strong>本家は「正統」を名乗らない:</strong> 「Kernel準拠」のみ</li>
+<li><strong>派生の自由を尊重:</strong> 影響関係の明示は許可、準拠名乗りは不可</li>
+<li><strong>PR Protocolの遵守:</strong> 展示台として置く、拡声器にしない</li>
+<li><strong><a href="../governance/protocols/public_relations.html">HAS広報プロトコル</a>を参照</strong></li>
+</ul>
+<hr></hr>
+<h2 id="failure-mode-g-facilitatorの状態無視">Failure Mode G: Facilitatorの状態無視</h2>
+<h3 id="兆候">兆候</h3>
+<ul>
+<li>自分が焦っている・緊張しているまま、場に関与している</li>
+<li>「私は大丈夫」という自己欺瞞で防衛している</li>
+<li>自己の状態を観ることを「時間の無駄」と考えている</li>
+<li>沈黙を埋めたい衝動が強いが、それを認識していない</li>
+</ul>
+<h3 id="やってはいけない正当化">やってはいけない正当化</h3>
+<ul>
+<li>「場を優先すべき」</li>
+<li>「自分の感情より、参加者の状態が大切」</li>
+<li>「プロだから、動揺を見せてはいけない」</li>
+<li>「早く進めないと、時間が足りない」</li>
+</ul>
+<h3 id="実際に起きていること">実際に起きていること</h3>
+<ul>
+<li>Facilitator自身がFear状態にあり、それが場に伝播している</li>
+<li>「場を整える」という名目での、自己状態の回避</li>
+<li>これは調律ではなく、自己からの逃避（Avoidance）</li>
+<li>参加者は、Facilitatorの緊張を無意識に感知している</li>
+</ul>
+<h3 id="二次被害">二次被害</h3>
+<ul>
+<li>場全体の緊張が増幅される</li>
+<li>参加者が「この人は信頼できない」と感じる</li>
+<li>Facilitator自身が燃え尽きる</li>
+<li>調律が「我慢大会」になる</li>
+</ul>
+<h3 id="最小の退避">最小の退避</h3>
+<ul>
+<li><strong>観察に戻る:</strong> 「私は今、整っていない」と認識する</li>
+<li><strong>緊急停止を検討する:</strong> 場を止める、または別の人に交代する</li>
+<li><strong>呼吸に留まる:</strong> 何もせず、自分の呼吸だけを観る</li>
+<li><strong><a href="05_facilitator_pitfalls.html">Facilitator Pitfalls</a>を参照:</strong> 壊れやすいポイントを確認</li>
+</ul>
+<h3 id="注意">注意</h3>
+<p>この状態は、Facilitator本人が最も気づきにくい。<br></br>なぜなら「場のため」という正当化が強いからである。</p>
+<p>定期的に「私は今、焦っていないか？」と自問することは、<br></br><strong>最も単純で有効な予防</strong>である。</p>
+<hr></hr>
+<h2 id="使用上の注意">使用上の注意</h2>
+<h3 id="このカタログを「武器」にしてはならない">このカタログを「武器」にしてはならない</h3>
+<ul>
+<li>他者に「あなたはFailure Mode Xだ」とラベルを貼ってはならない</li>
+<li><strong>これは自己点検の道具であり、他者診断の道具ではない</strong></li>
+<li>相手を指摘したくなったら、それ自体がFailure Mode D（診断化）である</li>
+</ul>
+<h3 id="failure-modeは「罪」ではない">Failure Modeは「罪」ではない</h3>
+<ul>
+<li>誰でも、どのモードにも陥りうる</li>
+<li><strong>陥ったこと自体が失敗ではない</strong></li>
+<li>気づいて戻れたなら、それはHASが機能している証拠</li>
+</ul>
+<h3 id="このカタログ自体が更新される">このカタログ自体が更新される</h3>
+<ul>
+<li>新しい事故パターンが発見されたら、追加される</li>
+<li>ただし、追加は慎重に行う（増やしすぎると恐怖の目録になる）</li>
+</ul>
+<hr></hr>
+<!-- DOCCTRL:START -->
+<h2 id="document-control">Document Control</h2>
+<ul>
+<li><strong>Repo Version:</strong> v2.1.01-2-g2185b8b0-dirty</li>
+<li><strong>Last Modified:</strong> 2025-12-17</li>
+<li><strong>Commit:</strong> 2f3dfca</li>
+<li><strong>Author:</strong> Takeshi Kakeda<!-- DOCCTRL:END --></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="05_facilitator_pitfalls.html" class="navigation navigation-prev " aria-label="Previous page: 陥りやすい落とし穴">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="09_exit_and_unsuitability.html" class="navigation navigation-next " aria-label="Next page: 止める＆使わない判断">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"失敗モードを知る","level":"2.5","depth":1,"next":{"title":"止める＆使わない判断","level":"2.6","depth":1,"path":"docs/09_exit_and_unsuitability.md","ref":"docs/09_exit_and_unsuitability.md","articles":[]},"previous":{"title":"陥りやすい落とし穴","level":"2.4","depth":1,"path":"docs/05_facilitator_pitfalls.md","ref":"docs/05_facilitator_pitfalls.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"docs/08_failure_modes.md","mtime":"2025-12-20T02:44:01.012Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2025-12-20T02:44:01.623Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
