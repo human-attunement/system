@@ -474,112 +474,28 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="human-attunement-system-has">Human Attunement System (HAS)</h1>
+                                <h1 id="has-documentation">HAS Documentation</h1>
+<p>Human Attunement System（HAS）のドキュメント</p>
+<p>HASはフレームワークでもメソッドでもない。<br></br>人間の状態（State）が壊れ始めたときに、
+選択が引き受けられなくなる連鎖を
+遮断するためのセーフティーシステムです。</p>
+<p>ただ自分や他者との関係の「状態」を見続けることで
+その状態が壊れないようにします。</p>
+<hr></hr>
+<p>人は、以下の条件が揃うとき、<br></br>自分の人生を「<strong>自分のもの</strong>」として引き受けられることができます。</p>
+<ul>
+<li>自分の<strong>内側から立ち上がったもの</strong>である</li>
+<li>結果の責任が<strong>自分に属している</strong></li>
+<li>侵されずに<strong>存在できる場</strong>がある</li>
+<li><strong>選ぶ／選ばない自由</strong>が残っている</li>
+</ul>
+<p>HASは、この4つが壊されないことだけを守ります。</p>
+<hr></hr>
 <blockquote>
-<p><strong>Documentation &amp; Resources</strong></p>
+<p>"If not now, forget it." 
+今、必要でなければ、忘れてください。
+必要になった時、また戻ってきてください。</p>
 </blockquote>
-<p>HASは、組織と個人を「管理(OS)」するのではなく、<br></br><strong>「調律(Attunement)」によって関係と状態を整える体系</strong>である。</p>
-<blockquote>
-<p><strong>OS (Operating System)</strong>: 効率・最適化・管理を目的とする<br></br><strong>TS (Tuning System)</strong>: 状態・共鳴・回復を目的とする  </p>
-<p>これは「OSが悪でTSが善」という対立ではない。<br></br>目的関数が異なるだけであり、緊急時・定型業務ではOSが適している。<br></br>詳細は <a href="docs/02_concept.html">Concept</a> を参照のこと。</p>
-</blockquote>
-<p><strong>このREADMEは案内である。仕様ではない。</strong></p>
-<hr></hr>
-<h2 id="ディレクトリ構造とレイヤの意味">ディレクトリ構造とレイヤの意味</h2>
-<p>HASは、明確に分離された4つのレイヤから構成される。<br></br><strong>この構造は設計意図であり、変更する場合はForkとして行うことを推奨する。</strong></p>
-<h3 id="レイヤ1-core-—-kernel（sealed）">レイヤ1: <code>core/</code> — Kernel（Sealed）</h3>
-<ul>
-<li>HAS v2.0 Final のみを配置</li>
-<li>存在論・憲法・禁忌を含む</li>
-<li><strong>Sealed（原則として変更不可）</strong> — 更新は重大な欠陥発見時のみ</li>
-</ul>
-<h3 id="レイヤ2-docs-—-思想＋安全仕様">レイヤ2: <code>docs/</code> — 思想＋安全仕様</h3>
-<ul>
-<li>Manifesto, Concept, Principles, Facilitator Pitfalls, Attunement Map, FAQ, Glossary</li>
-<li>Failure Modes（事故カタログ）</li>
-<li>Exit and Unsuitability（離脱の自由）</li>
-<li><strong>Kernelより更新しやすいが、慎重に行う</strong></li>
-<li>Doingを含まない（状態・制約・禁忌のみ）</li>
-</ul>
-<h3 id="レイヤ3-governance-—-運用手続き（kernelの外）">レイヤ3: <code>governance/</code> — 運用手続き（Kernelの外）</h3>
-<ul>
-<li>Protocols（Emergency Stop, Steward Judgment, Maintenance, PR）</li>
-<li>ADR（設計判断の記録）</li>
-<li><strong>Doingを含むが、HAS本体ではない</strong></li>
-<li>HASを壊さないための運用ガイド</li>
-</ul>
-<h3 id="レイヤ4-resources-—-道具箱">レイヤ4: <code>resources/</code> — 道具箱</h3>
-<ul>
-<li>Patterns（State / Techniques）</li>
-<li>Scenarios, Quick Reference</li>
-<li>実践・検索・発見のためのインターフェース</li>
-<li>増殖・派生を許容<br></br>（※「HAS準拠」を名乗る場合のみ、Kernelとの整合性が必須）</li>
-</ul>
-<hr></hr>
-<p><strong>設計意図:</strong> </p>
-<ul>
-<li>Protocolが「Doing」を含むのは、HASカーネル外だから許容される</li>
-<li>「HASはDoingを定義しない」は、Kernel/Docsレイヤのみに適用される</li>
-<li>この分離により、思想の純度と運用安全性が両立する</li>
-</ul>
-<p>詳細は <a href="governance/adr/HAS-ADR-002_separation_of_philosophy_and_practice.md">ADR-002: Separation of Philosophy and Practice</a> を参照。</p>
-<hr></hr>
-<h2 id="最短導線（状況別の入口）">最短導線（状況別の入口）</h2>
-<h3 id="初めての人">初めての人</h3>
-<p>→ <a href="docs/01_architecture_map.html">Architecture Map</a> で全体像を掴む<br></br>→ <a href="docs/00_manifesto.html">Manifesto</a> で価値観を理解<br></br>→ <a href="docs/06_faq.html">FAQ</a> で疑問を解消</p>
-<h3 id="実践したい人">実践したい人</h3>
-<p>→ <a href="docs/03_principle.html">Principles</a> で判断の優先軸を理解
-→ <a href="docs/05_facilitator_pitfalls.html">Facilitator Pitfalls</a> で陥りやすい落とし穴を把握<br></br>→ <a href="docs/04_attunement_map.html">Attunement Map</a> で位置の識別を理解<br></br>→ <a href="resources/patterns/state">Patterns P01-P04</a> で実践開始<br></br>→ <a href="docs/08_failure_modes.html">Failure Modes</a> で事故を予防</p>
-<h3 id="現場で詰まった人">現場で詰まった人</h3>
-<p>→ <a href="resources/quick_reference.html">Quick Reference</a> で即参照<br></br>→ <a href="docs/08_failure_modes.html">Failure Modes</a> で自己点検<br></br>→ <a href="governance/protocols/emergency_stop.html">Emergency Stop</a> で緊急対応</p>
-<h3 id="向いていないと感じた人">向いていないと感じた人</h3>
-<p>→ <a href="docs/09_exit_and_unsuitability.html">Exit and Unsuitability</a> で離脱を正当化<br></br>→ <a href="docs/06_faq.html">FAQ</a> で「向いていない状況」を確認<br></br>→ <strong>"If not now, forget it."</strong> — 今じゃないなら、無理に続けなくてよい</p>
-<hr></hr>
-<h2 id="hasとは何か？（思想の要約）">HASとは何か？（思想の要約）</h2>
-<p>HASは「正解を与える体系」ではない。<br></br><strong>状態を整え、選べるようにする体系</strong>である。</p>
-<ul>
-<li>人を救わず、人を導かず、人を完成させない</li>
-<li>ただ、人が壊れる関係だけを許さない</li>
-<li>そして、人が選べる時にのみ、その背中を見届ける</li>
-</ul>
-<hr></hr>
-<h2 id="has-review-experimental">HAS Review (Experimental)</h2>
-<p>「HAS的にどう？」を対話形式で確認できるレビュー用GPTを公開中。
-治療・診断・正解提示は行いません。判断の補助として使用を推奨。</p>
-<p>→ <a href="https://chatgpt.com/g/g-694204bd29c88191b08878fc417f8ea5-has-review-bot" target="_blank">HAS Review GPT</a></p>
-<hr></hr>
-<h2 id="名称使用とfork">名称使用とFork</h2>
-<p>HASの名称使用については、以下のプロトコルに従う。</p>
-<h3 id="基本方針">基本方針</h3>
-<ul>
-<li><strong>「HAS準拠」の使用は、プロトコルに基づき判定される</strong></li>
-<li><strong>派生（Fork）は自由だが、独自の名称を推奨する</strong></li>
-<li><strong>影響関係の明示（「HAS由来」等）は歓迎する</strong></li>
-</ul>
-<h3 id="詳細と判定手続き">詳細と判定手続き</h3>
-<p>名称使用の具体的なルールと判定プロセスは、以下のプロトコルで定義される。</p>
-<ul>
-<li><a href="governance/protocols/public_relations.html">Public Relations Protocol</a> — 広報・名称使用の作法</li>
-<li><a href="governance/protocols/steward_judgment.html">Steward Judgment Protocol</a> — 「HAS準拠」判定の手続き</li>
-</ul>
-<h3 id="ライセンス">ライセンス</h3>
-<p>（※実際のライセンスファイルへのリンクを設置予定）</p>
-<hr></hr>
-<h2 id="リンク整合性の確認">リンク整合性の確認</h2>
-<p>このREADMEのリンクが正しいか確認するには、以下を実行する。</p>
-<pre><code class="lang-bash"><span class="hljs-comment"># 例: markdown-link-check を使用</span>
-<span class="hljs-comment"># （実際の環境に応じて、package.json のスクリプトまたはCIで実行）</span>
-npx markdown-link-check README.md
-</code></pre>
-<p><strong>注意:</strong> README内に検証結果を記載すると、陳腐化により誤情報となる。<br></br>リンクチェックは実行可能なスクリプトまたはCIで担保すること。</p>
-<p>詳細は、リポジトリ設置後の <code>.github/workflows/</code> または <code>package.json</code> を参照のこと。</p>
-<hr></hr>
-<h2 id="contact--feedback">Contact &amp; Feedback</h2>
-<ul>
-<li><strong>Steward Contact:</strong> human.attunement<strong>at</strong>gmail.com</li>
-</ul>
-<hr></hr>
-<p><strong>"If not now, forget it."</strong><br></br>今、必要でなければ、忘れてよい。<br></br>必要になった時、また戻ればよい。</p>
 
                                 
                                 </section>
@@ -619,7 +535,7 @@ npx markdown-link-check README.md
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"HASとはなにか","level":"1.1","depth":1,"next":{"title":"Manifesto","level":"1.2","depth":1,"path":"docs/00_manifesto.md","ref":"docs/00_manifesto.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"README.md","mtime":"2025-12-20T14:18:58.046Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2025-12-20T14:18:58.697Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"HASとはなにか","level":"1.1","depth":1,"next":{"title":"Manifesto","level":"1.2","depth":1,"path":"docs/00_manifesto.md","ref":"docs/00_manifesto.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"README.md","mtime":"2025-12-20T14:39:24.774Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2025-12-20T14:39:25.479Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
