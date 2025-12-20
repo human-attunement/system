@@ -43,16 +43,36 @@ cp -aR "$ROOT/README.md" "$OUT/"
 # 必要に応じて増やす
 rewrite_file() {
   local f="$1"
-  # コードブロック内を避けたいなら本当はパーサが必要だが、
-  # まずは実害が出やすいリンクだけ機械置換でいく（運用でカバー）
-  perl -0777 -i -pe '
-    s!\(\.\./docs/!(docs/!g;
-    s!\(\.\./governance/!(governance/!g;
-    s!\(\.\./resources/!(resources/!g;
-    s!\(\./docs/!(docs/!g;
-    s!\(\./governance/!(governance/!g;
-    s!\(\./resources/!(resources/!g;
-  ' "$f"
+
+  # f は honkit/src 配下の .md を想定
+  # 例: /.../honkit/src/docs/foo.md
+  local rel="${f#*honkit/src/}"        # docs/foo.md のようにする（環境により調整してOK）
+  local dir
+  dir="$(dirname "$rel")"              # docs とか resources/patterns/state とか
+
+  # src ルートからの深さぶん ../ を作る
+  local depth=0
+  if [ "$dir" != "." ]; then
+    # "a/b/c" -> 3
+    depth=$(awk -F'/' '{print NF}' <<< "$dir")
+  fi
+
+  local prefix=""
+  for ((i=0; i<depth; i++)); do
+    prefix+="../"
+  done
+
+  # いったん docs/governance/resources を「book-root相対」とみなして prefix を付け直す
+  # - (./docs/xxx.md) も (../docs/xxx.md) も (docs/xxx.md) も全部そろえる
+  perl -0777 -i -pe "
+    s!\\((?:\\./|\\.\\./)+docs/!(${prefix}docs/!g;
+    s!\\((?:\\./|\\.\\./)+governance/!(${prefix}governance/!g;
+    s!\\((?:\\./|\\.\\./)+resources/!(${prefix}resources/!g;
+
+    s!\\(docs/!(${prefix}docs/!g;
+    s!\\(governance/!(${prefix}governance/!g;
+    s!\\(resources/!(${prefix}resources/!g;
+  " "$f"
 }
 
 export -f rewrite_file
