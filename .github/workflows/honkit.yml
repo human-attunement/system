@@ -32,7 +32,9 @@ jobs:
         run: |
           cd honkit
           honkit build
-
+      - name: Disable Jekyll
+        run: |
+          touch honkit/_book/.nojekyll
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
