@@ -1,2 +1,4 @@
 .DS_Store
-honkit-src/
+honkit/src
+honkit/_book
+honkit/node_modules
