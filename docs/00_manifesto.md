@@ -128,8 +128,8 @@ HASは、ただ、
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.2.01-11-g35639308-dirty
-- **Last Modified:** 2025-12-23
-- **Commit:** b34d8b4
+- **Repo Version:** v2.3.0-3-g75bc967b-dirty
+- **Last Modified:** 2025-12-24
+- **Commit:** 75bc967
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

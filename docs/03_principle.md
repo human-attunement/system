@@ -152,8 +152,8 @@ Doingの前にBeing。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.2.01-11-g35639308-dirty
+- **Repo Version:** v2.3.0-3-g75bc967b-dirty
 - **Last Modified:** 2025-12-23
-- **Commit:** b34d8b4
+- **Commit:** 511db7b
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
