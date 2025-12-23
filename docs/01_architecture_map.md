@@ -6,7 +6,8 @@ HAS Architecture Map
 > **State over Theory. / 正しさより、状態を。**
 
 HASはフレームワークでもメソッドでもない。  
-**人間の状態（State）が壊れ始めたときに、選択が引き受けられなくなる連鎖を遮断するためのセーフティーシステム**である。
+**関係の中で選択可能性が失われていく連鎖（自然落下）を遮断するためのセーフティーシステム**である。
+
 
 ---
 
@@ -50,7 +51,7 @@ HASを「うまく使う」ためではなく、
 - **仮動（けどう / Tentative Action）**: 試行しているが完遂を目的化していない
 - **乱れ（Disruption）**: 継続不能、戻りたい
 
-詳細：[Attunement Map](./04_attunement_map.md)
+詳細：[調律位置マップ](./04_attunement_map.md)
 
 #### HAS外条件
 以下の場合、HASの外にいる：
@@ -70,15 +71,15 @@ HASは組織を制御する **OS** ではない。
 - 理念と位置づけ  
   → [02_concept.md](./02_concept.md)
 
-HASは最適化しない。  
-**破壊を起こさないこと**だけを守る。
+HASは最適化しない。
+**選択可能性が失われていく連鎖を遮断すること**だけを扱う。
 
 ---
 
 ## 3. 3層構造（Layer Model）
 
 HASは明確な層構造を持つ。  
-順序が逆転すると必ず壊れる。
+順序が逆転すると必ず整合性が失われる。
 
 ### Layer A: Philosophy（思想）
 「なぜそれをやるのか」を固定する層。
@@ -95,22 +96,23 @@ HASは明確な層構造を持つ。
 #### B-1: 判断の優先軸（正の原則）
 判断が割れたときに、どちらを優先するかを定める。
 
-- Principles  
+- 判断優先原則  
   → [03_principle.md](./03_principle.md)
 
-#### B-2: 壊れやすいポイント（負のガードレール）
-陥りやすい構造と、事故の予防。
+#### B-2: 選択可能性を失いやすいポイント（負のガードレール）
 
-- Facilitator Pitfalls  
+陥りやすい構造と、連鎖が進む位置。
+
+- ファシリテーターの落とし穴  
   → [05_facilitator_pitfalls.md](./05_facilitator_pitfalls.md)
 
-- Failure Modes  
+- 運用事故カタログ  
   → [08_failure_modes.md](./08_failure_modes.md)
 
 #### B-3: 位置の識別
 自分がどこにいるかを誤解しないための地図。
 
-- Attunement Map  
+- 調律位置マップ  
   → [04_attunement_map.md](./04_attunement_map.md)
 
 > **重要:**  
@@ -232,8 +234,8 @@ HASが扱う「選択可能性の消失」の力学（PFA）は、個人の内�
 
 ## 7. Recovery by Design（戻りの設計）
 
-HASは「失敗しない設計」ではない。  
-**壊れたときに戻れる設計**である。
+HASは「失敗しない設計」ではない。
+**失敗しても、再び戻れる設計**である。
 
 - 乱れを検知したら進まない
 - 一段階戻る、または観察へ戻る
@@ -278,17 +280,17 @@ HAS 本体は「Doing」を定義しないが、運用には手続きが必要�
 ## 関連文書
 
 ### 思想と設計
-- [Manifesto](./00_manifesto.md) — HASの価値と姿勢
+- [HASマニフェスト](./00_manifesto.md) — HASの価値と姿勢
 - [Concept](./02_concept.md) — なぜ調律なのか
 
 ### 制約と判断
-- [Principles](./03_principle.md) — 判断の優先軸
-- [Attunement Map](./04_attunement_map.md) — 位置の識別
-- [Facilitator Pitfalls](./05_facilitator_pitfalls.md) — 陥りやすい落とし穴
+- [判断優先原則](./03_principle.md) — 判断の優先軸
+- [調律位置マップ](./04_attunement_map.md) — 位置の識別
+- [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md) — 陥りやすい落とし穴
 
 ### 実践と回復
 - [Patterns P01–P04](../resources/patterns/state/) — 状態遷移の構造
-- [Failure Modes](./08_failure_modes.md) — 典型的な事故パターン
+- [運用事故カタログ](./08_failure_modes.md) — 典型的な事故パターン
 - [Quick Reference](../resources/quick_reference.md) — 現場即参照用
 
 ---

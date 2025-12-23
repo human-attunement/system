@@ -1,4 +1,4 @@
-# HAS 調律位置図
+# HAS 調律位置マップ
 HAS Attunement Map
 ― 状態の位置を知るための地図 ―
 
@@ -14,7 +14,7 @@ HASにおいて重要なのは、
 
 - 進むことではなく
 - うまくやることでもなく
-- **壊れたときに、戻れること**
+- **選べる余地がなくなったときに、戻れること**
 
 この地図は、そのために置かれている。
 
@@ -27,7 +27,7 @@ HASにおいて重要なのは、
 この地図は、**状態（位置）のみ**を示す。
 
 状態間の移動や戻り方（遷移）は、  
-[Patterns](../resources/patterns/README.md) および [Failure Modes](../docs/08_failure_modes.md) に委ねられている。
+[Patterns](../resources/patterns/README.md) および [運用事故カタログ](../docs/08_failure_modes.md) に委ねられている。
 
 **これは、位置を知ることと、動くことを分離するためである。**
 
@@ -112,14 +112,14 @@ HAS外にいることは、失敗ではない。
 ### 判断保留（Suspended Judgment）
 
 この位置の目的は、良くすることではない。  
-**壊さないこと**だけである。
+**選択の余地が残っている位置に留まる**だけである。
 
 #### 内部定義
 
 観察の結果、起きていることや感じていることを、解釈前の“事実”として扱って受け取っているが、  
 その意味付けや解釈、次の行為に関する判断は宙吊りにされている状態。
 
-壊さないための介入の制限が起きている。
+選択の余地を奪わないため介入の制限が起きている。
 
 **哲学的には、エポケー（判断中止）に相当する状態。**
 
@@ -141,7 +141,7 @@ HAS外にいることは、失敗ではない。
 
 - 結果（良くなった／悪くなった）では判定しない  
 - 自己評価に使わない  
-- 「壊さなかった」という事後評価も不要
+- 事後評価も不要
 
 ---
 
@@ -254,7 +254,7 @@ HAS は、失敗しない体系ではない。
 
 遷移の方法は、以下を参照：
 - [Patterns P01–P04](../resources/patterns/state/)
-- [Failure Modes](./08_failure_modes.md)
+- [運用事故カタログ](./08_failure_modes.md)
 - [Emergency Stop Protocol](../governance/protocols/emergency_stop.md)
 
 ---
@@ -278,7 +278,7 @@ HAS は、失敗しない体系ではない。
 いま、私はどこにいるか？
 
 1. **何も介入していない** → 観察
-2. **壊さないよう抑えている** → 判断保留
+2. **介入しないよう抑えている** → 判断保留
 3. **進んでいるが完遂を目指していない** → 仮動
 4. **乱れており、戻りたい** → 乱れ
 
@@ -330,14 +330,14 @@ HAS において、目指すのは熟練（Mastery）ではない。
 ## 関連文書
 
 ### 遷移と循環について
-- [Architecture Map](./01_architecture_map.md) — HAS全体の構造
+- [全体設計図](./01_architecture_map.md) — HAS全体の構造
 - [Patterns P01–P04](../resources/patterns/state/) — 状態遷移の構造
 
 ### 位置の詳細について
 
-- [Principles](./03_principle.md) - 優先する判断の基準
-- [Facilitator Pitfalls](./05_facilitator_pitfalls.md) - 陥りやすい落とし穴
-- [Failure Modes](./08_failure_modes.md) — 乱れの典型
+- [判断優先原則](./03_principle.md) - 優先する判断の基準
+- [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md) - 陥りやすい落とし穴
+- [運用事故カタログ](./08_failure_modes.md) — 乱れの典型
 
 ### 緊急時の対応
 - [Emergency Stop Protocol](../governance/protocols/emergency_stop.md) — 緊急停止の手続き
@@ -345,7 +345,7 @@ HAS において、目指すのは熟練（Mastery）ではない。
 ---
 
 **この地図は、進むためのものではない。**  
-**壊さずに、居続けるためのものである。**
+**選択の余地を狭めずに、居続けるためのものである。**
 
 ---
 
