@@ -1,5 +1,5 @@
 # Facilitator Pitfalls
-**壊れやすいポイントの地図**
+**落とし穴の地図**
 
 Version: 2.0.0  
 Date: 2025-12-15  
@@ -14,7 +14,7 @@ Status: Active
 
 これは規範ではない。  
 守るべき原則でもない。  
-**壊れ方の地図**である。
+**選択の余地が失われていく過程の地図**である。
 
 ---
 
@@ -32,7 +32,7 @@ HASにおいて、ファシリテーターと場は分離できない。
 
 ---
 
-## 壊れやすいポイント
+## 陥りやすいポイント
 
 以下は、ファシリテーターが陥りやすい構造である。  
 これらに気づいたら、**観察（何もしない）に戻ることが適切**である。
@@ -129,7 +129,7 @@ P02の原則を再確認する。
 ## 関連文書
 
 - [Attunement Map](./04_attunement_map.md) — Level 0の詳細
-- [Failure Modes](./08_failure_modes.md) — 壊れ方のカタログ
+- [Failure Modes](./08_failure_modes.md) — 事故モード
 - [P01-P04 Patterns](../resources/patterns/state/) — 各パタンのFacilitator Self-Check
 - [HAS Kernel](../core/HAS_v2.0_Final.md) — 非介入の定義
 - [Emergency Stop Protocol](../governance/protocols/emergency_stop.md) — 緊急停止の判断基準
