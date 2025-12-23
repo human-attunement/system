@@ -1,9 +1,6 @@
-# Facilitator Pitfalls
-**落とし穴の地図**
+# ファシリテーターの落とし穴
+**Facilitator Pitfalls**
 
-Version: 2.0.0  
-Date: 2025-12-15  
-Status: Active
 
 ---
 
@@ -122,14 +119,14 @@ P02の原則を再確認する。
 責任放棄でもない。  
 **最も誠実な判断**である。
 
-観察について詳しくは：[Attunement Map](./04_attunement_map.md#観察（Observation）)
+観察について詳しくは：[調律位置マップ](./04_attunement_map.md#観察（Observation）)
 
 ---
 
 ## 関連文書
 
-- [Attunement Map](./04_attunement_map.md) — Level 0の詳細
-- [Failure Modes](./08_failure_modes.md) — 事故モード
+- [調律位置マップ](./04_attunement_map.md) — Level 0の詳細
+- [運用事故カタログ](./08_failure_modes.md) — 事故モード
 - [P01-P04 Patterns](../resources/patterns/state/) — 各パタンのFacilitator Self-Check
 - [HAS Kernel](../core/HAS_v2.0_Final.md) — 非介入の定義
 - [Emergency Stop Protocol](../governance/protocols/emergency_stop.md) — 緊急停止の判断基準

@@ -1,4 +1,4 @@
-# HAS 調律位置図
+# HAS 調律位置マップ
 HAS Attunement Map
 ― 状態の位置を知るための地図 ―
 
@@ -33,7 +33,7 @@ HASにおいて重要なのは、
 この地図は、**状態（位置）のみ**を示す。
 
 状態間の移動や戻り方（遷移）は、  
-[Patterns](../resources/patterns/README.md) および [Failure Modes](../docs/08_failure_modes.md) に委ねられている。
+[Patterns](../resources/patterns/README.md) および [運用事故カタログ](../docs/08_failure_modes.md) に委ねられている。
 
 **これは、位置を知ることと、動くことを分離するためである。**
 
@@ -260,7 +260,7 @@ HAS は、失敗しない体系ではない。
 
 遷移の方法は、以下を参照：
 - [Patterns P01–P04](../resources/patterns/state/)
-- [Failure Modes](./08_failure_modes.md)
+- [運用事故カタログ](./08_failure_modes.md)
 - [Emergency Stop Protocol](../governance/protocols/emergency_stop.md)
 
 ---
@@ -336,14 +336,14 @@ HAS において、目指すのは熟練（Mastery）ではない。
 ## 関連文書
 
 ### 遷移と循環について
-- [Architecture Map](./01_architecture_map.md) — HAS全体の構造
+- [全体設計図](./01_architecture_map.md) — HAS全体の構造
 - [Patterns P01–P04](../resources/patterns/state/) — 状態遷移の構造
 
 ### 位置の詳細について
 
-- [Principles](./03_principle.md) - 優先する判断の基準
-- [Facilitator Pitfalls](./05_facilitator_pitfalls.md) - 陥りやすい落とし穴
-- [Failure Modes](./08_failure_modes.md) — 乱れの典型
+- [判断優先原則](./03_principle.md) - 優先する判断の基準
+- [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md) - 陥りやすい落とし穴
+- [運用事故カタログ](./08_failure_modes.md) — 乱れの典型
 
 ### 緊急時の対応
 - [Emergency Stop Protocol](../governance/protocols/emergency_stop.md) — 緊急停止の手続き

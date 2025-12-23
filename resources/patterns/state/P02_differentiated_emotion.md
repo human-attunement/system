@@ -1,5 +1,5 @@
 # P02: 識別された感情
-Differentiated Emotion
+**Differentiated Emotion**
 
 **評価せず、決めず、区別されている状態**
 

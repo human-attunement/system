@@ -1,4 +1,5 @@
-# Concept: Why Attunement?
+# コンセプト: なぜ調律か？
+Concept: Why Attunement?
 **調律という選択の背景にあるもの**
 
 Version 1.0.0 | 2025-12-12
@@ -220,10 +221,10 @@ HASは:
 ---
 
 ## 関連文書
-- [Manifesto](./00_manifesto.md)(価値観)
-- [Principles](./03_principle.md)(判断の優先軸)
-- [Facilitator Pitfalls](./05_facilitator_pitfalls.md)(落とし穴)
-- [Patterns P01-P04](../resources/patterns/state/)(実践)
+- [HASマニフェスト](./00_manifesto.md)(価値観)
+- [判断優先原則](./03_principle.md)(判断の優先軸)
+- [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md)
+- [状態パターン P01-P04](../resources/patterns/state/)(実践)
 
 ---
 

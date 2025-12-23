@@ -348,7 +348,7 @@ HASが目的とするのは行動の変化ではなく、**状態の保持**で�
 - [HASマニフェスト（価値と覚悟）](./00_manifesto.md)  
 - [コンセプト（なぜ調律か）](./02_concept.md)  
 - [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md)  
-- [調律位置図](./04_attunement_map.md)  
+- [調律位置マップ](./04_attunement_map.md)  
 - Patterns  
   - [P01: 置かれた感情](../resources/patterns/state/P01_placed_emotion.md)  
   - [P02: 識別された感情](../resources/patterns/state/P02_differentiated_emotion.md)  

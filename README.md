@@ -63,20 +63,20 @@ HASは、明確に分離された4つのレイヤから構成される。
 ## 最短導線（状況別の入口）
 
 ### 初めての人
-→ [Architecture Map](./docs/01_architecture_map.md) で全体像を掴む  
-→ [Manifesto](./docs/00_manifesto.md) で価値観を理解  
+→ [全体設計図](./docs/01_architecture_map.md) で全体像を掴む  
+→ [HASマニフェスト](./docs/00_manifesto.md) で価値観を理解  
 → [FAQ](./docs/06_faq.md) で疑問を解消
 
 ### 実践したい人
-→ [Principles](./docs/03_principle.md) で判断の優先軸を理解
-→ [Facilitator Pitfalls](./docs/05_facilitator_pitfalls.md) で陥りやすい落とし穴を把握  
-→ [Attunement Map](./docs/04_attunement_map.md) で位置の識別を理解  
+→ [判断優先原則](./docs/03_principle.md) で判断の優先軸を理解
+→ [ファシリテーターの落とし穴](./docs/05_facilitator_pitfalls.md) で陥りやすい落とし穴を把握  
+→ [調律位置マップ](./docs/04_attunement_map.md) で位置の識別を理解  
 → [Patterns P01-P04](./resources/patterns/state/) で実践開始  
-→ [Failure Modes](./docs/08_failure_modes.md) で事故を予防
+→ [運用事故カタログ](./docs/08_failure_modes.md) で事故を予防
 
 ### 現場で詰まった人
 → [Quick Reference](./resources/quick_reference.md) で即参照  
-→ [Failure Modes](./docs/08_failure_modes.md) で自己点検  
+→ [運用事故カタログ](./docs/08_failure_modes.md) で自己点検  
 → [Emergency Stop](./governance/protocols/emergency_stop.md) で緊急対応
 
 ### 向いていないと感じた人
