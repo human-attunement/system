@@ -39,7 +39,37 @@ jobs:
           xargs -0 perl -0777 -i -pe '
             s!(</head>)!<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{\"token\":\"378b5380e98f41e6b068752c8e3d5255\"}"></script>\n$1!i
           '
-
+      - name: Inject GitHub source links
+        run: |
+          BASE_URL="https://github.com/human-attunement/system/blob/main"
+  
+          find honkit/_book -name "*.html" -print0 | \
+          xargs -0 perl -0777 -i -pe '
+            my $base = $ENV{BASE_URL};
+  
+            # _book/docs/foo.html -> docs/foo.md
+            my $path = $ARGV;
+            $path =~ s!.*/_book/!!;
+            $path =~ s!index\.html$!README.md!;
+            $path =~ s!\.html$!.md!;
+  
+            my $link = qq{
+              <div class="source-link" style="margin:2rem 0;padding-top:1rem;border-top:1px solid #eee;font-size:0.9em;color:#666">
+                <a href="$base/$path" target="_blank" rel="noopener">View source on GitHub</a>
+              </div>
+            };
+  
+            s!(</body>)!$link\n$1!i;
+          '
+      - name: Inject source link styles
+        run: |
+          find honkit/_book -name "*.html" -print0 | \
+          xargs -0 perl -0777 -i -pe '
+            s!(</head>)!<style>
+              .source-link a { color:#888; text-decoration:none; }
+              .source-link a:hover { text-decoration:underline; }
+            </style>\n$1!i;
+          '
       - name: Disable Jekyll
         run: |
           touch honkit/_book/.nojekyll

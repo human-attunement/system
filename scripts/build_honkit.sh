@@ -11,7 +11,7 @@ mkdir -p "$OUT"
 
 # 2) copy honkit control files (SUMMARY/README etc.)
 # ここはあなたの運用に合わせて。honkit/ を正としてコピー。
-cp -R "$ROOT/$SRC/README.md" "$OUT/"
+# cp -R "$ROOT/$SRC/README.md" "$OUT/"
 cp -R "$ROOT/$SRC/SUMMARY.md" "$OUT/"
 cp -aR "$ROOT/docs/07_glossary.md" "$OUT/GLOSSARY.md"
 # cp -R "$ROOT/honkit/book.json" "$OUT/"
@@ -23,7 +23,7 @@ mkdir -p $OUT
 cp -aR "$ROOT/docs" "$OUT/"
 cp -aR "$ROOT/governance" "$OUT/"
 cp -aR "$ROOT/resources" "$OUT/"
-# cp -aR "$ROOT/README.md" "$OUT/"
+cp -aR "$ROOT/README.md" "$OUT/"
 
 # rsync -a --delete \
 #   --exclude ".git/" \
