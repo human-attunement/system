@@ -1,11 +1,6 @@
 # HAS FAQ
 **よくある問いと、HASとしての答え**
 
-Version 1.1.1  
-2025-12-14
-
----
-
 ## はじめに
 
 HAS（Human Attunement System）は、  
@@ -358,8 +353,8 @@ HASが目的とするのは行動の変化ではなく、**状態の保持**で�
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.1.01-2-g2185b8b0-dirty
+- **Repo Version:** v2.2.00-9-g070b23f0-dirty
 - **Last Modified:** 2025-12-17
-- **Commit:** 2f3dfca
+- **Commit:** d2e03ba
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

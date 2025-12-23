@@ -1,11 +1,6 @@
 # Minimal Release & Versioning Procedure
 **HAS 文書リポジトリ運用手順（単独世話人向け）**
 
-Status: Active  
-Scope: HAS documentation repository
-
----
-
 ## この手順書の目的
 
 本手順書は、Human Attunement System（HAS）の文書群において、
@@ -185,8 +180,8 @@ Document Control には、以下の Git 由来の事実のみが入る。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.1.01-2-g2185b8b0-dirty
+- **Repo Version:** v2.2.00-9-g070b23f0-dirty
 - **Last Modified:** 2025-12-17
-- **Commit:** 2f3dfca
+- **Commit:** d2e03ba
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
