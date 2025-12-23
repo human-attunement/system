@@ -469,7 +469,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="has-調律位置図">HAS 調律位置図</h1>
+                                <h1 id="has-調律位置マップ">HAS 調律位置マップ</h1>
 <p>HAS Attunement Map
 ― 状態の位置を知るための地図 ―</p>
 <h2 id="この文書の位置づけ">この文書の位置づけ</h2>
@@ -479,14 +479,14 @@
 <ul>
 <li>進むことではなく</li>
 <li>うまくやることでもなく</li>
-<li><strong>壊れたときに、戻れること</strong></li>
+<li><strong>選べる余地がなくなったときに、戻れること</strong></li>
 </ul>
 <p>この地図は、そのために置かれている。</p>
 <hr></hr>
 <h2 id="基本原則">基本原則</h2>
 <h3 id="この地図が示すもの">この地図が示すもの</h3>
 <p>この地図は、<strong>状態（位置）のみ</strong>を示す。</p>
-<p>状態間の移動や戻り方（遷移）は、<br></br><a href="../resources/patterns/README.md">Patterns</a> および <a href="08_failure_modes.html">Failure Modes</a> に委ねられている。</p>
+<p>状態間の移動や戻り方（遷移）は、<br></br><a href="../resources/patterns/README.md">Patterns</a> および <a href="08_failure_modes.html">運用事故カタログ</a> に委ねられている。</p>
 <p><strong>これは、位置を知ることと、動くことを分離するためである。</strong></p>
 <h3 id="地図の読み方">地図の読み方</h3>
 <ul>
@@ -557,12 +557,12 @@ HASが成立する前提が満たされていない状態を指す。">HAS外条
 </ul>
 <hr></hr>
 <h3 id="判断保留（suspended-judgment）">判断保留（Suspended Judgment）</h3>
-<p>この位置の目的は、良くすることではない。<br></br><strong>壊さないこと</strong>だけである。</p>
+<p>この位置の目的は、良くすることではない。<br></br><strong>選択の余地が残っている位置に留まる</strong>だけである。</p>
 <h4 id="内部定義">内部定義</h4>
 <p><a href="../GLOSSARY.html#観察" class="glossary-term" title="観察（Observation）とは、
 刺激に対して生じつつある身体反応を、
 意味づけや感情名を与えずに認知している状態を指す。">観察</a>の結果、起きていることや感じていることを、解釈前の“事実”として扱って受け取っているが、<br></br>その意味付けや解釈、次の行為に関する判断は宙吊りにされている状態。</p>
-<p>壊さないための介入の制限が起きている。</p>
+<p>選択の余地を奪わないため介入の制限が起きている。</p>
 <p><strong>哲学的には、エポケー（判断中止）に相当する状態。</strong></p>
 <h4 id="この位置にいる兆候（signs）">この位置にいる兆候（Signs）</h4>
 <ul>
@@ -584,7 +584,7 @@ HASが成立する前提が満たされていない状態を指す。">HAS外条
 <ul>
 <li>結果（良くなった／悪くなった）では判定しない  </li>
 <li>自己評価に使わない  </li>
-<li>「壊さなかった」という事後評価も不要</li>
+<li>事後評価も不要</li>
 </ul>
 <hr></hr>
 <h3 id="仮動（けどう--tentative-action）">仮動（けどう / Tentative Action）</h3>
@@ -726,7 +726,7 @@ HASが成立する前提が満たされていない状態を指す。">HAS外条
 <p>遷移の方法は、以下を参照：</p>
 <ul>
 <li><a href="../resources/patterns/state">Patterns P01–P04</a></li>
-<li><a href="08_failure_modes.html">Failure Modes</a></li>
+<li><a href="08_failure_modes.html">運用事故カタログ</a></li>
 <li><a href="../governance/protocols/emergency_stop.html">Emergency Stop Protocol</a></li>
 </ul>
 <hr></hr>
@@ -749,7 +749,7 @@ HASが成立する前提が満たされていない状態を指す。">HAS外条
 <li><strong>何も介入していない</strong> →<a href="../GLOSSARY.html#観察" class="glossary-term" title="観察（Observation）とは、
 刺激に対して生じつつある身体反応を、
 意味づけや感情名を与えずに認知している状態を指す。">観察</a></li>
-<li><strong>壊さないよう抑えている</strong> →<a href="../GLOSSARY.html#判断保留" class="glossary-term" title="判断保留（Suspended Judgment）とは、
+<li><strong>介入しないよう抑えている</strong> →<a href="../GLOSSARY.html#判断保留" class="glossary-term" title="判断保留（Suspended Judgment）とは、
 起きていることや、身体・内面に生じている反応を、
 解釈前の「事実」として受け取っているが、
 その意味付けや解釈、次の行為に関する判断を宙吊りにしている状態を指す。">判断保留</a></li>
@@ -801,14 +801,14 @@ HASが成立する前提が満たされていない状態を指す。">HAS外条
 <h2 id="関連文書">関連文書</h2>
 <h3 id="遷移と循環について">遷移と循環について</h3>
 <ul>
-<li><a href="01_architecture_map.html">Architecture Map</a> — HAS全体の構造</li>
+<li><a href="01_architecture_map.html">全体設計図</a> — HAS全体の構造</li>
 <li><a href="../resources/patterns/state">Patterns P01–P04</a> — 状態遷移の構造</li>
 </ul>
 <h3 id="位置の詳細について">位置の詳細について</h3>
 <ul>
-<li><a href="03_principle.html">Principles</a> - 優先する判断の基準</li>
-<li><a href="05_facilitator_pitfalls.html">Facilitator Pitfalls</a> - 陥りやすい落とし穴</li>
-<li><a href="08_failure_modes.html">Failure Modes</a> —<a href="../GLOSSARY.html#乱れ" class="glossary-term" title="乱れ（Disruption）とは、
+<li><a href="03_principle.html">判断優先原則</a> - 優先する判断の基準</li>
+<li><a href="05_facilitator_pitfalls.html">ファシリテーターの落とし穴</a> - 陥りやすい落とし穴</li>
+<li><a href="08_failure_modes.html">運用事故カタログ</a> —<a href="../GLOSSARY.html#乱れ" class="glossary-term" title="乱れ（Disruption）とは、
 主体または場の関係が乱れており、継続が難しい状態を指す。">乱れ</a>の典型</li>
 </ul>
 <h3 id="緊急時の対応">緊急時の対応</h3>
@@ -816,7 +816,7 @@ HASが成立する前提が満たされていない状態を指す。">HAS外条
 <li><a href="../governance/protocols/emergency_stop.html">Emergency Stop Protocol</a> — 緊急停止の手続き</li>
 </ul>
 <hr></hr>
-<p><strong>この地図は、進むためのものではない。</strong><br></br><strong>壊さずに、居続けるためのものである。</strong></p>
+<p><strong>この地図は、進むためのものではない。</strong><br></br><strong>選択の余地を狭めずに、居続けるためのものである。</strong></p>
 <hr></hr>
 <!-- DOCCTRL:START -->
 <h2 id="document-control">Document Control</h2>
@@ -869,7 +869,7 @@ HASが成立する前提が満たされていない状態を指す。">HAS外条
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"位置（状態）の識別","level":"2.2","depth":1,"next":{"title":"判断の優先指針","level":"3.1","depth":1,"path":"docs/03_principle.md","ref":"docs/03_principle.md","articles":[]},"previous":{"title":"クイックリファレンス","level":"2.1","depth":1,"path":"resources/quick_reference.md","ref":"resources/quick_reference.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"docs/04_attunement_map.md","mtime":"2025-12-23T08:57:45.380Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2025-12-23T08:57:46.020Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"位置（状態）の識別","level":"2.2","depth":1,"next":{"title":"判断の優先指針","level":"3.1","depth":1,"path":"docs/03_principle.md","ref":"docs/03_principle.md","articles":[]},"previous":{"title":"クイックリファレンス","level":"2.1","depth":1,"path":"resources/quick_reference.md","ref":"resources/quick_reference.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"docs/04_attunement_map.md","mtime":"2025-12-23T12:38:50.419Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2025-12-23T12:38:51.045Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
