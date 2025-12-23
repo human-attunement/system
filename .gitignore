@@ -1,4 +1,5 @@
 .DS_Store
-honkit/src/
-honkit/_book/
-honkit/node_modules/
+honkit/src
+honkit/_book
+honkit/node_modules
+.tool-versions
