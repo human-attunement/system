@@ -120,7 +120,7 @@
 **起きやすく、起きると調律が崩れやすい行為**である。  
 気づけたら、戻ればいい。
 
-詳細な事故カタログ: [Facilitator Pitfalls](../docs/04_facilitator_pitfalls.md) / [Failure Modes](../docs/07_failure_modes.md)
+詳細な事故カタログ: [ファシリテーターの落とし穴](../docs/05_facilitator_pitfalls.md) / [運用事故カタログ](../docs/08_failure_modes.md)
 
 ---
 
