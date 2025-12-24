@@ -93,8 +93,8 @@ HASは、誰にでも向いているわけではない。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.3.1-5-g40ec3211-dirty
+- **Repo Version:** v2.3.2-3-g7f0fb839-dirty
 - **Last Modified:** 2025-12-24
-- **Commit:** 442b22f
+- **Commit:** 743a6ba
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
