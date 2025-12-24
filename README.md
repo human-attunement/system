@@ -1,7 +1,9 @@
 # Human Attunement System (HAS)
 > **Documentation & Resources**
 
-HASは、組織と個人を「管理(OS)」するのではなく、  
+**HASは、あり方そのものではなく、あり方が保たれるための最小限の仕掛け。**
+
+組織と個人を「管理(OS)」するのではなく、  
 **「調律(Attunement)」によって関係と状態を整える体系**である。
 
 > **OS (Operating System)**: 効率・最適化・管理を目的とする  
