@@ -2,10 +2,13 @@
 
 ## 初学者向け
 
+- [HASの生まれた背景](resources/has_roots.md)
 - [HASとはなにか](README.md)
 
+---
+
 - [HASの守るもの](docs/00_manifesto.md)
-- [なぜ調律（Attunement）か](docs/02_concept.md)
+- [なぜ調律か](docs/02_concept.md)
 - [全体像](docs/01_architecture_map.md)
 - [FAQ](docs/06_faq.md)
 
