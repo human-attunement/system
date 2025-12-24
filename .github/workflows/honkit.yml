@@ -73,9 +73,9 @@ jobs:
       - name: Disable Jekyll
         run: |
           touch honkit/_book/.nojekyll
-
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: honkit/_book
+          cname: docs.human-attunement.org
