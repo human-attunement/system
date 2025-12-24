@@ -279,9 +279,9 @@
         
         
     
-        <li class="chapter " data-level="5.1" data-path="../esources/patterns/README.md">
+        <li class="chapter " data-level="5.1" data-path="../resources/patterns/">
             
-                <span>
+                <a href="../resources/patterns/">
             
                     
                     パタンについて
@@ -293,7 +293,21 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="5.1.1" data-path="../resources/patterns/state/P01_placed_emotion.html">
+        <li class="chapter " data-level="5.1.1" data-path="../resources/patterns/state/state_patterns.html">
+            
+                <a href="../resources/patterns/state/state_patterns.html">
+            
+                    
+                    状態パタン
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1.1" data-path="../resources/patterns/state/P01_placed_emotion.html">
             
                 <a href="../resources/patterns/state/P01_placed_emotion.html">
             
@@ -306,7 +320,7 @@
             
         </li>
     
-        <li class="chapter " data-level="5.1.2" data-path="../resources/patterns/state/P02_differentiated_emotion.html">
+        <li class="chapter " data-level="5.1.1.2" data-path="../resources/patterns/state/P02_differentiated_emotion.html">
             
                 <a href="../resources/patterns/state/P02_differentiated_emotion.html">
             
@@ -319,7 +333,7 @@
             
         </li>
     
-        <li class="chapter " data-level="5.1.3" data-path="../resources/patterns/state/P03_fullness_of_silence.html">
+        <li class="chapter " data-level="5.1.1.3" data-path="../resources/patterns/state/P03_fullness_of_silence.html">
             
                 <a href="../resources/patterns/state/P03_fullness_of_silence.html">
             
@@ -332,7 +346,7 @@
             
         </li>
     
-        <li class="chapter " data-level="5.1.4" data-path="../resources/patterns/state/P04_establishment_of_ownership.html">
+        <li class="chapter " data-level="5.1.1.4" data-path="../resources/patterns/state/P04_establishment_of_ownership.html">
             
                 <a href="../resources/patterns/state/P04_establishment_of_ownership.html">
             
@@ -342,6 +356,11 @@
                 </a>
             
 
+            
+        </li>
+    
+
+            </ul>
             
         </li>
     
@@ -510,9 +529,34 @@
 <h2 id="基本原則">基本原則</h2>
 <h3 id="この地図が示すもの">この地図が示すもの</h3>
 <p>この地図は、<strong>状態（位置）のみ</strong>を示す。</p>
-<p>状態間の移動や戻り方（遷移）は、<br></br><a href="../resources/patterns/README.md">Patterns</a> および <a href="08_failure_modes.html">運用事故カタログ</a> に委ねられている。</p>
+<p>状態間の移動や戻り方（遷移）は、<br></br><a href="../resources/patterns/">Patterns</a> および <a href="08_failure_modes.html">運用事故カタログ</a> に委ねられている。</p>
 <p><strong>これは、位置を知ることと、動くことを分離するためである。</strong></p>
-<h3 id="地図の読み方">地図の読み方</h3>
+<p><img src="../assets/attunement_map.excalidraw.png" alt="調律位置マップ"></img></p>
+<pre><code>[HAS外]
+  └─(気づく)──────────────────────────▶ 観察
+
+観察
+  ├─(判断を保留する)──────────────────▶ 判断保留
+  ├─(衝動・不安が増幅)────────────────▶ 乱れ
+  └─(結論/完遂/介入固定)────────────▶ [HAS外]
+
+判断保留
+  ├─(試しに動く)────────────────────▶ 仮動
+  ├─(戻ると判断)────────────────────▶ 観察
+  ├─(耐えられなくなる)──────────────▶ 乱れ
+  └─(結論/完遂/介入固定)────────────▶ [HAS外]
+
+仮動
+  ├─(試行を終える)──────────────────▶ 観察
+  ├─(途中で止める)──────────────────▶ 判断保留
+  ├─(制御不能)────────────────────▶ 乱れ
+  └─(完遂目的化/操作化)────────────▶ [HAS外]
+
+乱れ
+  ├─(戻れると判断)──────────────────▶ 観察
+  ├─(一段階戻る)──────────────────▶ 判断保留
+  └─(操作・結論化)────────────────▶ [HAS外]
+</code></pre><h3 id="地図の読み方">地図の読み方</h3>
 <ul>
 <li>ここに示されるのは「段階」ではなく<strong>位置</strong>である  </li>
 <li>上下・優劣・到達順序は存在しない  </li>
@@ -845,9 +889,9 @@ HASが成立する前提が満たされていない状態を指す。">HAS外条
 <!-- DOCCTRL:START -->
 <h2 id="document-control">Document Control</h2>
 <ul>
-<li><strong>Repo Version:</strong> v2.3.1-5-g40ec3211-dirty</li>
+<li><strong>Repo Version:</strong> v2.3.2-3-g7f0fb839-dirty</li>
 <li><strong>Last Modified:</strong> 2025-12-24</li>
-<li><strong>Commit:</strong> 442b22f</li>
+<li><strong>Commit:</strong> 743a6ba</li>
 <li><strong>Author:</strong> Takeshi Kakeda<!-- DOCCTRL:END --></li>
 </ul>
 
@@ -893,7 +937,7 @@ HASが成立する前提が満たされていない状態を指す。">HAS外条
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"位置（状態）の識別","level":"3.2","depth":1,"next":{"title":"判断の優先指針","level":"4.1","depth":1,"path":"docs/03_principle.md","ref":"docs/03_principle.md","articles":[]},"previous":{"title":"クイックリファレンス","level":"3.1","depth":1,"path":"resources/quick_reference.md","ref":"resources/quick_reference.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"docs/04_attunement_map.md","mtime":"2025-12-24T05:54:13.972Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2025-12-24T05:54:14.598Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"位置（状態）の識別","level":"3.2","depth":1,"next":{"title":"判断の優先指針","level":"4.1","depth":1,"path":"docs/03_principle.md","ref":"docs/03_principle.md","articles":[]},"previous":{"title":"クイックリファレンス","level":"3.1","depth":1,"path":"resources/quick_reference.md","ref":"resources/quick_reference.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"docs/04_attunement_map.md","mtime":"2025-12-24T07:12:15.623Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2025-12-24T07:12:16.206Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
