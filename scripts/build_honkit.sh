@@ -20,6 +20,7 @@ cp -aR "$ROOT/docs/07_glossary.md" "$OUT/GLOSSARY.md"
 # 3) copy source docs into OUT keeping original structure
 #   - 必要な範囲だけ。最初は雑でOK。
 mkdir -p $OUT
+cp -aR "$ROOT/assets" "$OUT/"
 cp -aR "$ROOT/docs" "$OUT/"
 cp -aR "$ROOT/governance" "$OUT/"
 cp -aR "$ROOT/resources" "$OUT/"

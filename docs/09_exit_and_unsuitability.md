@@ -88,7 +88,7 @@ HASは、誰にでも向いているわけではない。
 - [Failure Mode E (完璧主義ループ)](./08_failure_modes.md#failure-mode-e-完璧主義ループ自己監視の宗教化)
 - [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md)
 - [PR Protocol](../governance/protocols/public_relations.md)
-- [FAQ](./06_faq.md.md)
+- [FAQ](./06_faq.md)
 ---
 
 <!-- DOCCTRL:START -->

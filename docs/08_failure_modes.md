@@ -117,7 +117,7 @@ P03は「沈黙をカウントするな」を原則とする。
 - **判定プロセスの公開:** 「なぜそう判断したか」のログを残す
 - **異議申し立ての受理:** 合意不能なら判定を保留する
 - **Steward自身の再帰的監査:** 「私の判定は恣意的ではないか？」
-- **governance/protocols/steward_judgment.mdを参照**
+- **[Steward Judgmentl](../governance/protocols/steward_judgment.md)を参照**
 
 ---
 
