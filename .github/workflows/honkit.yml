@@ -37,7 +37,7 @@ jobs:
         run: |
           find honkit/_book -name "*.html" -print0 | \
           xargs -0 perl -0777 -i -pe '
-            s!(</head>)!<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{\"token\":\"378b5380e98f41e6b068752c8e3d5255\"}"></script>\n$1!i
+            s!(</head>)!<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\":\"378b5380e98f41e6b068752c8e3d5255\"}'></script>\n$1!i
           '
       - name: Inject GitHub source links
         env:
