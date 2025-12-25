@@ -180,8 +180,8 @@ Document Control には、以下の Git 由来の事実のみが入る。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.3.4-1-gd74a9abe-dirty
+- **Repo Version:** v2.3.5-9-g94b61563-dirty
 - **Last Modified:** 2025-12-24
-- **Commit:** 2706805
+- **Commit:** 43250bd
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

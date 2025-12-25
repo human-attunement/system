@@ -136,8 +136,8 @@ HASは、ただ、
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.3.4-1-gd74a9abe-dirty
-- **Last Modified:** 2025-12-24
-- **Commit:** 2706805
+- **Repo Version:** v2.3.5-9-g94b61563-dirty
+- **Last Modified:** 2025-12-25
+- **Commit:** a087a5f
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
