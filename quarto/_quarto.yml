@@ -1,0 +1,16 @@
+project:
+  type: default
+  output-dir: ./_output
+  resources:
+    - ../assets
+  preview:
+    port: 4200
+    browser: false
+
+format:
+  pdf:
+    pdf-engine: lualatex
+    documentclass: article
+    mainfont: "Noto Sans CJK JP"
+    include-in-header:
+      - file: header.tex
