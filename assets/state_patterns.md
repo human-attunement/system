@@ -17,7 +17,7 @@ P02
 識別された感情 ^bmI2AyAt
 
 P03
-沈黙の充満 ^1CB1IVVp
+不快への滞留 ^1CB1IVVp
 
 P04
 引受の成立 ^aZcuwnlt
