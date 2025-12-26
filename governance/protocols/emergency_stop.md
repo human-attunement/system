@@ -165,8 +165,8 @@ P03（不快への滞留）では、沈黙の時間をカウントすること�
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.3.5-9-g94b61563-dirty
-- **Last Modified:** 2025-12-24
-- **Commit:** 43250bd
+- **Repo Version:** v2.4.0-9-g2eed6b2b-dirty
+- **Last Modified:** 2025-12-26
+- **Commit:** 2eed6b2
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
