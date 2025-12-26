@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gitbook-plugin-mermaid-newface": "^4.1.0",
+    "honkit": "^6.1.4"
+  },
+  "scripts": {
+    "build": "npx honkit build"
+  }
+}

@@ -32,6 +32,7 @@
     - [状態パタン02 識別された感情](resources/patterns/state/P02_differentiated_emotion.md)
     - [状態パタン03 沈黙の充満](resources/patterns/state/P03_fullness_of_silence.md)
     - [状態パタン04 引受の成立](resources/patterns/state/P04_establishment_of_ownership.md)
+- [器官と意志の位置関係](resources/notes/organ_will_place.md)
 - [用語集](GLOSSARY.md)
 
 ---

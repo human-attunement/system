@@ -20,18 +20,20 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install Honkit
-        run: npm install -g honkit
-
       - name: Generate honkit/src from source docs
         run: |
           chmod +x scripts/build_honkit.sh
           ./scripts/build_honkit.sh
 
+      - name: Install dependencies
+        run: |
+          cd honkit
+          npm ci
+
       - name: Build HTML
         run: |
           cd honkit
-          honkit build
+          npx honkit build
 
       - name: Inject Cloudflare Analytics
         run: |

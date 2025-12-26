@@ -1,3 +1,9 @@
 {
-  "root": "./src"
+  "root": "./src",
+  "plugins": ["mermaid-newface"],
+  "pluginsConfig": {
+    "mermaid-newface": {
+      "theme": "default"
+    }
+  }
 }
