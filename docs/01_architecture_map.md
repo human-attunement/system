@@ -31,7 +31,7 @@ HASはフレームワークでもメソッドでもない。
 
 - **P02 識別された感情（Distinguish）** → [P02_differentiated_emotion.md](../resources/patterns/state/P02_differentiated_emotion.md)
 
-- **P03 不快への滞留（Hold）** → [P03_lingering_toward_discomfort](../resources/patterns/state/P03_lingering_toward_discomfort)
+- **P03 不快への滞留（Hold）** → [P03_lingering_toward_discomfort.md](../resources/patterns/state/P03_lingering_toward_discomfort.md)
 
 - **P04 引受の成立（Own）** → [P04_establishment_of_ownership.md](../resources/patterns/state/P04_establishment_of_ownership.md)
 

@@ -411,7 +411,7 @@ HASは方法論ではなく、状態の位置を見失わないための仕掛�
 - Patterns  
   - [P01: 置かれた感情](../resources/patterns/state/P01_placed_emotion.md)  
   - [P02: 識別された感情](../resources/patterns/state/P02_differentiated_emotion.md)  
-  - [P03: 不快への滞留](../resources/patterns/state/P03_lingering_toward_discomfort)  
+  - [P03: 不快への滞留](../resources/patterns/state/P03_lingering_toward_discomfort.md)  
   - [P04: 引受の成立](../resources/patterns/state/P04_establishment_of_ownership.md)
 ---
 
