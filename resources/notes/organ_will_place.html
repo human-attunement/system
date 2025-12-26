@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>パタンについて · HonKit</title>
+        <title>器官と意志の位置関係 · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 6.1.4">
@@ -56,10 +56,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="state/state_patterns.html" />
+    <link rel="next" href="../../GLOSSARY.html" />
     
     
-    <link rel="prev" href="../../docs/09_exit_and_unsuitability.html" />
+    <link rel="prev" href="../patterns/state/P04_establishment_of_ownership.html" />
     
 
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"378b5380e98f41e6b068752c8e3d5255"}'></script>
@@ -279,9 +279,9 @@
         
         
     
-        <li class="chapter active" data-level="5.1" data-path="./">
+        <li class="chapter " data-level="5.1" data-path="../patterns/">
             
-                <a href="./">
+                <a href="../patterns/">
             
                     
                     パタンについて
@@ -293,9 +293,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="5.1.1" data-path="state/state_patterns.html">
+        <li class="chapter " data-level="5.1.1" data-path="../patterns/state/state_patterns.html">
             
-                <a href="state/state_patterns.html">
+                <a href="../patterns/state/state_patterns.html">
             
                     
                     状態パタン
@@ -307,9 +307,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="5.1.1.1" data-path="state/P01_placed_emotion.html">
+        <li class="chapter " data-level="5.1.1.1" data-path="../patterns/state/P01_placed_emotion.html">
             
-                <a href="state/P01_placed_emotion.html">
+                <a href="../patterns/state/P01_placed_emotion.html">
             
                     
                     状態パタン01 置かれた感情
@@ -320,9 +320,9 @@
             
         </li>
     
-        <li class="chapter " data-level="5.1.1.2" data-path="state/P02_differentiated_emotion.html">
+        <li class="chapter " data-level="5.1.1.2" data-path="../patterns/state/P02_differentiated_emotion.html">
             
-                <a href="state/P02_differentiated_emotion.html">
+                <a href="../patterns/state/P02_differentiated_emotion.html">
             
                     
                     状態パタン02 識別された感情
@@ -333,9 +333,9 @@
             
         </li>
     
-        <li class="chapter " data-level="5.1.1.3" data-path="state/P03_fullness_of_silence.html">
+        <li class="chapter " data-level="5.1.1.3" data-path="../patterns/state/P03_fullness_of_silence.html">
             
-                <a href="state/P03_fullness_of_silence.html">
+                <a href="../patterns/state/P03_fullness_of_silence.html">
             
                     
                     状態パタン03 沈黙の充満
@@ -346,9 +346,9 @@
             
         </li>
     
-        <li class="chapter " data-level="5.1.1.4" data-path="state/P04_establishment_of_ownership.html">
+        <li class="chapter " data-level="5.1.1.4" data-path="../patterns/state/P04_establishment_of_ownership.html">
             
-                <a href="state/P04_establishment_of_ownership.html">
+                <a href="../patterns/state/P04_establishment_of_ownership.html">
             
                     
                     状態パタン04 引受の成立
@@ -369,9 +369,9 @@
             
         </li>
     
-        <li class="chapter " data-level="5.2" data-path="../notes/organ_will_place.html">
+        <li class="chapter active" data-level="5.2" data-path="organ_will_place.html">
             
-                <a href="../notes/organ_will_place.html">
+                <a href="organ_will_place.html">
             
                     
                     器官と意志の位置関係
@@ -510,7 +510,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >パタンについて</a>
+        <a href="../.." >器官と意志の位置関係</a>
     </h1>
 </div>
 
@@ -525,75 +525,184 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="has-patterns-structure">HAS Patterns Structure</h1>
-<p>このディレクトリには、HASの実践において参照される<br></br><strong>性質の異なる二種類のパタン</strong>が格納されています。</p>
-<p>両者は目的・優先順位・安全性が根本的に異なります。<br></br><strong>混同してはなりません。</strong></p>
-<hr></hr>
-<h2 id="1-state-patterns（状態パタン）">1. State Patterns（状態パタン）</h2>
+                                <h1 id="器官と位置に関しての図解">器官と位置に関しての図解</h1>
+<h2 id="共通">共通</h2>
+<pre><code class="lang-mermaid">flowchart TB
+    E[外的条件]
+    O[内在器官<br></br>自己調節]
+    A[行動として現れる振る舞い]
+
+    E --&gt; O
+    O --&gt; A
+</code></pre>
+<h2 id="調整">調整</h2>
+<pre><code class="lang-mermaid">flowchart TB
+    E[外的条件]
+    O[内在器官]
+    A[行動]
+    W[意志<br></br>外部修正]
+
+    E --&gt; O --&gt; A
+    W --&gt; A
+</code></pre>
 <ul>
-<li><strong>Directory:</strong> <a href="state"><code>state/</code></a></li>
-<li><strong>ID Prefix:</strong> <code>Pxx_</code>（例: <code>P01_acceptance.md</code>）</li>
-<li><strong>Nature:</strong> 定義 / 存在論 / 状態記述</li>
+<li>器官はそのまま</li>
+<li>行動だけが書き換えられる</li>
+<li>反応と行動が乖離</li>
 </ul>
-<h3 id="説明">説明</h3>
-<p>State Patterns は、HASが成立している「場の状態」を定義するものです<br></br>（P01–P04）。</p>
-<p>これらは以下を<strong>一切含みません</strong>。</p>
+<h2 id="適応">適応</h2>
+<p>意志が介在しない。</p>
+<pre><code class="lang-mermaid">flowchart TB
+    E[外的条件]
+    O[内在器官<br></br>自動反応]
+    A[反応行動]
+
+    E --&gt; O --&gt; A
+</code></pre>
 <ul>
-<li>行為の指示</li>
-<li>手順</li>
-<li>改善方法</li>
-<li>実践テクニック</li>
+<li>器官＝行動</li>
+<li>選択の余地なし</li>
+<li>生存には強いが主権はない</li>
 </ul>
-<p>State Pattern が示すのは、</p>
-<blockquote>
-<p><strong>「今、この関係は壊れていないか」<br></br>「選択可能性は保たれているか」</strong></p>
-</blockquote>
-<p>という <strong>状態の識別基準</strong>のみです。</p>
-<p>State Patterns は <a href="../../GLOSSARY.html#has-kernel" class="glossary-term" title="「HAS v2.0 Final」のことを指す。">HAS Kernel</a> と直結しており、<br></br>原則として変更・拡張されません。</p>
-<hr></hr>
-<h2 id="2-technique-patterns（技術パタン）">2. Technique Patterns（技術パタン）</h2>
+<h2 id="適合">適合</h2>
+<p>意志が反応を正当化。</p>
+<pre><code class="lang-mermaid">flowchart TB
+    E[外的条件]
+    O[内在器官<br></br>免疫反応]
+    A[排除/同調行動]
+    W[意志<br></br>正当化]
+
+    E --&gt; O --&gt; A
+    W --&gt; O
+</code></pre>
 <ul>
-<li><strong>Directory:</strong> <a href="techniques"><code>techniques/</code></a></li>
-<li><strong>ID Prefix:</strong> <code>Txx_</code>（例: <code>T01_grounding.md</code>）</li>
-<li><strong>Nature:</strong> 提案 / 任意 / 補助的手段</li>
+<li>意志が反応側（免疫反応）につく</li>
+<li>反応が「正しい行動」に昇格する</li>
+<li>固着が起きやすい</li>
 </ul>
-<h3 id="説明">説明</h3>
-<p>Technique Patterns は、特定の状況において<br></br><strong>役に立つ可能性があるかもしれない行為の提案</strong>です。</p>
-<p>以下を理解した上でのみ参照されます。</p>
+<h2 id="即興">即興</h2>
+<pre><code class="lang-mermaid">flowchart TB
+    E[外的条件]
+    O[内在器官]
+    A[即時行動]
+    W[意志<br></br>手放し]
+
+    E --&gt; O --&gt; A
+    W -.-&gt; O
+</code></pre>
 <ul>
-<li>使用は義務ではない</li>
-<li>使わなくても HAS は成立する</li>
-<li>効果は保証されない</li>
+<li>意志が制御を放棄</li>
+<li>創発も暴走も起き得る</li>
+<li>境界は不安定</li>
 </ul>
-<p>Technique は常に <strong>Doing</strong> に傾きやすく、<br></br>誤用すると容易に「<a href="../../GLOSSARY.html#操作" class="glossary-term" title="操作（Manipulation）とは、
+<h2 id="調律">調律</h2>
+<p>意志が「間」に留まる。</p>
+<pre><code class="lang-mermaid">flowchart TB
+    E[外的条件]
+    O[内在器官]
+    A[選択された行動]
+    W[意志<br></br>余地保持]
+
+    E --&gt; O --&gt; A
+    W --- O
+    W --- A
+</code></pre>
+<ul>
+<li>意志はどこも<a href="../../GLOSSARY.html#操作" class="glossary-term" title="操作（Manipulation）とは、
 相手（または自己）に
-特定の状態・選択・変化を期待して関与することである。">操作</a>」へと変質します。</p>
-<hr></hr>
-<h2 id="priority-rule（優先順位規則）">Priority Rule（優先順位規則）</h2>
-<p>HAS における優先順位は、常に以下の通りです。</p>
-<p><a href="../../GLOSSARY.html#has-kernel" class="glossary-term" title="「HAS v2.0 Final」のことを指す。">HAS Kernel</a></p>
-<blockquote>
-<p>State Patterns (Pxx)</p>
-<blockquote>
-<p>Technique Patterns (Txx)</p>
-</blockquote>
-</blockquote>
-<p>Technique Patterns は、<br></br>State Patterns および Kernel の <strong>下位</strong> に位置します。</p>
-<hr></hr>
-<h2 id="the-override-clause（上書き禁止条項）">The Override Clause（上書き禁止条項）</h2>
-<p>いかなる Technique（Txx）も、<br></br><a href="../../GLOSSARY.html#has-kernel" class="glossary-term" title="「HAS v2.0 Final」のことを指す。">HAS Kernel</a>（憲法・禁忌・選択可能性原則）に<br></br><strong>優先してはなりません。</strong></p>
-<p>以下のいずれかが生じた場合、その Technique は即時停止されます。</p>
-<ul>
-<li><a href="../../GLOSSARY.html#操作" class="glossary-term" title="操作（Manipulation）とは、
-相手（または自己）に
-特定の状態・選択・変化を期待して関与することである。">操作</a>している感覚が生じた</li>
-<li>相手の選択肢が狭まった</li>
-<li>誘導・正解探し・安心させる義務感が発生した</li>
+特定の状態・選択・変化を期待して関与することである。">操作</a>しない</li>
+<li>反応と行動の間に「間」を作る</li>
+<li>反応 ≠ 行動 が可能になる</li>
 </ul>
-<blockquote>
-<p><strong>HAS において、<br></br>Core に違反するテクニックは<br></br>その効果に関わらず「欠陥（Bug）」とみなされます。</strong></p>
-</blockquote>
-<p>State を無視して Technique を適用することは、<br></br>HAS の使用ではありません。</p>
+<h2 id="状態">状態</h2>
+<table>
+<thead>
+<tr>
+<th>観点</th>
+<th>調整</th>
+<th>適応</th>
+<th>適合</th>
+<th>即興</th>
+<th><a href="../../GLOSSARY.html#調律" class="glossary-term" title="調律（Attunement）とは、
+相手（または自己）を変えず、
+理解・同意・調整を行わないまま、
+関係の分離が起きない関与を保つ在り方である。">調律</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>器官</strong></td>
+<td>使わない</td>
+<td>作動する（生理反射）</td>
+<td>作動する（免疫反応）</td>
+<td>作動する（衝動・表現）</td>
+<td>作動する（自己調節）</td>
+</tr>
+<tr>
+<td><strong>意志の有無</strong></td>
+<td>あり</td>
+<td>なし</td>
+<td>あり</td>
+<td>あり</td>
+<td>あり</td>
+</tr>
+<tr>
+<td><strong>意志の位置</strong></td>
+<td>外部<a href="../../GLOSSARY.html#操作" class="glossary-term" title="操作（Manipulation）とは、
+相手（または自己）に
+特定の状態・選択・変化を期待して関与することである。">操作</a>（行動・条件）</td>
+<td>不在</td>
+<td>正当化（規範付与）</td>
+<td>手放し</td>
+<td>間に留まる</td>
+</tr>
+<tr>
+<td><strong>反応の性質</strong></td>
+<td>反応を無視</td>
+<td>自動・閉</td>
+<td>自動＋固定</td>
+<td>自発・開</td>
+<td>感知のみ</td>
+</tr>
+<tr>
+<td><strong>選択の有無</strong></td>
+<td>反応外で選択</td>
+<td>なし</td>
+<td>疑似的（正しさ依存）</td>
+<td>あり</td>
+<td>あり</td>
+</tr>
+<tr>
+<td><strong>停止可能性</strong></td>
+<td>高い</td>
+<td>ない</td>
+<td>低い</td>
+<td>あるが選ばない</td>
+<td>ある</td>
+</tr>
+<tr>
+<td><strong>境界の扱い</strong></td>
+<td>外部ルール</td>
+<td>生理的</td>
+<td>規範的</td>
+<td>不安定</td>
+<td>構造的に保持</td>
+</tr>
+<tr>
+<td><strong>典型的な破綻</strong></td>
+<td>火消し依存</td>
+<td>摩耗</td>
+<td>排除・硬直</td>
+<td>暴走</td>
+<td>宙づり</td>
+</tr>
+</tbody>
+</table>
+<p>適応   : 意志なし
+即興   : 意志あり（流れる）<a href="../../GLOSSARY.html#調律" class="glossary-term" title="調律（Attunement）とは、
+相手（または自己）を変えず、
+理解・同意・調整を行わないまま、
+関係の分離が起きない関与を保つ在り方である。">調律</a>: 意志あり（留まる）</p>
 
                                 
                                 </section>
@@ -621,12 +730,12 @@
 
             
                 
-                <a href="../../docs/09_exit_and_unsuitability.html" class="navigation navigation-prev " aria-label="Previous page: 使わない判断">
+                <a href="../patterns/state/P04_establishment_of_ownership.html" class="navigation navigation-prev " aria-label="Previous page: 状態パタン04 引受の成立">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="state/state_patterns.html" class="navigation navigation-next " aria-label="Next page: 状態パタン">
+                <a href="../../GLOSSARY.html" class="navigation navigation-next " aria-label="Next page: 用語集">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -637,7 +746,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"パタンについて","level":"5.1","depth":1,"next":{"title":"状態パタン","level":"5.1.1","depth":2,"path":"resources/patterns/state/state_patterns.md","ref":"resources/patterns/state/state_patterns.md","articles":[{"title":"状態パタン01 置かれた感情","level":"5.1.1.1","depth":3,"path":"resources/patterns/state/P01_placed_emotion.md","ref":"resources/patterns/state/P01_placed_emotion.md","articles":[]},{"title":"状態パタン02 識別された感情","level":"5.1.1.2","depth":3,"path":"resources/patterns/state/P02_differentiated_emotion.md","ref":"resources/patterns/state/P02_differentiated_emotion.md","articles":[]},{"title":"状態パタン03 沈黙の充満","level":"5.1.1.3","depth":3,"path":"resources/patterns/state/P03_fullness_of_silence.md","ref":"resources/patterns/state/P03_fullness_of_silence.md","articles":[]},{"title":"状態パタン04 引受の成立","level":"5.1.1.4","depth":3,"path":"resources/patterns/state/P04_establishment_of_ownership.md","ref":"resources/patterns/state/P04_establishment_of_ownership.md","articles":[]}]},"previous":{"title":"使わない判断","level":"4.4","depth":1,"path":"docs/09_exit_and_unsuitability.md","ref":"docs/09_exit_and_unsuitability.md","articles":[]},"articles":[{"title":"状態パタン","level":"5.1.1","depth":2,"path":"resources/patterns/state/state_patterns.md","ref":"resources/patterns/state/state_patterns.md","articles":[{"title":"状態パタン01 置かれた感情","level":"5.1.1.1","depth":3,"path":"resources/patterns/state/P01_placed_emotion.md","ref":"resources/patterns/state/P01_placed_emotion.md","articles":[]},{"title":"状態パタン02 識別された感情","level":"5.1.1.2","depth":3,"path":"resources/patterns/state/P02_differentiated_emotion.md","ref":"resources/patterns/state/P02_differentiated_emotion.md","articles":[]},{"title":"状態パタン03 沈黙の充満","level":"5.1.1.3","depth":3,"path":"resources/patterns/state/P03_fullness_of_silence.md","ref":"resources/patterns/state/P03_fullness_of_silence.md","articles":[]},{"title":"状態パタン04 引受の成立","level":"5.1.1.4","depth":3,"path":"resources/patterns/state/P04_establishment_of_ownership.md","ref":"resources/patterns/state/P04_establishment_of_ownership.md","articles":[]}]}],"dir":"ltr"},"config":{"plugins":["mermaid-newface"],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"mermaid-newface":{"theme":"default"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"resources/patterns/README.md","mtime":"2025-12-26T01:51:37.738Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2025-12-26T01:51:48.551Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"器官と意志の位置関係","level":"5.2","depth":1,"next":{"title":"用語集","level":"5.3","depth":1,"path":"GLOSSARY.md","ref":"GLOSSARY.md","articles":[]},"previous":{"title":"状態パタン04 引受の成立","level":"5.1.1.4","depth":3,"path":"resources/patterns/state/P04_establishment_of_ownership.md","ref":"resources/patterns/state/P04_establishment_of_ownership.md","articles":[]},"dir":"ltr"},"config":{"plugins":["mermaid-newface"],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"mermaid-newface":{"theme":"default"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"resources/notes/organ_will_place.md","mtime":"2025-12-26T01:51:37.793Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2025-12-26T01:51:48.551Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
@@ -713,7 +822,7 @@
 
     
     <div class="source-link" style="margin:2rem 0;padding-top:1rem;border-top:1px solid #eee;font-size:0.9em;color:#666">
-      <a href="https://github.com/human-attunement/system/blob/main/resources/patterns/README.md" target="_blank" rel="noopener">View source on GitHub</a>
+      <a href="https://github.com/human-attunement/system/blob/main/resources/notes/organ_will_place.md" target="_blank" rel="noopener">View source on GitHub</a>
     </div>
   
 </body>
