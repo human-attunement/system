@@ -7,7 +7,8 @@
     "build:honkit": "bash scripts/build_honkit.sh",
     "release": "bash scripts/release.sh",
     "tag:at": "bash scripts/tag_at.sh",
-    "render:mermaid": "bash scripts/render-mermaid.sh"
+    "render:mermaid:svg": "MERMAID_CONFIG=./mermaid-config.json MERMAID_FORMAT=svg ./scripts/render-mermaid.sh",
+    "render:mermaid:png": "MERMAID_CONFIG=./mermaid-config.json MERMAID_FORMAT=png MERMAID_WIDTH=1200 ./scripts/render-mermaid.sh"
   },
   "repository": {
     "type": "git"
@@ -20,6 +21,7 @@
   "author": "",
   "license": "SEE LICENSE IN REPOSITORY",
   "devDependencies": {
-    "@mermaid-js/mermaid-cli": "^10.9.0"
+    "@mermaid-js/mermaid-cli": "^10.9.0",
+    "playwright": "^1.57.0"
   }
 }
