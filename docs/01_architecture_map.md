@@ -307,8 +307,8 @@ HAS 本体は「Doing」を定義しないが、運用には手続きが必要�
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.4.0-9-g2eed6b2b-dirty
+- **Repo Version:** v2.4.1-2-gf2580b2d-dirty
 - **Last Modified:** 2025-12-26
-- **Commit:** 2eed6b2
+- **Commit:** 147ea16
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

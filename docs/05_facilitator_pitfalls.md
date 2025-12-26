@@ -135,8 +135,8 @@ P02の原則を再確認する。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.4.0-9-g2eed6b2b
+- **Repo Version:** v2.4.1-2-gf2580b2d
 - **Last Modified:** 2025-12-26
-- **Commit:** 06a3c8e
+- **Commit:** dcd7700
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
