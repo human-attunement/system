@@ -14,6 +14,8 @@ flowchart TB
 
 ## 調整
 
+![調整の位置関係](../../assets/organ_will_placement/adjustment.excalidraw.svg)
+
 ```mermaid
 flowchart TB
     E[外的条件]
@@ -33,6 +35,8 @@ flowchart TB
 
 意志が介在しない。
 
+![適応の位置関係](../../assets/organ_will_placement/adaptation.excalidraw.svg)
+
 ```mermaid
 flowchart TB
     E[外的条件]
@@ -51,6 +55,8 @@ flowchart TB
 
 意志が反応を正当化。
 
+![適合の位置関係](../../assets/organ_will_placement/alignment.excalidraw.svg)
+
 ```mermaid
 flowchart TB
     E[外的条件]
@@ -67,6 +73,9 @@ flowchart TB
 - 固着が起きやすい
 
 ## 即興
+
+![即興の位置関係](../../assets/organ_will_placement/improvisation.excalidraw.svg)
+
 
 ```mermaid
 flowchart TB
@@ -86,6 +95,9 @@ flowchart TB
 ## 調律
 
 意志が「間」に留まる。
+
+![調律の位置関係](../../assets/organ_will_placement/attunement.excalidraw.svg)
+
 
 ```mermaid
 flowchart TB
