@@ -2,32 +2,13 @@
 
 ## 共通
 
-```mermaid
-flowchart TB
-    E[外的条件]
-    O["内在器官
-    自己調節"]
-    A[行動として現れる振る舞い]
+![調整の位置関係](../../assets/organ_will_placement/common.svg)
 
-    E --> O
-    O --> A
-```
 
 ## 調整
 
-![調整の位置関係](../../assets/organ_will_placement/adjustment.excalidraw.svg)
+![調整の位置関係](../../assets/organ_will_placement/adjustment.svg)
 
-```mermaid
-flowchart TB
-    E[外的条件]
-    O[内在器官]
-    A[行動]
-    W["意志
-    外部修正"]
-
-    E --> O --> A
-    W --> A
-```
 
 - 器官はそのまま
 - 行動だけが書き換えられる
@@ -37,17 +18,7 @@ flowchart TB
 
 意志が介在しない。
 
-![適応の位置関係](../../assets/organ_will_placement/adaptation.excalidraw.svg)
-
-```mermaid
-flowchart TB
-    E[外的条件]
-    O["内在器官
-    自動反応"]
-    A[反応行動]
-
-    E --> O --> A
-```
+![適応の位置関係](../../assets/organ_will_placement/adaptation.svg)
 
 - 器官＝行動
 - 選択の余地なし
@@ -58,20 +29,7 @@ flowchart TB
 
 意志が反応を正当化。
 
-![適合の位置関係](../../assets/organ_will_placement/alignment.excalidraw.svg)
-
-```mermaid
-flowchart TB
-    E[外的条件]
-    O["内在器官
-    免疫反応"]
-    A[排除/同調行動]
-    W["意志
-    正当化"]
-
-    E --> O --> A
-    W --> O
-```
+![適合の位置関係](../../assets/organ_will_placement/alignment.svg)
 
 - 意志が反応側（免疫反応）につく
 - 反応が「正しい行動」に昇格する
@@ -79,20 +37,8 @@ flowchart TB
 
 ## 即興
 
-![即興の位置関係](../../assets/organ_will_placement/improvisation.excalidraw.svg)
+![即興の位置関係](../../assets/organ_will_placement/improvisation.svg)
 
-
-```mermaid
-flowchart TB
-    E[外的条件]
-    O[内在器官]
-    A[即時行動]
-    W["意志
-    手放し"]
-
-    E --> O --> A
-    W -.-> O
-```
 
 - 意志が制御を放棄
 - 創発も暴走も起き得る
@@ -102,21 +48,8 @@ flowchart TB
 
 意志が「間」に留まる。
 
-![調律の位置関係](../../assets/organ_will_placement/attunement.excalidraw.svg)
+![調律の位置関係](../../assets/organ_will_placement/attunement.svg)
 
-
-```mermaid
-flowchart TB
-    E[外的条件]
-    O[内在器官]
-    A[選択された行動]
-    W["意志
-    余地保持"]
-
-    E --> O --> A
-    W --- O
-    W --- A
-```
 
 - 意志はどこも操作しない
 - 反応と行動の間に「間」を作る

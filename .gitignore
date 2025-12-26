@@ -4,3 +4,4 @@ honkit/_book
 honkit/node_modules
 .tool-versions
 .obsidian
+node_modules/
