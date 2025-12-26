@@ -1,0 +1,13 @@
+{
+  "theme": "default",
+  "themeVariables": {
+    "fontFamily": "Noto Sans CJK JP, Noto Sans JP, Hiragino Sans, Yu Gothic, sans-serif"
+  },
+  "flowchart": { "htmlLabels": false },
+  "sequence":  { "htmlLabels": false },
+  "class":     { "htmlLabels": false },
+  "state":     { "htmlLabels": false },
+  "er":        { "htmlLabels": false },
+  "journey":   { "htmlLabels": false },
+  "gantt":     { "htmlLabels": false }
+}
