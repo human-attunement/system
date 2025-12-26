@@ -236,8 +236,8 @@ HASは、この自然落下を止めるのではなく、
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.4.1-2-gf2580b2d-dirty
+- **Repo Version:** v2.4.1-hotfix.1-1-ge4cc7141-dirty
 - **Last Modified:** 2025-12-26
-- **Commit:** dcd7700
+- **Commit:** fb73d68
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
