@@ -1,4 +1,4 @@
-# Pattern 04: 引受の成立
+# P04: 引受の成立
 **Establishment of Ownership**
 
 **機が熟し、内側から溢れ出るタイミングで生まれる状態**

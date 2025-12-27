@@ -1,4 +1,4 @@
-# Pattern 03: 不快への滞留
+# P03: 不快への滞留
 **Lingering toward Discomfort**
 
 **不快にとどまり「空白」として処理されない状態**
