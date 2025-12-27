@@ -355,8 +355,8 @@ HASは、この構造を前提に設計されている。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.4.1-hotfix.1-1-ge4cc7141-dirty
-- **Last Modified:** 2025-12-26
-- **Commit:** fb73d68
+- **Repo Version:** v2.4.3-1-gc67ec6fd-dirty
+- **Last Modified:** 2025-12-27
+- **Commit:** ba96226
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

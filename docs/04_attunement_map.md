@@ -353,8 +353,8 @@ HAS において、目指すのは熟練（Mastery）ではない。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.4.1-hotfix.1-1-ge4cc7141-dirty
-- **Last Modified:** 2025-12-26
-- **Commit:** fb73d68
+- **Repo Version:** v2.4.3-1-gc67ec6fd-dirty
+- **Last Modified:** 2025-12-27
+- **Commit:** 1d76d2c
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

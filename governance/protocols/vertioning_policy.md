@@ -120,8 +120,8 @@ HASのバージョン番号は、
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.4.1-hotfix.1-1-ge4cc7141-dirty
+- **Repo Version:** v2.4.3-1-gc67ec6fd-dirty
 - **Last Modified:** 2025-12-26
-- **Commit:** fb73d68
+- **Commit:** be7aeaf
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
