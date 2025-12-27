@@ -6,3 +6,5 @@ honkit/node_modules
 .obsidian
 node_modules/
 quarto/src/
+quarto/_output/
+quarto/.quarto/
