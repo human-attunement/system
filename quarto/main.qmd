@@ -1,4 +1,6 @@
-# はじめに
+# Human Attunement System (HAS) マニュアル
+
+## はじめに
 
 この文書はHAS(Human Attunement System)のGithub上で公開されている文書をPDF化したものです。
 
@@ -8,69 +10,84 @@ Github上の文書は、以下のURLから参照できます。
 
 \newpage
 
-# HASの生まれた背景
+<!-- ## HASの生まれた背景 -->
 
-{{< include ../resources/has_roots.md >}}
+{{< include src/resources/has_roots.md >}}
+
 \newpage
 
-# HASとはなにか
+<!-- ## HASの守るもの -->
+{{< include src/docs/00_manifesto.md >}}
 
-{{< include ../README.md >}}
 \newpage
 
-# HASの守るもの
-{{< include ../docs/00_manifesto.md >}}
+<!-- ## クイックリファレンス -->
+{{< include src/resources/quick_reference.md >}}
+
 \newpage
 
-# なぜ調律か？
-{{< include ../docs/02_concept.md >}}
+<!-- ## なぜ調律か？ -->
+{{< include src/docs/02_concept.md >}}
+
 \newpage
 
-# 器官と位置に関しての図解
-{{< include ../resources/notes/organ_will_place.md >}}
+<!-- ## 器官と位置に関しての図解 -->
+{{< include src/resources/notes/organ_will_place.md >}}
 
-# 調律位置マップ
-{{< include ../docs/04_attunement_map.md >}}
 \newpage
 
-# 実践編
+<!-- ## 調律位置マップ -->
+{{< include src/docs/04_attunement_map.md >}}
 
-## 判断の優先指針
-{{< include ../docs/03_principle.md >}}
 \newpage
 
-## 陥りやすい落とし穴
-{{< include ../docs/05_facilitator_pitfalls.md >}}
+<!-- ## 判断の優先指針 -->
+{{< include src/docs/03_principle.md >}}
+
 \newpage
 
-## 状態パタン
-{{< include ../resources/patterns/state/state_patterns.md >}}
+<!-- ## 陥りやすい落とし穴 -->
+{{< include src/docs/05_facilitator_pitfalls.md >}}
+
 \newpage
 
-## 状態パタン01 置かれた感情
-{{< include ../resources/patterns/state/P01_placed_emotion.md >}}
+<!-- ## 状態パタン -->
+{{< include src/resources/patterns/state/state_patterns.md >}}
+
 \newpage
 
-## 状態パタン02 識別された感情
-{{< include ../resources/patterns/state/P02_differentiated_emotion.md >}}
+<!-- ## 状態パタン01 置かれた感情 -->
+{{< include src/resources/patterns/state/P01_placed_emotion.md >}}
+
 \newpage
 
-## 状態パタン03 不快への滞留
-{{< include ../resources/patterns/state/P03_lingering_toward_discomfort.md >}}
+<!-- ## 状態パタン02 識別された感情 -->
+{{< include src/resources/patterns/state/P02_differentiated_emotion.md >}}
+
 \newpage
 
-## 状態パタン04 引受の成立
-{{< include ../resources/patterns/state/P04_establishment_of_ownership.md >}}
+<!-- ## 状態パタン03 不快への滞留 -->
+{{< include src/resources/patterns/state/P03_lingering_toward_discomfort.md >}}
+
 \newpage
 
-## クイックリファレンス
-{{< include ../resources/quick_reference.md >}}
+<!-- ## 状態パタン04 引受の成立 -->
+{{< include src/resources/patterns/state/P04_establishment_of_ownership.md >}}
+
 \newpage
 
-## 運用事故カタログ
-{{< include ../docs/08_failure_modes.md >}}
+{{< include src/docs/06_faq.md >}}
+
 \newpage
 
-## 使わない判断
-{{< include ../docs/09_exit_and_unsuitability.md >}}
+<!-- ## 運用事故カタログ -->
+{{< include src/docs/08_failure_modes.md >}}
+
 \newpage
+
+<!-- ## 使わない判断 -->
+{{< include src/docs/09_exit_and_unsuitability.md >}}
+
+\newpage
+
+{{< include src/docs/07_glossary.md >}}

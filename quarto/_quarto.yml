@@ -1,8 +1,11 @@
 project:
   type: default
   output-dir: ./_output
-  resources:
-    - ../assets
+  # resources:
+  #   - ../quarto/assets
+  #   - ../assets
+  #   - ../../assets
+  #   - ../../../assets
   preview:
     port: 4200
     browser: false
@@ -14,3 +17,7 @@ format:
     mainfont: "Noto Sans CJK JP"
     include-in-header:
       - file: header.tex
+    resource-path:
+      - .
+      - src
+      - src/assets
