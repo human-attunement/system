@@ -41,6 +41,7 @@ HASは、あり方そのものではない。
 ### 2. 主権
 
 **善意の助言よりも、主権を**
+
 *Agency over Well-intentioned Guidance*
 
 > 導かない。  
@@ -58,6 +59,7 @@ HASは、あり方そのものではない。
 ### 3. 安全性
 
 **侵入よりも、安全を**
+
 *Safety over Intrusion*
 
 > 内面には触れない。  
@@ -75,6 +77,7 @@ HASは、あり方そのものではない。
 ### 4. 自由
 
 **決めねばならない、よりも自由を**
+
 *Freedom over Compulsion to Decide*
 
 > 今、決めなくてよい。  
