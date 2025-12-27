@@ -1,6 +1,9 @@
 # Human Attunement System (HAS)
 > **Documentation & Resources**
 
+- **Web（HonKit）**: https://docs.human-attunement.org/
+- **PDF（最新版 / recent）**: https://docs.human-attunement.org/pdf/has-manual-recent.pdf
+
 **HASは、あり方そのものではなく、あり方が保たれるための最小限の仕掛け。**
 
 組織と個人を「管理(OS)」するのではなく、  
@@ -59,6 +62,13 @@ HASは、明確に分離された4つのレイヤから構成される。
 - この分離により、思想の純度と運用安全性が両立する
 
 詳細は [ADR-002: Separation of Philosophy and Practice](./governance/adr/HAS-ADR-002_separation_of_philosophy_and_practice.md) を参照。
+
+---
+
+## PDF
+
+- **最新版（recent）**: https://docs.human-attunement.org/pdf/has-manual-recent.pdf
+- **履歴（versioned）**: `https://docs.human-attunement.org/pdf/has-manual-vX.Y.Z.pdf`
 
 ---
 

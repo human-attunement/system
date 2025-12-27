@@ -30,6 +30,19 @@ echo "ROOT: $ROOT"
 QUARTO_DIR="$ROOT/quarto"
 STAGE_DIR="$QUARTO_DIR/src"
 
+# ---- worktree cleanup (publish) ----
+WORKTREE_DIR="$ROOT/.worktree-gh-pages"
+WORKTREE_ACTIVE="0"
+cleanup_worktree() {
+  if [[ "$WORKTREE_ACTIVE" == "1" ]]; then
+    # worktree が残ると gh-pages checkout がブロックされるため、必ず掃除する
+    git worktree remove "$WORKTREE_DIR" --force >/dev/null 2>&1 || true
+    rm -rf "$WORKTREE_DIR" >/dev/null 2>&1 || true
+  fi
+}
+# スクリプトが途中で落ちても worktree を残さない
+trap cleanup_worktree EXIT INT TERM
+
 die() {
   echo "ERROR: $*" >&2
   exit 1
@@ -145,9 +158,16 @@ rm -f "$GENERATED_PDF"
 
 # ---- publish to gh-pages (optional) ----
 if [[ "$PUBLISH" == "1" ]]; then
-  WORKTREE_DIR="$ROOT/.worktree-gh-pages"
+  WORKTREE_ACTIVE="1"
+
+  # remote 側が進んでいる（例: GitHub Actions）ケースがあるため、必ず最新を取得する
+  git fetch origin gh-pages >/dev/null 2>&1 || true
+
+  # 既存の残骸があっても掃除してから作る
   rm -rf "$WORKTREE_DIR"
-  git worktree add "$WORKTREE_DIR" gh-pages >/dev/null
+
+  # origin/gh-pages をベースに worktree を作る（ローカルの古い gh-pages に依存しない）
+  git worktree add -B gh-pages "$WORKTREE_DIR" origin/gh-pages >/dev/null
 
   mkdir -p "$WORKTREE_DIR/$PUBLISH_DIR_REL"
 
@@ -178,5 +198,4 @@ if [[ "$PUBLISH" == "1" ]]; then
   fi
 
   cd "$ROOT"
-  git worktree remove "$WORKTREE_DIR" --force >/dev/null
 fi
