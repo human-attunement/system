@@ -1,0 +1,26 @@
+\usepackage{luatexja}
+\usepackage{luatexja-fontspec}
+\usepackage[a4paper,margin=20mm]{geometry}
+
+% 日本語フォント（本文）
+\setmainjfont{Noto Sans CJK JP}
+% 英文フォント（必要なら）
+\setmainfont{Noto Sans}
+\usepackage{fontspec}
+
+\directlua{
+  luaotfload.add_fallback("emoji-fallback",{
+    "NotoColorEmoji:mode=harf;",
+    "Apple Color Emoji:mode=harf;",
+    "Noto Emoji:mode=harf;",
+  })
+}
+% 絵文字フォント（白黒で安定）
+% macOSなら Symbola が無いこともあるので、あるフォント名に合わせて変更
+% \newfontfamily\emojifont{Symbola}
+
+% 代表的な記号を絵文字フォントに割り当て（必要な分だけ追加）
+\DeclareTextFontCommand{\textemoji}{\emojifont}
+
+\setmainfont{Noto Sans}[RawFeature={fallback=emoji-fallback}]
+\setmainjfont{Noto Sans CJK JP}[RawFeature={fallback=emoji-fallback}]

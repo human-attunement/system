@@ -262,7 +262,7 @@ HASの思想・実践を支える、運用と設計判断の記録。
 ### Governance（統治・運用）
 HASを壊さないための手続き。
 
-- Emergency Stop Protocol  
+- 緊急停止プロトコル  
   → [governance/protocols/emergency_stop.md](../governance/protocols/emergency_stop.md)
   
 - Steward Judgment Protocol  

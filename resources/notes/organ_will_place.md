@@ -2,12 +2,12 @@
 
 ## 共通
 
-![調整の位置関係](../../assets/organ_will_placement/common.svg)
+![調整の位置関係](../../assets/organ_will_placement/common.png)
 
 
 ## 調整
 
-![調整の位置関係](../../assets/organ_will_placement/adjustment.svg)
+![調整の位置関係](../../assets/organ_will_placement/adjustment.png)
 
 
 - 器官はそのまま
@@ -18,7 +18,7 @@
 
 意志が介在しない。
 
-![適応の位置関係](../../assets/organ_will_placement/adaptation.svg)
+![適応の位置関係](../../assets/organ_will_placement/adaptation.png)
 
 - 器官＝行動
 - 選択の余地なし
@@ -29,7 +29,7 @@
 
 意志が反応を正当化。
 
-![適合の位置関係](../../assets/organ_will_placement/alignment.svg)
+![適合の位置関係](../../assets/organ_will_placement/alignment.png)
 
 - 意志が反応側（免疫反応）につく
 - 反応が「正しい行動」に昇格する
@@ -37,7 +37,7 @@
 
 ## 即興
 
-![即興の位置関係](../../assets/organ_will_placement/improvisation.svg)
+![即興の位置関係](../../assets/organ_will_placement/improvisation.png)
 
 
 - 意志が制御を放棄
@@ -48,7 +48,7 @@
 
 意志が「間」に留まる。
 
-![調律の位置関係](../../assets/organ_will_placement/attunement.svg)
+![調律の位置関係](../../assets/organ_will_placement/attunement.png)
 
 
 - 意志はどこも操作しない
@@ -68,6 +68,6 @@
 | **境界の扱い** | 外部ルール | 生理的 | 規範的 | 不安定 | 構造的に保持 |
 | **典型的な破綻** | 火消し依存 | 摩耗 | 排除・硬直 | 暴走 | 宙づり |
 
-適応   : 意志なし
-即興   : 意志あり（流れる）
-調律   : 意志あり（留まる）
+- 適応 : 意志なし
+- 即興 : 意志あり（流れる）
+- 調律 : 意志あり（留まる）

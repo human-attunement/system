@@ -13,9 +13,9 @@ HASには「リーダー」も「家元」も存在しない。
 ## 2. Negative Authority (拒否権の限定)
 Stewardsが持つ権限は、以下の「否定」に限定される。肯定や創造の権限は持たない。
 
-* ❌ **No Creation:** 新しい概念や原理を追加することはできない。
-* ❌ **No Evangelism:** 「これが正しいHASだ」と推奨・布教することはできない。
-* ✅ **Veto (拒否):** 「それは定義上、HASではない」と判定することだけができる。
+* $\times$ **No Creation:** 新しい概念や原理を追加することはできない。
+* $\times$ **No Evangelism:** 「これが正しいHASだ」と推奨・布教することはできない。
+* $\checkmark$ **Veto (拒否):** 「それは定義上、HASではない」と判定することだけができる。
 
 > **Intervention Threshold (介入の閾値):**
 > Stewardsは、HASの名が用いられている実践において、**Constitution または Contraindications に明確に違反する場合にのみ**発言する。
