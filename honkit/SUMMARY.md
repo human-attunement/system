@@ -2,26 +2,23 @@
 
 ## 初学者向け
 
-- [HASの生まれた背景](resources/has_roots.md)
 - [HASとはなにか](README.md)
-
----
-
 - [HASの守るもの](docs/00_manifesto.md)
 - [なぜ調律か](docs/02_concept.md)
+  - [器官と意志の位置関係](resources/notes/organ_will_place.md)
 - [全体像](docs/01_architecture_map.md)
 - [FAQ](docs/06_faq.md)
 
 ## 実践者向け
 
 - [クイックリファレンス](resources/quick_reference.md)
-- [位置（状態）の識別](docs/04_attunement_map.md)
+- [調律位置マップ](docs/04_attunement_map.md)
 
 ---
 
 - [判断の優先指針](docs/03_principle.md)
 - [陥りやすい落とし穴](docs/05_facilitator_pitfalls.md)
-- [失敗モードを知る](docs/08_failure_modes.md)
+- [運用事故カタログ](docs/08_failure_modes.md)
 - [使わない判断](docs/09_exit_and_unsuitability.md)
 
 ---
@@ -32,8 +29,11 @@
     - [状態パタン02 識別された感情](resources/patterns/state/P02_differentiated_emotion.md)
     - [状態パタン03 不快への滞留](resources/patterns/state/P03_lingering_toward_discomfort.md)
     - [状態パタン04 引受の成立](resources/patterns/state/P04_establishment_of_ownership.md)
-- [器官と意志の位置関係](resources/notes/organ_will_place.md)
 - [用語集](GLOSSARY.md)
+
+---
+
+- [HASの生まれた背景](resources/has_roots.md)
 
 ---
 

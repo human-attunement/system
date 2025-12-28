@@ -8,21 +8,11 @@ Github上の文書は、以下のURLから参照できます。
 
 - https://github.com/human-attunement/system
 
-\newpage
-
-<!-- ## HASの生まれた背景 -->
-
-{{< include src/resources/has_roots.md >}}
 
 \newpage
 
 <!-- ## HASの守るもの -->
 {{< include src/docs/00_manifesto.md >}}
-
-\newpage
-
-<!-- ## クイックリファレンス -->
-{{< include src/resources/quick_reference.md >}}
 
 \newpage
 
@@ -33,6 +23,23 @@ Github上の文書は、以下のURLから参照できます。
 
 <!-- ## 器官と位置に関しての図解 -->
 {{< include src/resources/notes/organ_will_place.md >}}
+
+\newpage
+
+<!-- ## HAS全体設計図 -->
+
+{{< include src/docs/01_architecture_map.md >}}
+
+\newpage
+
+<!-- ## FAQ -->
+{{< include src/docs/06_faq.md >}}
+
+\newpage
+
+
+<!-- ## クイックリファレンス -->
+{{< include src/resources/quick_reference.md >}}
 
 \newpage
 
@@ -48,6 +55,23 @@ Github上の文書は、以下のURLから参照できます。
 
 <!-- ## 陥りやすい落とし穴 -->
 {{< include src/docs/05_facilitator_pitfalls.md >}}
+
+\newpage
+
+<!-- ## 運用事故カタログ -->
+{{< include src/docs/08_failure_modes.md >}}
+
+\newpage
+
+<!-- ## 使わない判断 -->
+{{< include src/docs/09_exit_and_unsuitability.md >}}
+
+\newpage
+
+
+
+<!-- ## パタンについて -->
+{{<include src/resources/patterns/README.md >}}
 
 \newpage
 
@@ -76,18 +100,11 @@ Github上の文書は、以下のURLから参照できます。
 
 \newpage
 
-{{< include src/docs/06_faq.md >}}
-
-\newpage
-
-<!-- ## 運用事故カタログ -->
-{{< include src/docs/08_failure_modes.md >}}
-
-\newpage
-
-<!-- ## 使わない判断 -->
-{{< include src/docs/09_exit_and_unsuitability.md >}}
-
-\newpage
-
+<!-- ## 用語集 -->
 {{< include src/docs/07_glossary.md >}}
+
+\newpage
+
+<!-- ## HASの生まれた背景 -->
+{{< include src/resources/has_roots.md >}}
+

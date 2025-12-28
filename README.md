@@ -1,6 +1,8 @@
 # Human Attunement System (HAS)
+
 > **Documentation & Resources**
 
+- **オリジナル**: https://github.com/human-attunement/system
 - **Web（HonKit）**: https://docs.human-attunement.org/
 - **PDF（最新版 / recent）**: https://docs.human-attunement.org/pdf/has-manual-recent.pdf
 
@@ -14,9 +16,9 @@
 > 
 > これは「OSが悪でTSが善」という対立ではない。  
 > 目的関数が異なるだけであり、緊急時・定型業務ではOSが適している。  
-> 詳細は [Concept](./docs/02_concept.md) を参照のこと。
+> 詳細は [コンセプト： なぜ調律か](./docs/02_concept.md) を参照のこと。
 
-**このREADMEは案内である。仕様ではない。**
+**このREADMEは案内であり、仕様ではない。**
 
 ---
 
@@ -30,6 +32,10 @@ HASは、明確に分離された4つのレイヤから構成される。
 - HAS v2.0 Final のみを配置
 - 存在論・憲法・禁忌を含む
 - **Sealed（原則として変更不可）** — 更新は重大な欠陥発見時のみ
+
+※ HAS Kernelはドキュメントには含まれない。正本はGithubにある。
+
+https://github.com/human-attunement/system/tree/main/core
 
 ### レイヤ2: `docs/` — 思想＋安全仕様
 
@@ -48,8 +54,8 @@ HASは、明確に分離された4つのレイヤから構成される。
 
 ### レイヤ4: `resources/` — 道具箱
 
-- Patterns（State / Techniques）
-- Scenarios, Quick Reference
+- パターン集（状態、/ テクニック（予定））
+- クイックリファレンス、シナリオ（予定）
 - 実践・検索・発見のためのインターフェース
 - 増殖・派生を許容  
   （※「HAS準拠」を名乗る場合のみ、Kernelとの整合性が必須）
@@ -57,6 +63,7 @@ HASは、明確に分離された4つのレイヤから構成される。
 ---
 
 **設計意図:** 
+
 - Protocolが「Doing」を含むのは、HASカーネル外だから許容される
 - 「HASはDoingを定義しない」は、Kernel/Docsレイヤのみに適用される
 - この分離により、思想の純度と運用安全性が両立する
@@ -111,8 +118,8 @@ HASは「正解を与える体系」ではない。
 
 ## HAS Review (Experimental)
 
-「HAS的にどう？」を対話形式で確認できるレビュー用GPTを公開中。
-治療・診断・正解提示は行いません。判断の補助として使用を推奨。
+「HAS的にこの状況はどう？」を対話形式で確認できるレビュー用GPTを公開中。
+治療・診断・正解提示は行いません。判断の補助としての使用を推奨。
 
 → [HAS Review GPT](https://chatgpt.com/g/g-694204bd29c88191b08878fc417f8ea5-has-review-bot)
 
@@ -123,17 +130,20 @@ HASは「正解を与える体系」ではない。
 HASの名称使用については、以下のプロトコルに従う。
 
 ### 基本方針
+
 - **「HAS準拠」の使用は、プロトコルに基づき判定される**
 - **派生（Fork）は自由だが、独自の名称を推奨する**
 - **影響関係の明示（「HAS由来」等）は歓迎する**
 
 ### 詳細と判定手続き
+
 名称使用の具体的なルールと判定プロセスは、以下のプロトコルで定義される。
 
 - [Public Relations Protocol](./governance/protocols/public_relations.md) — 広報・名称使用の作法
 - [Steward Judgment Protocol](./governance/protocols/steward_judgment.md) — 「HAS準拠」判定の手続き
 
 ### ライセンス
+
 （※実際のライセンスファイルへのリンクを設置予定）
 
 ---
@@ -141,6 +151,7 @@ HASの名称使用については、以下のプロトコルに従う。
 ## リンク整合性の確認
 
 このREADMEのリンクが正しいか確認するには、以下を実行する。
+
 ```bash
 # 例: markdown-link-check を使用
 # （実際の環境に応じて、package.json のスクリプトまたはCIで実行）
