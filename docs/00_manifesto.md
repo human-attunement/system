@@ -24,6 +24,7 @@ HASは、あり方そのものではない。
 ### 1. 自己生成
 
 **外部解決より、自己生成を**
+
 *Self-emergence over External Solution*
 
 > 答えを与えない。  
