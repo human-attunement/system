@@ -240,8 +240,8 @@ Document Control には、以下の Git 由来の事実のみが入る。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.4.3-1-gc67ec6fd-dirty
-- **Last Modified:** 2025-12-26
-- **Commit:** be7aeaf
+- **Repo Version:** v2.4.4-6-gda7d3832-dirty
+- **Last Modified:** 2025-12-28
+- **Commit:** 5104582
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
