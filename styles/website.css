@@ -1,0 +1,21 @@
+/* HonKit(GitBook) 本文領域の画像だけ対象にする */
+.book .book-body .page-wrapper .page-inner section.normal img {
+  /* スマホは幅100%を優先し、PCは最大700pxまで */
+  max-width: min(700px, 80%);
+  /* 縦に長い画像のはみ出し防止（スマホで効かせる。PCは不要なら削ってOK） */
+  max-height: 60vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 1em auto;
+}
+
+@media (max-width: 768px) {
+  .book .book-body .page-wrapper .page-inner section.normal img {
+    max-height: min(500px, 75vh);
+    height: auto;
+  }
+}
+
+
