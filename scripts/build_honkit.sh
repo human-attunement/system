@@ -13,6 +13,7 @@ mkdir -p "$OUT"
 # ここはあなたの運用に合わせて。honkit/ を正としてコピー。
 # cp -R "$ROOT/$SRC/README.md" "$OUT/"
 cp -R "$ROOT/$SRC/SUMMARY.md" "$OUT/"
+cp -aR "$ROOT/$SRC/styles" "$OUT/"
 cp -aR "$ROOT/docs/07_glossary.md" "$OUT/GLOSSARY.md"
 # cp -R "$ROOT/honkit/book.json" "$OUT/"
 # cp -R "$ROOT/honkit/" "$OUT/"
