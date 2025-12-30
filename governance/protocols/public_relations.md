@@ -37,8 +37,8 @@
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.4.4-6-gda7d3832-dirty
-- **Last Modified:** 2025-12-28
-- **Commit:** 4e13389
+- **Repo Version:** v2.4.5-2-g5f5eebf1-dirty
+- **Last Modified:** 2025-12-30
+- **Commit:** 5f5eebf
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

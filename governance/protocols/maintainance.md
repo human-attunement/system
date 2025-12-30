@@ -89,8 +89,8 @@ Stewardの役割は固定ではなく、流動的に交代される。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.4.4-6-gda7d3832-dirty
+- **Repo Version:** v2.4.5-2-g5f5eebf1-dirty
 - **Last Modified:** 2025-12-28
-- **Commit:** 4e13389
+- **Commit:** 5393fc4
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
