@@ -49,5 +49,5 @@
 - [バージョン管理プロトコル](governance/protocols/vertioning_policy.md)
 
 
-> **"If not now, forget it."** — 今じゃないなら、無理に続けなくてよい。
+> **"If not now, you can come back to it later."** — 今でなくても、必要なときにまた戻ってきてください。
 

@@ -101,7 +101,7 @@ https://github.com/human-attunement/system/tree/main/core
 ### 向いていないと感じた人
 → [Exit and Unsuitability](./docs/09_exit_and_unsuitability.md) で離脱を正当化  
 → [FAQ](./docs/06_faq.md) で「向いていない状況」を確認  
-→ **"If not now, forget it."** — 今じゃないなら、無理に続けなくてよい
+→ **"If not now, you can come back to it later."** — 今でなくても、必要なときにまた戻ってきてください
 
 ---
 
@@ -171,6 +171,5 @@ npx markdown-link-check README.md
 
 ---
 
-**"If not now, forget it."**  
-今、必要でなければ、忘れてよい。  
-必要になった時、また戻ればよい。
+**"If not now, you can come back to it later."**  
+今でなくても、必要なときにまた戻ってきてください。 

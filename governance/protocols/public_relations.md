@@ -32,9 +32,8 @@
 ## 4. The Exit Clause (離脱条項)
 すべてのコンテンツ、すべての接点の末尾に、以下のスタンスを明示する。
 
-> **"If not now, forget it."**
-> 今、必要でなければ、忘れてください。
-> 必要になった時、また戻ってきてください。
+> **"If not now, you can come back to it later."**
+> 今でなくても、必要なときにまた戻ってきてください。
 
 <!-- DOCCTRL:START -->
 ## Document Control
