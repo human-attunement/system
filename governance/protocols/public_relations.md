@@ -173,8 +173,8 @@ HASは、伝える体系ではない。導く体系でもない。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.4.5-2-g5f5eebf1-dirty
-- **Last Modified:** 2025-12-30
-- **Commit:** 5f5eebf
+- **Repo Version:** v2.4.6-2-g0a39df86-dirty
+- **Last Modified:** 2026-01-08
+- **Commit:** 0a39df8
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
