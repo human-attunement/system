@@ -1,0 +1,26 @@
+flowchart LR
+  %% ===== Position (States) =====
+  A["調律
+  Position
+  (余白/間が残る)"] -->|"外側へ向く"| B["調整
+  Position
+  (条件を動かす)"]
+  B -->|"固定化: 基準へ回収"| C["適合
+  Position
+  (正しさで固まる)"]
+
+  %% 戻り（保証なし）
+  B -.->|戻れることがある| A
+  C -.->|戻れることがある| A
+
+  %% ===== Mode (Improvisation) overlay =====
+  I(((即興
+  Mode
+  = 状態内の揺らぎ))):::mode
+
+  %% 即興は「状態」ではないので、ノードに遷移しない
+  A ---|状態内で起きうる| I
+  B ---|状態内で起きうる| I
+  C ---|状態内で起きうる| I
+
+  classDef mode fill:#fff,stroke:#999,stroke-dasharray: 4 4,color:#111;

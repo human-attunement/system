@@ -1,0 +1,21 @@
+stateDiagram-v2
+  direction LR
+
+  state "調律
+  (Position)
+  = 反応に占拠されきらない余地" as Attune
+  state "調整
+  (Position)
+  = 外側の条件を動かす" as Adjust
+  state "適合
+  (Position)
+  = 基準・正しさで固定" as Align
+
+  Attune --> Adjust : "反応の占拠の外へ(外的条件へ向く)"
+  Adjust --> Align  : "固定化\n(基準・規範へ回収)"
+
+  %% 「戻れる」は保証ではないので点線にしたいが、stateDiagramは点線が弱い。
+  %% なのでラベルで弱める
+  Adjust --> Attune : "戻れることがある(保証ではない)"
+
+  Align  --> Attune : "戻れることがある(保証ではない)"
