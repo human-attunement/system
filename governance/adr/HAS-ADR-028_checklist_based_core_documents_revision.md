@@ -50,6 +50,10 @@ HAS の設計原則である
 Kernel の文言および意味内容は変更せず、  
 **外側の文書を Kernel に整合させる方向で修正**を行った。
 
+また、docs/08_failure_modes.md は、内容を踏まえて、[resources配下](../../resources/has_failure_modes.md)に移動した。
+
+[FAQ](../../docs/06_faq.md)については、内容の変更度合いを考慮し、本ADRの変更とは別に実施することとした。
+
 ## Rationale
 - HAS は行為体系ではなく、判断前提の整理であるため
 - 表現が行為的になると、Doing World に回収されやすいため
