@@ -6,19 +6,20 @@
 - **Web（HonKit）**: https://docs.human-attunement.org/
 - **PDF（最新版 / recent）**: https://docs.human-attunement.org/pdf/has-manual-recent.pdf
 
-**HASは、あり方そのものではなく、あり方が保たれるための最小限の仕掛け。**
+**HASは、あり方そのものではなく、あり方の維持に関わる最小限の仕組みを扱う。**
 
-組織と個人を「管理(OS)」するのではなく、  
-**「調律(Attunement)」によって関係と状態を整える体系**である。
+組織と個人の「管理(OS)」ではなく、  
+**「調律(Attunement)」を通じて関係と状態が成立する基盤を示す体系**である。
 
-> **OS (Operating System)**: 効率・最適化・管理を目的とする  
-> **TS (Tuning System)**: 状態・共鳴・回復を目的とする  
+> **OS (Operating System)**: 効率・最適化・管理に主に関心を持つ  
+> **TS (Tuning System)**: 状態・共鳴・回復に焦点が異なる  
 > 
 > これは「OSが悪でTSが善」という対立ではない。  
 > 目的関数が異なるだけであり、緊急時・定型業務ではOSが適している。  
 > 詳細は [コンセプト： なぜ調律か](./docs/02_concept.md) を参照のこと。
 
-**このREADMEは案内であり、仕様ではない。**
+**このREADMEは案内であり、仕様ではない。**  
+説明および導線文書としての役割を持ち、判断や実践を推奨するものではない。
 
 ---
 
@@ -82,25 +83,23 @@ https://github.com/human-attunement/system/tree/main/core
 ## 最短導線（状況別の入口）
 
 ### 初めての人
-→ [全体設計図](./docs/01_architecture_map.md) で全体像を掴む  
-→ [HASマニフェスト](./docs/00_manifesto.md) で価値観を理解  
-→ [FAQ](./docs/06_faq.md) で疑問を解消
+→ [全体設計図](./docs/01_architecture_map.md) を参照したい場合  
+→ [HASマニフェスト](./docs/00_manifesto.md) を確認したい場合  
+→ [FAQ](./docs/06_faq.md) を確認したい場合
 
-### 実践したい人
-→ [判断優先原則](./docs/03_principle.md) で判断の優先軸を理解
-→ [ファシリテーターの落とし穴](./docs/05_facilitator_pitfalls.md) で陥りやすい落とし穴を把握  
-→ [調律位置マップ](./docs/04_attunement_map.md) で位置の識別を理解  
-→ [Patterns P01-P04](./resources/patterns/state/) で実践開始  
-→ [運用事故カタログ](./docs/08_failure_modes.md) で事故を予防
+### 参照したい人
+→ [判断参照原則](./docs/03_principle.md) を確認したい場合  
+→ [調律位置マップ](./docs/04_attunement_map.md) を確認したい場合  
+→ [状態パタン P01-P04](./resources/patterns/state/) を参照したい場合  
+→ [ファシリテーター役にありがちな状態例](./docs/05_facilitator_common_states.md) を確認したい場合  
 
-### 現場で詰まった人
-→ [Quick Reference](./resources/quick_reference.md) で即参照  
-→ [運用事故カタログ](./docs/08_failure_modes.md) で自己点検  
-→ [Emergency Stop](./governance/protocols/emergency_stop.md) で緊急対応
+### 状況整理をしたい場合
+→ [Quick Reference](./resources/quick_reference.md) を確認したい場合  
+→ [HASの緊急停止](./governance/protocols/emergency_stop.md) を確認したい場合
 
-### 向いていないと感じた人
-→ [Exit and Unsuitability](./docs/09_exit_and_unsuitability.md) で離脱を正当化  
-→ [FAQ](./docs/06_faq.md) で「向いていない状況」を確認  
+### 向いていないと感じた場合
+→ [向いていないという判断](./docs/09_exit_and_unsuitability.md) を確認したい場合  
+→ [FAQ](./docs/06_faq.md) を参照したい場合  
 → **"If not now, you can come back to it later."** — 今でなくても、必要なときにまた戻ってきてください
 
 ---
@@ -108,18 +107,18 @@ https://github.com/human-attunement/system/tree/main/core
 ## HASとは何か？（思想の要約）
 
 HASは「正解を与える体系」ではない。  
-**状態を整え、選べるようにする体系**である。
+判断の前提条件や状態に関する記述を扱う文書体系である。
 
-- 人を救わず、人を導かず、人を完成させない
-- ただ、人の選べる状態が失われる関係だけを許さない
-- そして、人が選べる時にのみ、その背中を見届ける
+- 人を救うことや導くこと、完成させることを目的としない
+- 人の選択可能な状態に関する関係を記述する
+- 状態の変化や結果に関する記述は含まない
 
 ---
 
 ## HAS Review (Experimental)
 
-「HAS的にこの状況はどう？」を対話形式で確認できるレビュー用GPTを公開中。
-治療・診断・正解提示は行いません。判断の補助としての使用を推奨。
+「HAS的にこの状況はどう？」を対話形式で確認できるレビュー用GPTを公開中。  
+治療・診断・正解提示は行わず、判断の補助としての利用を想定する。
 
 → [HAS Review GPT](https://chatgpt.com/g/g-694204bd29c88191b08878fc417f8ea5-has-review-bot)
 
@@ -172,4 +171,4 @@ npx markdown-link-check README.md
 ---
 
 **"If not now, you can come back to it later."**  
-今でなくても、必要なときにまた戻ってきてください。 
+今でなくても、必要なときにまた戻ってきてください。

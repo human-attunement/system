@@ -1,0 +1,39 @@
+flowchart LR
+    Tune["調律
+(Position)
+反応に占拠されきらない余地"]
+    
+    Adjust["調整
+(Position)
+外側の条件を直す"]
+    
+    Align["適合
+(Position)
+基準・正しさに固定"]
+    
+    Fix["固着
+(時間的累積)
+反復・正当化"]
+
+    Adapt["適応
+(Observed Change)
+結果として変わる"]
+    
+    Impro["即興
+(Mode)
+関与の様式"]
+
+    %% 主構造
+    Tune --> Adjust
+    Tune --> Impro
+    Tune -.-> Adapt
+
+    %% 固着の構造（遷移ではない）
+    Adjust -.->|"反復・蓄積
+短期では起きない"| Fix
+    Fix --> Align
+
+    %% 注釈的な関係
+    Align -.->|"結果として観測されうる"| Adapt
+    Impro -.->|"条件次第で
+混乱にも創発にも"| Adapt

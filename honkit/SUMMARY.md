@@ -5,7 +5,6 @@
 - [HASとはなにか](README.md)
 - [HASの守るもの](docs/00_manifesto.md)
 - [なぜ調律か](docs/02_concept.md)
-  - [器官と意志の位置関係](resources/notes/organ_will_place.md)
 - [全体像](docs/01_architecture_map.md)
 - [FAQ](docs/06_faq.md)
 
@@ -17,9 +16,8 @@
 ---
 
 - [判断の優先指針](docs/03_principle.md)
-- [陥りやすい落とし穴](docs/05_facilitator_pitfalls.md)
-- [運用事故カタログ](docs/08_failure_modes.md)
-- [使わない判断](docs/09_exit_and_unsuitability.md)
+- [ファシリテーター役にありがちな状態例](docs/05_facilitator_common_states.md)
+- [向いてないという判断](docs/09_exit_and_unsuitability.md)
 
 ---
 
