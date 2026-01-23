@@ -17,7 +17,7 @@
 ---
 
 - [判断の優先指針](docs/03_principle.md)
-- [陥りやすい落とし穴](docs/05_facilitator_pitfalls.md)
+- [ファシリテーター役にありがちな状態例](docs/05_facilitator_common_states.md)
 - [運用事故カタログ](docs/08_failure_modes.md)
 - [使わない判断](docs/09_exit_and_unsuitability.md)
 

@@ -54,7 +54,7 @@ Github上の文書は、以下のURLから参照できます。
 \newpage
 
 <!-- ## 陥りやすい落とし穴 -->
-{{< include src/docs/05_facilitator_pitfalls.md >}}
+{{< include src/docs/05_facilitator_common_states.md >}}
 
 \newpage
 
