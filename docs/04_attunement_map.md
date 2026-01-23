@@ -29,7 +29,7 @@ HASにおいて、この地図が扱うのは、
 この地図は、**状態（位置）のみ**を示す。
 
 状態間の移動や戻り方（遷移）は、  
-[Patterns](../resources/patterns/README.md) および [運用事故カタログ](../docs/08_failure_modes.md) に委ねられている。
+[Patterns](../resources/patterns/README.md) に委ねられている。
 
 **これは、位置を知ることと、動くことを分離するためである。**
 
@@ -257,7 +257,6 @@ HAS は、失敗しない体系ではない。
 
 遷移の方法は、以下を参照：
 - [Patterns P01–P04](../resources/patterns/state/)
-- [運用事故カタログ](./08_failure_modes.md)
 - [緊急停止プロトコル](../governance/protocols/emergency_stop.md)
 
 ---
@@ -339,7 +338,6 @@ HAS において、この地図は熟練（Mastery）を前提としない。
 
 - [判断優先原則](./03_principle.md) - 優先する判断の基準
 - [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md) - 陥りやすい落とし穴
-- [運用事故カタログ](./08_failure_modes.md) — 乱れの典型
 
 ### 緊急時の対応
 

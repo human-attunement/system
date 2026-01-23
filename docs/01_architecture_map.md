@@ -106,9 +106,6 @@ HASは明確な層構造を持つ。
 - ファシリテーターの落とし穴  
   → [05_facilitator_pitfalls.md](./05_facilitator_pitfalls.md)
 
-- 運用事故カタログ  
-  → [08_failure_modes.md](./08_failure_modes.md)
-
 #### B-3: 位置の識別
 自分がどこにいるかを誤解しないための地図。
 
@@ -300,7 +297,6 @@ HAS 本体は「Doing」を定義しないが、運用には手続きが必要�
 
 ### 実践と回復
 - [Patterns P01–P04](../resources/patterns/state/) — 状態遷移の構造
-- [運用事故カタログ](./08_failure_modes.md) — 典型的な事故パターン
 - [Quick Reference](../resources/quick_reference.md) — 現場即参照用
 
 ---

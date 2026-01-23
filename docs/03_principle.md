@@ -77,7 +77,6 @@
 
 - [マニフェスト](./00_manifesto.md)
 - [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md)
-- [運用事故カタログ](./08_failure_modes.md)
 - [HASカーネル](../core/HAS_v2.0_Final.md)
 
 ---

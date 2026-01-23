@@ -72,7 +72,6 @@ HASの文脈では、ファシリテーターと場は分離された主体と�
 ## 関連文書
 
 - [調律位置マップ](./04_attunement_map.md) — Level 0の詳細
-- [運用事故カタログ](./08_failure_modes.md) — 参考資料
 - [P01-P04 Patterns](../resources/patterns/state/) — 各パタンのFacilitator Self-Check
 - [HAS Kernel](../core/HAS_v2.0_Final.md) — 非介入の定義
 - [緊急停止プロトコル](../governance/protocols/emergency_stop.md) — 緊急停止の判断基準
