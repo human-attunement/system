@@ -21,11 +21,6 @@ Github上の文書は、以下のURLから参照できます。
 
 \newpage
 
-<!-- ## 器官と位置に関しての図解 -->
-{{< include src/resources/notes/organ_will_place.md >}}
-
-\newpage
-
 <!-- ## HAS全体設計図 -->
 
 {{< include src/docs/01_architecture_map.md >}}
