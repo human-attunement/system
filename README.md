@@ -87,7 +87,7 @@ https://github.com/human-attunement/system/tree/main/core
 → [FAQ](./docs/06_faq.md) で疑問を解消
 
 ### 実践したい人
-→ [判断優先原則](./docs/03_principle.md) で判断の優先軸を理解
+→ [判断参照原則](./docs/03_principle.md) で判断の優先軸を理解
 → [ファシリテーターの落とし穴](./docs/05_facilitator_pitfalls.md) で陥りやすい落とし穴を把握  
 → [調律位置マップ](./docs/04_attunement_map.md) で位置の識別を理解  
 → [Patterns P01-P04](./resources/patterns/state/) で実践開始  
