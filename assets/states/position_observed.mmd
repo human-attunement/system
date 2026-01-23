@@ -1,0 +1,25 @@
+flowchart LR
+  %% ===== Position (States) =====
+  A["調律
+  Position
+  (余白/間が残る)"] -->|外側へ向く| B["調整
+  Position
+  (条件を動かす)"]
+  B -->|固定化: 基準へ回収| C["適合
+  Position
+  (正しさで固まる)"]
+
+  %% 戻り（保証なし）
+  B -.->|戻れることがある| A
+  C -.->|戻れることがある| A
+
+  %% ===== Observed Change (Adaptation) as observation label =====
+  O[["適応
+  Observed Change
+  = 結果として「変わった」と観測される"]]:::obs
+
+  %% 適応は「到達状態」ではないので、状態からの"観測"として出す
+  B -.->|観測されうる| O
+  C -.->|観測されうる| O
+
+  classDef obs fill:#fff,stroke:#666,stroke-dasharray: 2 6,color:#111;
