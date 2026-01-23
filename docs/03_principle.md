@@ -76,7 +76,7 @@
 ## 関連文書
 
 - [マニフェスト](./00_manifesto.md)
-- [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md)
+- [ファシリテーター役にありがちな状態例](./05_facilitator_common_states.md)
 - [HASカーネル](../core/HAS_v2.0_Final.md)
 
 ---

@@ -103,8 +103,8 @@ HASは明確な層構造を持つ。
 
 陥りやすい構造と、連鎖が進む位置。
 
-- ファシリテーターの落とし穴  
-  → [05_facilitator_pitfalls.md](./05_facilitator_pitfalls.md)
+- ファシリテーター役にありがちな状態例  
+  → [05_facilitator_common_states.md](./05_facilitator_common_states.md)
 
 #### B-3: 位置の識別
 自分がどこにいるかを誤解しないための地図。
@@ -293,7 +293,7 @@ HAS 本体は「Doing」を定義しないが、運用には手続きが必要�
 ### 制約と判断
 - [判断優先原則](./03_principle.md) — 判断の優先軸
 - [調律位置マップ](./04_attunement_map.md) — 位置の識別
-- [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md) — 陥りやすい落とし穴
+- [ファシリテーター役にありがちな状態例](./05_facilitator_common_states.md) — 陥りやすい落とし穴
 
 ### 実践と回復
 - [Patterns P01–P04](../resources/patterns/state/) — 状態遷移の構造

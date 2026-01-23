@@ -84,7 +84,7 @@ HASは、誰にでも向いているわけではない。
 ---
 
 ## 関連文書
-- [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md)
+- [ファシリテーター役にありがちな状態例](./05_facilitator_common_states.md)
 - [PR Protocol](../governance/protocols/public_relations.md)
 - [FAQ](./06_faq.md)
 ---

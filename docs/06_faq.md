@@ -419,7 +419,7 @@ HASは方法論ではなく、状態の位置を見失わないための仕掛�
 
 - [HASマニフェスト（価値と覚悟）](./00_manifesto.md)  
 - [コンセプト（なぜ調律か）](./02_concept.md)  
-- [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md)  
+- [ファシリテーター役にありがちな状態例](./05_facilitator_common_states.md)  
 - [調律位置マップ](./04_attunement_map.md)  
 - Patterns  
   - [P01: 置かれた感情](../resources/patterns/state/P01_placed_emotion.md)  

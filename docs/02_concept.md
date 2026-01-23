@@ -372,7 +372,7 @@ HASは、創発を保証しない。
 - [HASマニフェスト](./00_manifesto.md)（価値観）
 - [判断優先原則](./03_principle.md)（判断の優先軸）
 - [調律マップ](./04_attunement_map.md)（位置の見取り図）
-- [ファシリテーターの落とし穴](./05_facilitator_pitfalls.md)
+- [ファシリテーター役にありがちな状態例](./05_facilitator_common_states.md)
 - [状態パターン P01-P04](../resources/patterns/state/)（実践）
 
 ---
