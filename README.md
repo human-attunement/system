@@ -92,7 +92,6 @@ https://github.com/human-attunement/system/tree/main/core
 → [調律位置マップ](./docs/04_attunement_map.md) を確認したい場合  
 → [状態パタン P01-P04](./resources/patterns/state/) を参照したい場合  
 → [ファシリテーター役にありがちな状態例](./docs/05_facilitator_common_states.md) を確認したい場合  
-→ [HASの誤用](./resources/has_failure_modes.md) を参照したい場合
 
 ### 状況整理をしたい場合
 → [Quick Reference](./resources/quick_reference.md) を確認したい場合  

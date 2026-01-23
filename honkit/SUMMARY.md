@@ -19,7 +19,6 @@
 - [判断の優先指針](docs/03_principle.md)
 - [ファシリテーター役にありがちな状態例](docs/05_facilitator_common_states.md)
 - [向いてないという判断](docs/09_exit_and_unsuitability.md)
-- [HASの誤用](resources/has_failure_modes.md)
 
 ---
 
