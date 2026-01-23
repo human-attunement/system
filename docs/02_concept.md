@@ -379,8 +379,8 @@ HASは、創発を保証しない。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-
-- **Version:** 2.0 (最終調整版)
-- **Last Modified:** 2025-01-19
-- **Status:** Draft
+- **Repo Version:** v2.5.0-33-g8c360ffa-dirty
+- **Last Modified:** 2026-01-23
+- **Commit:** e19d92b
+- **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

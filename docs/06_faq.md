@@ -431,8 +431,8 @@ HASは方法論ではなく、状態の位置を見失わないための仕掛�
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.4.6-2-g0a39df86-dirty
-- **Last Modified:** 2025-12-30
-- **Commit:** 65e7a29
+- **Repo Version:** v2.5.0-33-g8c360ffa-dirty
+- **Last Modified:** 2026-01-23
+- **Commit:** 366ec5a
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

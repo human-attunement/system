@@ -341,8 +341,8 @@ HAS は、失敗しない体系ではない。
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.4.6-2-g0a39df86-dirty
-- **Last Modified:** 2025-12-30
-- **Commit:** 65e7a29
+- **Repo Version:** v2.5.0-33-g8c360ffa-dirty
+- **Last Modified:** 2026-01-23
+- **Commit:** 47b68e0
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
