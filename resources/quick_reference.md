@@ -227,11 +227,13 @@ HASは、答えを出すためのものではない。
 
 ---
 
+<!-- DOCCTRL:START -->
 ## Document Control
-- **Version:** 1.1.0
-- **Date:** 2025-12-16
-- **Status:** Active
-
+- **Repo Version:** 
+- **Last Modified:** 2025-12-16
+- **Commit:** 
+- **Author:** Takeshi Kakeda
+<!-- DOCCTRL:END -->
 ---
 
 *This document is intentionally minimal.*
