@@ -164,8 +164,8 @@ HASは、ただ、
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.5.0-33-g8c360ffa-dirty
+- **Repo Version:** v2.6.00-5-gc2fae36d-dirty
 - **Last Modified:** 2026-01-23
-- **Commit:** fdb1db2
+- **Commit:** 973078e
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->

@@ -150,8 +150,8 @@ Stewardは、自らの判定が以下に陥っていないか、定期的に点�
 
 <!-- DOCCTRL:START -->
 ## Document Control
-- **Repo Version:** v2.5.0-33-g8c360ffa-dirty
-- **Last Modified:** 2026-01-08
-- **Commit:** a9c25b2
+- **Repo Version:** v2.6.00-5-gc2fae36d-dirty
+- **Last Modified:** 2026-01-23
+- **Commit:** 973078e
 - **Author:** Takeshi Kakeda
 <!-- DOCCTRL:END -->
