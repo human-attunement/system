@@ -94,7 +94,7 @@ Concept 文書において、
 
 ## Version
 Decision: 1.0  
-Code: vX.Y.Z
+Code: v2.6.0
 
 ## Date
 2026-01-23
