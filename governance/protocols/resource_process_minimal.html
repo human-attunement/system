@@ -612,6 +612,17 @@ npm run build:pdf
 <span class="hljs-comment"># タグ付きリリース PDF を生成・公開</span>
 npm run release:pdf:publish
 </code></pre>
+<p>または、リリース（タグ付け）とPDF作成を一度に実行：</p>
+<pre><code class="lang-bash"><span class="hljs-comment"># Makefile を使用（推奨）</span>
+make release-all VERSION=X.Y.ZZ
+
+<span class="hljs-comment"># 例: make release-all VERSION=2.1.00</span>
+</code></pre>
+<p>このコマンドは以下を順に実行します：</p>
+<ol>
+<li><code>scripts/release.sh</code> によるタグ付け（<a href="../../GLOSSARY.html#document-control" class="glossary-term" title="">Document Control</a>更新、コミット、タグ作成）</li>
+<li><code>scripts/quarto_build.sh --release --tag</code> によるPDF生成</li>
+</ol>
 <p>生成物：</p>
 <ul>
 <li><code>has-manual-recent.pdf</code>（最新版）</li>
@@ -748,7 +759,7 @@ npm run release:pdf:publish
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"リソース管理プロトコル","level":"6.5","depth":1,"next":{"title":"バージョン管理プロトコル","level":"6.6","depth":1,"path":"governance/protocols/vertioning_policy.md","ref":"governance/protocols/vertioning_policy.md","articles":[]},"previous":{"title":"広報プロトコル","level":"6.4","depth":1,"path":"governance/protocols/public_relations.md","ref":"governance/protocols/public_relations.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"governance/protocols/resource_process_minimal.md","mtime":"2026-01-24T09:41:12.729Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2026-01-24T09:41:17.002Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"リソース管理プロトコル","level":"6.5","depth":1,"next":{"title":"バージョン管理プロトコル","level":"6.6","depth":1,"path":"governance/protocols/vertioning_policy.md","ref":"governance/protocols/vertioning_policy.md","articles":[]},"previous":{"title":"広報プロトコル","level":"6.4","depth":1,"path":"governance/protocols/public_relations.md","ref":"governance/protocols/public_relations.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"governance/protocols/resource_process_minimal.md","mtime":"2026-01-26T06:02:09.197Z","type":"markdown"},"gitbook":{"version":"6.1.4","time":"2026-01-26T06:02:13.482Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
