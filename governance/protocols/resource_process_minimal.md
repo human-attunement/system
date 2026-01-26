@@ -126,6 +126,18 @@ npm run build:pdf
 npm run release:pdf:publish
 ```
 
+または、リリース（タグ付け）とPDF作成を一度に実行：
+```bash
+# Makefile を使用（推奨）
+make release-all VERSION=X.Y.ZZ
+
+# 例: make release-all VERSION=2.1.00
+```
+
+このコマンドは以下を順に実行します：
+1. `scripts/release.sh` によるタグ付け（Document Control更新、コミット、タグ作成）
+2. `scripts/quarto_build.sh --release --tag` によるPDF生成
+
 生成物：
 - `has-manual-recent.pdf`（最新版）
 - `has-manual-vX.Y.Z.pdf`（リリース版）

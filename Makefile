@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-.PHONY: help build-honkit release tag-at render-mermaid-svg render-mermaid-png build-pdf release-pdf publish-pdf release-pdf-publish
+.PHONY: help build-honkit release tag-at render-mermaid-svg render-mermaid-png build-pdf release-pdf publish-pdf release-pdf-publish release-all
 
 help:
 	@echo "Available targets:"
@@ -13,6 +13,7 @@ help:
 	@echo "  release-pdf           - bash scripts/quarto_build.sh --release --tag"
 	@echo "  publish-pdf           - bash scripts/quarto_build.sh --publish"
 	@echo "  release-pdf-publish   - bash scripts/quarto_build.sh --release --tag --publish"
+	@echo "  release-all           - Release with tag and PDF generation (usage: make release-all VERSION=X.Y.ZZ)"
 
 build-honkit:
 	bash scripts/build_honkit.sh
@@ -40,3 +41,11 @@ publish-pdf:
 
 release-pdf-publish:
 	bash scripts/quarto_build.sh --release --tag --publish
+
+release-all:
+	@if [ -z "$(VERSION)" ]; then \
+		echo "Error: VERSION is required. Usage: make release-all VERSION=X.Y.ZZ"; \
+		exit 1; \
+	fi
+	bash scripts/release.sh $(VERSION)
+	bash scripts/quarto_build.sh --release --tag
